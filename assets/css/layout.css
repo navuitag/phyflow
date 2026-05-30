@@ -335,6 +335,26 @@
   padding: 26px;
 }
 
+.quiz-complete-panel {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 26px;
+  text-align: center;
+}
+
+.quiz-complete-panel h2 {
+  margin-bottom: 8px;
+}
+
+.quiz-complete-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .quiz-meta {
   align-items: center;
   display: flex;

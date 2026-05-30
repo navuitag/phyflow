@@ -17,6 +17,9 @@ let data = {
   errors: []
 };
 
+/** Khi user chọn "Luyện thêm" sau khi đúng hết câu, không hỏi chuyển bài lại cho đến khi rời practice. */
+const practiceSession = { skillId: null, continueAfterComplete: false };
+
 export function configureRouter(appData) {
   data = appData;
   window.addEventListener("hashchange", renderRoute);
@@ -26,6 +29,10 @@ export function renderRoute() {
   const state = getState();
   const hash = window.location.hash || "#/home";
   const [route, id] = hash.replace("#/", "").split("/");
+
+  if (route !== "practice") {
+    practiceSession.continueAfterComplete = false;
+  }
 
   if (!state.onboarded) {
     render(renderOnboarding(state));
@@ -314,12 +321,79 @@ function renderSimulationPage(id, state) {
   `;
 }
 
+function getSkillQuestions(skillId) {
+  return data.questions.filter((question) => question.skill === skillId);
+}
+
+function getCorrectQuestionIds(skillId, state) {
+  return new Set(
+    state.answers
+      .filter((answer) => answer.skill === skillId && answer.correct)
+      .map((answer) => answer.questionId)
+  );
+}
+
+function areAllQuestionsCorrect(skillId, state) {
+  const skillQuestions = getSkillQuestions(skillId);
+  if (!skillQuestions.length) return false;
+  const correctIds = getCorrectQuestionIds(skillId, state);
+  return skillQuestions.every((question) => correctIds.has(question.id));
+}
+
+function pickPracticeQuestion(skillId, state) {
+  const skillQuestions = getSkillQuestions(skillId);
+  const correctIds = getCorrectQuestionIds(skillId, state);
+  const remaining = skillQuestions.filter((question) => !correctIds.has(question.id));
+  if (remaining.length) {
+    return remaining[0];
+  }
+  if (!practiceSession.continueAfterComplete) {
+    return null;
+  }
+  const attempts = state.answers.filter((answer) => answer.skill === skillId).length;
+  return skillQuestions[attempts % skillQuestions.length];
+}
+
+function getNextSkill(currentSkillId) {
+  const current = data.skills.find((skill) => skill.id === currentSkillId);
+  if (!current) return null;
+  const gradeSkills = data.skills
+    .filter((skill) => skill.grade === current.grade)
+    .sort((a, b) => (a.chapterIndex - b.chapterIndex) || (a.lessonNo - b.lessonNo));
+  const index = gradeSkills.findIndex((skill) => skill.id === currentSkillId);
+  return index >= 0 ? gradeSkills[index + 1] || null : null;
+}
+
+function renderPracticeCompletionPanel(skillId) {
+  const nextSkill = getNextSkill(skillId);
+  return `
+    <article class="quiz-complete-panel">
+      <h2>Đã trả lời đúng tất cả câu hỏi!</h2>
+      <p>Bạn muốn chuyển sang bài tiếp theo hay luyện thêm các câu này?</p>
+      <div class="quiz-complete-actions">
+        ${nextSkill
+          ? `<button class="btn primary" type="button" id="practiceNextLesson">Bài tiếp theo</button>`
+          : `<a class="btn primary" href="#/skills">Về cây kỹ năng</a>`}
+        <button class="btn secondary" type="button" id="practiceContinue">Luyện thêm</button>
+      </div>
+    </article>
+  `;
+}
+
 function renderPractice(id, state) {
-  const skillQuestions = data.questions.filter((question) => question.skill === id);
+  const skillQuestions = getSkillQuestions(id);
   if (!skillQuestions.length) return notFound("Chưa có câu hỏi cho kỹ năng này.");
-  const answeredIds = new Set(state.answers.filter((answer) => answer.skill === id).map((answer) => answer.questionId));
-  const question = skillQuestions.find((item) => !answeredIds.has(item.id)) || skillQuestions[state.answers.length % skillQuestions.length];
+
+  if (practiceSession.skillId !== id) {
+    practiceSession.skillId = id;
+    practiceSession.continueAfterComplete = false;
+  }
+
   const skill = data.skills.find((s) => s.id === id);
+  const allComplete = areAllQuestionsCorrect(id, state);
+  const question = allComplete && !practiceSession.continueAfterComplete
+    ? null
+    : pickPracticeQuestion(id, state);
 
   return `
     <section class="practice-layout">
@@ -328,13 +402,27 @@ function renderPractice(id, state) {
         <span class="tag">${labelSkill(id)}</span>
       </div>
       ${renderVisualization({ visualization: skill?.visualization })}
-      ${renderQuizCard(question)}
+      ${question ? renderQuizCard(question) : renderPracticeCompletionPanel(id)}
     </section>
   `;
 }
 
 function bindPractice(id) {
   bindVisualizations();
+
+  const continueBtn = document.querySelector("#practiceContinue");
+  if (continueBtn) {
+    continueBtn.addEventListener("click", () => {
+      practiceSession.continueAfterComplete = true;
+      renderRoute();
+    });
+  }
+
+  const nextBtn = document.querySelector("#practiceNextLesson");
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => navigateToNextSkill(id));
+  }
+
   const question = data.questions.find((item) => item.id === document.querySelector(".quiz-card")?.dataset.questionId);
   if (!question) return;
 
@@ -356,6 +444,32 @@ function bindPractice(id) {
   }
 }
 
+function navigateToNextSkill(currentSkillId) {
+  const nextSkill = getNextSkill(currentSkillId);
+  if (nextSkill) {
+    setRoute(`#/lesson/${nextSkill.id}`);
+    return;
+  }
+  setRoute("#/skills");
+}
+
+function promptPracticeCompletion(skillId) {
+  const nextSkill = getNextSkill(skillId);
+  showModal({
+    title: "Hoàn thành mini quiz!",
+    body: nextSkill
+      ? "Bạn đã trả lời đúng tất cả câu hỏi. Chuyển sang bài tiếp theo?"
+      : "Bạn đã trả lời đúng tất cả câu hỏi của bài này.",
+    actionLabel: nextSkill ? "Bài tiếp theo" : "Về cây kỹ năng",
+    secondaryLabel: "Luyện thêm",
+    onAction: () => navigateToNextSkill(skillId),
+    onSecondary: () => {
+      practiceSession.continueAfterComplete = true;
+      renderRoute();
+    }
+  });
+}
+
 function handleAnswer(answer, question, skillId) {
   const result = submitAnswer(answer, question, data.errors);
   const panel = document.querySelector(".feedback-panel");
@@ -364,9 +478,21 @@ function handleAnswer(answer, question, skillId) {
   card.classList.add(result.correct ? "is-correct" : "is-wrong");
 
   if (result.correct) {
+    const state = getState();
+    const allComplete = areAllQuestionsCorrect(skillId, state);
+
+    if (allComplete && !practiceSession.continueAfterComplete) {
+      panel.innerHTML = `
+        <strong>Chính xác! +${result.xp} XP</strong>
+        <p>Bạn đã trả lời đúng tất cả câu hỏi của bài này.</p>
+      `;
+      setTimeout(() => promptPracticeCompletion(skillId), 400);
+      return;
+    }
+
     panel.innerHTML = `
       <strong>Chính xác! +${result.xp} XP</strong>
-      <p>Bạn đang làm rất ổn. Câu tiếp theo sẽ xuất hiện sau một nhịp.</p>
+      <p>${allComplete ? "Tiếp tục luyện thêm..." : "Câu tiếp theo sẽ xuất hiện sau một nhịp."}</p>
     `;
     setTimeout(() => {
       const nextRoute = `#/practice/${skillId}`;
