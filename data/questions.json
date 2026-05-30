@@ -1,0 +1,2798 @@
+[
+  {
+    "id": "q_g6_b01_1",
+    "skill": "g6_b01",
+    "type": "multiple_choice",
+    "question": "Vật lí nghiên cứu chủ yếu điều gì?",
+    "choices": [
+      "Các hiện tượng tự nhiên về vật chất và năng lượng",
+      "Chỉ tế bào",
+      "Chỉ phản ứng hóa học",
+      "Chỉ lịch sử"
+    ],
+    "answer": "Các hiện tượng tự nhiên về vật chất và năng lượng",
+    "hint": "Vật lí là một nhánh KHTN."
+  },
+  {
+    "id": "q_g6_b01_2",
+    "skill": "g6_b01",
+    "type": "multiple_choice",
+    "question": "KHTN gồm những lĩnh vực nào?",
+    "choices": [
+      "Vật lí, Hóa học, Sinh học",
+      "Chỉ Toán",
+      "Chỉ Văn",
+      "Chỉ Địa"
+    ],
+    "answer": "Vật lí, Hóa học, Sinh học",
+    "hint": "Ba lĩnh vực cốt lõi THCS."
+  },
+  {
+    "id": "q_g6_b01_3",
+    "skill": "g6_b01",
+    "type": "multiple_choice",
+    "question": "Hiện tượng nào thuộc Vật lí?",
+    "choices": [
+      "Quả bóng rơi xuống đất",
+      "Vi khuẩn lên men",
+      "Muối tan trong nước (hóa học)",
+      "Phân loại côn trùng"
+    ],
+    "answer": "Quả bóng rơi xuống đất",
+    "hint": "Chuyển động và lực thuộc Vật lí."
+  },
+  {
+    "id": "q_g6_b02_1",
+    "skill": "g6_b02",
+    "type": "multiple_choice",
+    "question": "Khi làm thí nghiệm điện, việc nào đúng?",
+    "choices": [
+      "Kiểm tra mạch trước khi đóng nguồn",
+      "Chạm tay ướt vào dây điện",
+      "Nối trực tiếp hai cực pin không qua tải",
+      "Không đeo kính"
+    ],
+    "answer": "Kiểm tra mạch trước khi đóng nguồn",
+    "hint": "An toàn điện là ưu tiên."
+  },
+  {
+    "id": "q_g6_b02_2",
+    "skill": "g6_b02",
+    "type": "multiple_choice",
+    "question": "Phát hiện dây điện bị hở trong phòng lab, em nên:",
+    "choices": [
+      "Báo giáo viên ngay",
+      "Sửa bằng tay ướt",
+      "Vẫn cắm điện thử",
+      "Cắt bỏ phần hở tự ý"
+    ],
+    "answer": "Báo giáo viên ngay",
+    "hint": "Không tự sửa thiết bị điện."
+  },
+  {
+    "id": "q_g6_b02_3",
+    "skill": "g6_b02",
+    "type": "multiple_choice",
+    "question": "Dụng cụ bảo hộ khi làm TN Vật lí gồm:",
+    "choices": [
+      "Kính bảo hộ",
+      "Chỉ dép lê",
+      "Không cần gì",
+      "Chỉ găng tay một bên"
+    ],
+    "answer": "Kính bảo hộ",
+    "hint": "Bảo vệ mắt và da."
+  },
+  {
+    "id": "q_g6_b05_1",
+    "skill": "g6_b05",
+    "type": "multiple_choice",
+    "question": "1 mét bằng bao nhiêu centimet?",
+    "choices": [
+      "100",
+      "10",
+      "1000",
+      "50"
+    ],
+    "answer": "100",
+    "hint": "1 m = 100 cm."
+  },
+  {
+    "id": "q_g6_b05_2",
+    "skill": "g6_b05",
+    "type": "multiple_choice",
+    "question": "Đơn vị đo chiều dài trong hệ SI là?",
+    "choices": [
+      "mét (m)",
+      "kilogam (kg)",
+      "giây (s)",
+      "Newton (N)"
+    ],
+    "answer": "mét (m)",
+    "hint": "m là đơn vị cơ bản."
+  },
+  {
+    "id": "q_g6_b05_3",
+    "skill": "g6_b05",
+    "type": "input",
+    "question": "Thước đo được 25 cm. Viết số (chỉ số, không đơn vị).",
+    "answer": "25",
+    "hint": "Đọc vạch chia trên thước."
+  },
+  {
+    "id": "q_g6_b06_1",
+    "skill": "g6_b06",
+    "type": "multiple_choice",
+    "question": "Đơn vị khối lượng trong SI là?",
+    "choices": [
+      "kilogam (kg)",
+      "Newton (N)",
+      "mét (m)",
+      "Joule (J)"
+    ],
+    "answer": "kilogam (kg)",
+    "hint": "kg là đơn vị khối lượng."
+  },
+  {
+    "id": "q_g6_b06_2",
+    "skill": "g6_b06",
+    "type": "multiple_choice",
+    "question": "1 kg bằng bao nhiêu gam?",
+    "choices": [
+      "1000",
+      "100",
+      "10",
+      "500"
+    ],
+    "answer": "1000",
+    "hint": "1 kg = 1000 g."
+  },
+  {
+    "id": "q_g6_b06_3",
+    "skill": "g6_b06",
+    "type": "input",
+    "question": "Cân được 250 g. Viết số (chỉ số, không đơn vị).",
+    "answer": "250",
+    "hint": "Đọc thước hoặc màn hình cân."
+  },
+  {
+    "id": "q_g6_b07_1",
+    "skill": "g6_b07",
+    "type": "multiple_choice",
+    "question": "Đơn vị thời gian trong hệ SI là?",
+    "choices": [
+      "Giây (s)",
+      "Phút",
+      "Giờ",
+      "Ngày"
+    ],
+    "answer": "Giây (s)",
+    "hint": "s là đơn vị cơ bản."
+  },
+  {
+    "id": "q_g6_b07_2",
+    "skill": "g6_b07",
+    "type": "multiple_choice",
+    "question": "1 giờ bằng bao nhiêu phút?",
+    "choices": [
+      "60",
+      "100",
+      "30",
+      "24"
+    ],
+    "answer": "60",
+    "hint": "1 h = 60 phút."
+  },
+  {
+    "id": "q_g6_b07_3",
+    "skill": "g6_b07",
+    "type": "multiple_choice",
+    "question": "Đo thời gian quả bóng lăn dùng?",
+    "choices": [
+      "Đồng hồ hoặc bấm giờ",
+      "Cân",
+      "Nhiệt kế",
+      "Thước kẻ"
+    ],
+    "answer": "Đồng hồ hoặc bấm giờ",
+    "hint": "Ghi nhận thời gian quá trình."
+  },
+  {
+    "id": "q_g6_b08_1",
+    "skill": "g6_b08",
+    "type": "multiple_choice",
+    "question": "Nước sôi ở áp suất thường khoảng bao nhiêu độ C?",
+    "choices": [
+      "100",
+      "0",
+      "37",
+      "50"
+    ],
+    "answer": "100",
+    "hint": "Điều kiện chuẩn trong SGK."
+  },
+  {
+    "id": "q_g6_b08_2",
+    "skill": "g6_b08",
+    "type": "multiple_choice",
+    "question": "0°C là nhiệt độ nào của nước?",
+    "choices": [
+      "Nóng chảy của nước đá",
+      "Sôi của nước",
+      "Nhiệt độ cơ thể",
+      "Cháy"
+    ],
+    "answer": "Nóng chảy của nước đá",
+    "hint": "Rắn → lỏng."
+  },
+  {
+    "id": "q_g6_b08_3",
+    "skill": "g6_b08",
+    "type": "multiple_choice",
+    "question": "Đọc nhiệt kế thủy ngân nên:",
+    "choices": [
+      "Nhìn ngang vạch mực cột",
+      "Nhìn xiên từ trên",
+      "Lắc mạnh trước khi đọc",
+      "Đo khi nhiệt kế nghiêng"
+    ],
+    "answer": "Nhìn ngang vạch mực cột",
+    "hint": "Tránh sai số parallax."
+  },
+  {
+    "id": "q_g6_b40_1",
+    "skill": "g6_b40",
+    "type": "multiple_choice",
+    "question": "Lực có thể gây ra hiện tượng nào?",
+    "choices": [
+      "Làm vật biến dạng hoặc đổi chuyển động",
+      "Chỉ đổi màu sắc hóa học",
+      "Tạo tế bào mới",
+      "Chỉ thay đổi vị trí sao"
+    ],
+    "answer": "Làm vật biến dạng hoặc đổi chuyển động",
+    "hint": "Tác dụng cơ học của lực."
+  },
+  {
+    "id": "q_g6_b40_2",
+    "skill": "g6_b40",
+    "type": "multiple_choice",
+    "question": "Đơn vị lực trong SI là?",
+    "choices": [
+      "Newton (N)",
+      "Joule (J)",
+      "Watt (W)",
+      "Pascal (Pa)"
+    ],
+    "answer": "Newton (N)",
+    "hint": "1 N = 1 kg·m/s²."
+  },
+  {
+    "id": "q_g6_b40_3",
+    "skill": "g6_b40",
+    "type": "multiple_choice",
+    "question": "Đẩy xe đạp là ví dụ:",
+    "choices": [
+      "Lực tác dụng làm vật chuyển động",
+      "Lực hấp dẫn giữa các hành tinh",
+      "Chỉ lực ma sát",
+      "Không có lực"
+    ],
+    "answer": "Lực tác dụng làm vật chuyển động",
+    "hint": "Lực làm đổi trạng thái chuyển động."
+  },
+  {
+    "id": "q_g6_b41_1",
+    "skill": "g6_b41",
+    "type": "multiple_choice",
+    "question": "Biểu diễn lực thường dùng?",
+    "choices": [
+      "Mũi tên",
+      "Hình tròn",
+      "Bảng chữ cái",
+      "Chỉ số đo"
+    ],
+    "answer": "Mũi tên",
+    "hint": "Hướng mũi tên = chiều lực."
+  },
+  {
+    "id": "q_g6_b41_2",
+    "skill": "g6_b41",
+    "type": "multiple_choice",
+    "question": "Điểm đặt lực thường đặt ở?",
+    "choices": [
+      "Vị trí lực tác dụng lên vật",
+      "Giữa không trung",
+      "Luôn ở Mặt Trời",
+      "Ngoài vật"
+    ],
+    "answer": "Vị trí lực tác dụng lên vật",
+    "hint": "Điểm đặt quan trọng khi vẽ."
+  },
+  {
+    "id": "q_g6_b41_3",
+    "skill": "g6_b41",
+    "type": "multiple_choice",
+    "question": "Độ dài mũi tên biểu diễn lực thể hiện?",
+    "choices": [
+      "Độ lớn lực (tỉ lệ)",
+      "Khối lượng vật",
+      "Thời gian",
+      "Nhiệt độ"
+    ],
+    "answer": "Độ lớn lực (tỉ lệ)",
+    "hint": "Lực lớn → mũi tên dài hơn."
+  },
+  {
+    "id": "q_g6_b42_1",
+    "skill": "g6_b42",
+    "type": "multiple_choice",
+    "question": "Lò xo bị nén khi:",
+    "choices": [
+      "Có lực ép vào",
+      "Không có lực",
+      "Ở trong chân không",
+      "Nhiệt độ 0 K"
+    ],
+    "answer": "Có lực ép vào",
+    "hint": "Lực gây biến dạng."
+  },
+  {
+    "id": "q_g6_b42_2",
+    "skill": "g6_b42",
+    "type": "multiple_choice",
+    "question": "Biến dạng đàn hồi là:",
+    "choices": [
+      "Trở lại hình cũ khi bỏ lực",
+      "Không bao giờ phục hồi",
+      "Chỉ xảy ra với nước",
+      "Chỉ ở nhiệt độ cao"
+    ],
+    "answer": "Trở lại hình cũ khi bỏ lực",
+    "hint": "Trong giới hạn đàn hồi."
+  },
+  {
+    "id": "q_g6_b42_3",
+    "skill": "g6_b42",
+    "type": "multiple_choice",
+    "question": "Treo vật nặng vào lò xo treo, lò xo sẽ:",
+    "choices": [
+      "Giãn ra",
+      "Tan ra",
+      "Bay lên",
+      "Đổi màu hóa học"
+    ],
+    "answer": "Giãn ra",
+    "hint": "Lực kéo làm lò xo dài thêm."
+  },
+  {
+    "id": "q_g6_b43_1",
+    "skill": "g6_b43",
+    "type": "multiple_choice",
+    "question": "Trọng lượng là:",
+    "choices": [
+      "Lực hấp dẫn Trái Đất tác dụng lên vật",
+      "Khối lượng của vật",
+      "Thể tích vật",
+      "Nhiệt độ vật"
+    ],
+    "answer": "Lực hấp dẫn Trái Đất tác dụng lên vật",
+    "hint": "P đo bằng N."
+  },
+  {
+    "id": "q_g6_b43_2",
+    "skill": "g6_b43",
+    "type": "multiple_choice",
+    "question": "Công thức trọng lượng (lớp 6):",
+    "choices": [
+      "P = m·g",
+      "P = m/g",
+      "P = m + g",
+      "P = g/m"
+    ],
+    "answer": "P = m·g",
+    "hint": "g ≈ 10 N/kg."
+  },
+  {
+    "id": "q_g6_b43_3",
+    "skill": "g6_b43",
+    "type": "input",
+    "question": "Vật 3 kg có trọng lượng P ≈ ? N (g = 10 N/kg). Viết số.",
+    "answer": "30",
+    "hint": "P = m·g = 3×10."
+  },
+  {
+    "id": "q_g6_b44_1",
+    "skill": "g6_b44",
+    "type": "multiple_choice",
+    "question": "Lực ma sát có tác dụng:",
+    "choices": [
+      "Cản chuyển động tương đối",
+      "Luôn làm vật nhanh hơn",
+      "Không phụ thuộc bề mặt",
+      "Chỉ có trong nước"
+    ],
+    "answer": "Cản chuyển động tương đối",
+    "hint": "Ngược chiều chuyển động trượt."
+  },
+  {
+    "id": "q_g6_b44_2",
+    "skill": "g6_b44",
+    "type": "multiple_choice",
+    "question": "Xe phanh được nhờ:",
+    "choices": [
+      "Lực ma sát giữa lốp và mặt đường",
+      "Lực hấp dẫn Mặt Trăng",
+      "Chỉ lực đẩy động cơ",
+      "Không có lực"
+    ],
+    "answer": "Lực ma sát giữa lốp và mặt đường",
+    "hint": "Ma sát giúp dừng xe."
+  },
+  {
+    "id": "q_g6_b44_3",
+    "skill": "g6_b44",
+    "type": "multiple_choice",
+    "question": "Mặt nhẵn thường có ma sát:",
+    "choices": [
+      "Nhỏ hơn mặt nhám",
+      "Lớn hơn mặt nhám",
+      "Bằng 0 luôn",
+      "Không đổi"
+    ],
+    "answer": "Nhỏ hơn mặt nhám",
+    "hint": "Bề mặt ảnh hưởng ma sát."
+  },
+  {
+    "id": "q_g6_b45_1",
+    "skill": "g6_b45",
+    "type": "multiple_choice",
+    "question": "Lực cản của nước xuất hiện khi:",
+    "choices": [
+      "Vật chuyển động trong nước",
+      "Vật đứng yên trên cạn",
+      "Không có nước",
+      "Chỉ có trong chân không"
+    ],
+    "answer": "Vật chuyển động trong nước",
+    "hint": "Chất lỏng cản chuyển động."
+  },
+  {
+    "id": "q_g6_b45_2",
+    "skill": "g6_b45",
+    "type": "multiple_choice",
+    "question": "Cá bơi về phía trước, lực cản nước hướng:",
+    "choices": [
+      "Ngược chiều bơi",
+      "Cùng chiều bơi",
+      "Vuông góc lên trời",
+      "Không xác định"
+    ],
+    "answer": "Ngược chiều bơi",
+    "hint": "Cản chuyển động."
+  },
+  {
+    "id": "q_g6_b45_3",
+    "skill": "g6_b45",
+    "type": "multiple_choice",
+    "question": "Hình dạng trơn giúp:",
+    "choices": [
+      "Giảm lực cản",
+      "Tăng lực cản",
+      "Tăng khối lượng",
+      "Đổi nhiệt độ sôi"
+    ],
+    "answer": "Giảm lực cản",
+    "hint": "Tàu ngầm, cá có hình thủy động."
+  },
+  {
+    "id": "q_g6_b46_1",
+    "skill": "g6_b46",
+    "type": "multiple_choice",
+    "question": "Năng lượng có thể:",
+    "choices": [
+      "Truyền từ vật này sang vật khác",
+      "Chỉ ở một vật mãi mãi",
+      "Không liên quan nhiệt",
+      "Chỉ là khối lượng"
+    ],
+    "answer": "Truyền từ vật này sang vật khác",
+    "hint": "Truyền nhiệt là một dạng truyền."
+  },
+  {
+    "id": "q_g6_b46_2",
+    "skill": "g6_b46",
+    "type": "multiple_choice",
+    "question": "Tay chạm cốc nóng, nhiệt truyền do:",
+    "choices": [
+      "Chênh lệch nhiệt độ",
+      "Chênh lệch khối lượng",
+      "Chênh lệch màu",
+      "Chênh lệch thể tích"
+    ],
+    "answer": "Chênh lệch nhiệt độ",
+    "hint": "Nhiệt từ nóng sang lạnh."
+  },
+  {
+    "id": "q_g6_b46_3",
+    "skill": "g6_b46",
+    "type": "multiple_choice",
+    "question": "Năng lượng Mặt Trời đến Trái Đất chủ yếu qua:",
+    "choices": [
+      "Bức xạ (ánh sáng)",
+      "Dẫn nhiệt trong chân không",
+      "Dòng nước",
+      "Dòng điện trong dây"
+    ],
+    "answer": "Bức xạ (ánh sáng)",
+    "hint": "Không cần môi chất."
+  },
+  {
+    "id": "q_g6_b47_1",
+    "skill": "g6_b47",
+    "type": "multiple_choice",
+    "question": "Vật đang chuyển động có:",
+    "choices": [
+      "Động năng (một dạng cơ năng)",
+      "Chỉ hóa năng",
+      "Chỉ nhiệt độ sôi",
+      "Không có năng lượng"
+    ],
+    "answer": "Động năng (một dạng cơ năng)",
+    "hint": "Cơ năng liên quan chuyển động."
+  },
+  {
+    "id": "q_g6_b47_2",
+    "skill": "g6_b47",
+    "type": "multiple_choice",
+    "question": "Pin chuyển hóa năng thành:",
+    "choices": [
+      "Điện năng",
+      "Chỉ quang năng",
+      "Chỉ âm thanh",
+      "Khối lượng"
+    ],
+    "answer": "Điện năng",
+    "hint": "Hóa năng → điện năng."
+  },
+  {
+    "id": "q_g6_b47_3",
+    "skill": "g6_b47",
+    "type": "multiple_choice",
+    "question": "Bóng đèn sáng có:",
+    "choices": [
+      "Quang năng",
+      "Chỉ cơ năng",
+      "Chỉ nhiệt độ 0",
+      "Không năng lượng"
+    ],
+    "answer": "Quang năng",
+    "hint": "Ánh sáng mang quang năng."
+  },
+  {
+    "id": "q_g6_b48_1",
+    "skill": "g6_b48",
+    "type": "multiple_choice",
+    "question": "Quạt điện chuyển:",
+    "choices": [
+      "Điện năng → cơ năng (không khí)",
+      "Cơ năng → điện năng",
+      "Chỉ hóa năng → nhiệt",
+      "Không chuyển hóa"
+    ],
+    "answer": "Điện năng → cơ năng (không khí)",
+    "hint": "Động cơ quay cánh."
+  },
+  {
+    "id": "q_g6_b48_2",
+    "skill": "g6_b48",
+    "type": "multiple_choice",
+    "question": "Đèn LED chuyển điện năng chủ yếu thành:",
+    "choices": [
+      "Quang năng",
+      "Chỉ âm thanh",
+      "Chỉ khối lượng",
+      "Hóa năng trong pin"
+    ],
+    "answer": "Quang năng",
+    "hint": "Cũng có nhiệt nhưng ít hơn đèn sợi đốt."
+  },
+  {
+    "id": "q_g6_b48_3",
+    "skill": "g6_b48",
+    "type": "multiple_choice",
+    "question": "Trong hệ kín, năng lượng:",
+    "choices": [
+      "Bảo toàn (chỉ đổi dạng)",
+      "Tự sinh vô hạn",
+      "Luôn mất hết",
+      "Không đổi dạng"
+    ],
+    "answer": "Bảo toàn (chỉ đổi dạng)",
+    "hint": "Không mất đi, chỉ chuyển hóa."
+  },
+  {
+    "id": "q_g6_b49_1",
+    "skill": "g6_b49",
+    "type": "multiple_choice",
+    "question": "Năng lượng hao phí thường chuyển thành:",
+    "choices": [
+      "Nhiệt hoặc tiếng ồn không hữu ích",
+      "Chỉ quang năng hữu ích",
+      "Khối lượng mới",
+      "Chỉ điện tích"
+    ],
+    "answer": "Nhiệt hoặc tiếng ồn không hữu ích",
+    "hint": "Máy móc tỏa nhiệt."
+  },
+  {
+    "id": "q_g6_b49_2",
+    "skill": "g6_b49",
+    "type": "multiple_choice",
+    "question": "Hiệu suất thấp nghĩa là:",
+    "choices": [
+      "Nhiều năng lượng bị hao phí",
+      "Không hao phí",
+      "Không cần năng lượng",
+      "Chỉ dùng pin"
+    ],
+    "answer": "Nhiều năng lượng bị hao phí",
+    "hint": "Phần lớn thành nhiệt thừa."
+  },
+  {
+    "id": "q_g6_b49_3",
+    "skill": "g6_b49",
+    "type": "multiple_choice",
+    "question": "Giảm hao phí giúp:",
+    "choices": [
+      "Tiết kiệm năng lượng",
+      "Tăng lãng phí",
+      "Tăng tiếng ồn",
+      "Giảm hiệu suất"
+    ],
+    "answer": "Tiết kiệm năng lượng",
+    "hint": "Dùng ít nhiên liệu/điện hơn."
+  },
+  {
+    "id": "q_g6_b50_1",
+    "skill": "g6_b50",
+    "type": "multiple_choice",
+    "question": "Nguồn năng lượng tái tạo là:",
+    "choices": [
+      "Năng lượng mặt trời",
+      "Than đá (hóa thạch)",
+      "Dầu mỏ",
+      "Khí thiên nhiên hóa thạch"
+    ],
+    "answer": "Năng lượng mặt trời",
+    "hint": "Tái tạo liên tục."
+  },
+  {
+    "id": "q_g6_b50_2",
+    "skill": "g6_b50",
+    "type": "multiple_choice",
+    "question": "Thủy điện dùng:",
+    "choices": [
+      "Động năng nước chảy",
+      "Chỉ hóa năng pin",
+      "Chỉ ma sát",
+      "Chỉ từ trường"
+    ],
+    "answer": "Động năng nước chảy",
+    "hint": "Nước chảy quay tuabin."
+  },
+  {
+    "id": "q_g6_b50_3",
+    "skill": "g6_b50",
+    "type": "multiple_choice",
+    "question": "Năng lượng gió chuyển thành điện nhờ:",
+    "choices": [
+      "Tuabin gió",
+      "Chỉ lò xo",
+      "Chỉ kính lúp",
+      "Chỉ nhiệt kế"
+    ],
+    "answer": "Tuabin gió",
+    "hint": "Gió quay cánh tuabin."
+  },
+  {
+    "id": "q_g6_b51_1",
+    "skill": "g6_b51",
+    "type": "multiple_choice",
+    "question": "Cách tiết kiệm điện ở nhà:",
+    "choices": [
+      "Tắt đèn khi ra khỏi phòng",
+      "Để đèn sáng cả ngày",
+      "Mở cửa tủ lạnh lâu",
+      "Dùng bóng sợi đốt cũ"
+    ],
+    "answer": "Tắt đèn khi ra khỏi phòng",
+    "hint": "Giảm tiêu thụ."
+  },
+  {
+    "id": "q_g6_b51_2",
+    "skill": "g6_b51",
+    "type": "multiple_choice",
+    "question": "Bóng LED thường:",
+    "choices": [
+      "Tiết kiệm điện hơn đèn sợi đốt",
+      "Tốn điện hơn mọi loại",
+      "Không phát sáng",
+      "Chỉ dùng pin một lần"
+    ],
+    "answer": "Tiết kiệm điện hơn đèn sợi đốt",
+    "hint": "Hiệu suất cao hơn."
+  },
+  {
+    "id": "q_g6_b51_3",
+    "skill": "g6_b51",
+    "type": "multiple_choice",
+    "question": "Tiết kiệm năng lượng giúp:",
+    "choices": [
+      "Giảm khí thải và chi phí",
+      "Tăng hóa thạch",
+      "Lãng phí tài nguyên",
+      "Không ảnh hưởng gì"
+    ],
+    "answer": "Giảm khí thải và chi phí",
+    "hint": "Bảo vệ môi trường."
+  },
+  {
+    "id": "q_g6_b52_1",
+    "skill": "g6_b52",
+    "type": "multiple_choice",
+    "question": "Mặt Trời mọc lặn do:",
+    "choices": [
+      "Trái Đất quay quanh trục",
+      "Mặt Trời quay quanh Trái Đất",
+      "Mặt Trăng che Mặt Trời mỗi ngày",
+      "Không có chuyển động"
+    ],
+    "answer": "Trái Đất quay quanh trục",
+    "hint": "Hiện tượng nhìn thấy hàng ngày."
+  },
+  {
+    "id": "q_g6_b52_2",
+    "skill": "g6_b52",
+    "type": "multiple_choice",
+    "question": "Thiên thể là:",
+    "choices": [
+      "Vật thiên văn (sao, hành tinh...)",
+      "Chỉ cây cối",
+      "Chỉ vi khuẩn",
+      "Chỉ hóa chất"
+    ],
+    "answer": "Vật thiên văn (sao, hành tinh...)",
+    "hint": "Ngoài khí quyển Trái Đất."
+  },
+  {
+    "id": "q_g6_b52_3",
+    "skill": "g6_b52",
+    "type": "multiple_choice",
+    "question": "Ban ngày ta thấy Mặt Trời vì:",
+    "choices": [
+      "Mặt Trời phát ra ánh sáng mạnh",
+      "Mặt Trăng phát sáng tự thân",
+      "Trái Đất không quay",
+      "Không khí tạo sao"
+    ],
+    "answer": "Mặt Trời phát ra ánh sáng mạnh",
+    "hint": "Nguồn sáng chính ban ngày."
+  },
+  {
+    "id": "q_g6_b53_1",
+    "skill": "g6_b53",
+    "type": "multiple_choice",
+    "question": "Mặt Trăng là:",
+    "choices": [
+      "Vệ tinh tự nhiên của Trái Đất",
+      "Hành tinh thứ 9",
+      "Ngôi sao giống Mặt Trời",
+      "Tiểu hành tinh"
+    ],
+    "answer": "Vệ tinh tự nhiên của Trái Đất",
+    "hint": "Quay quanh Trái Đất."
+  },
+  {
+    "id": "q_g6_b53_2",
+    "skill": "g6_b53",
+    "type": "multiple_choice",
+    "question": "Pha trăng thay đổi do:",
+    "choices": [
+      "Vị trí Mặt Trăng so với Trái Đất và Mặt Trời",
+      "Mặt Trăng đổi kích thước thật",
+      "Trái Đất ngừng quay",
+      "Mưa nhiều"
+    ],
+    "answer": "Vị trí Mặt Trăng so với Trái Đất và Mặt Trời",
+    "hint": "Góc chiếu sáng thay đổi."
+  },
+  {
+    "id": "q_g6_b53_3",
+    "skill": "g6_b53",
+    "type": "multiple_choice",
+    "question": "Ánh sáng Mặt Trăng ta thấy chủ yếu là:",
+    "choices": [
+      "Phản chiếu từ Mặt Trời",
+      "Do Mặt Trăng tự phát ra",
+      "Do đèn Trái Đất",
+      "Do sao chổi"
+    ],
+    "answer": "Phản chiếu từ Mặt Trời",
+    "hint": "Mặt Trăng không tự sáng như Mặt Trời."
+  },
+  {
+    "id": "q_g6_b54_1",
+    "skill": "g6_b54",
+    "type": "multiple_choice",
+    "question": "Ở trung tâm Hệ Mặt Trời là:",
+    "choices": [
+      "Mặt Trời",
+      "Trái Đất",
+      "Mặt Trăng",
+      "Ngân Hà"
+    ],
+    "answer": "Mặt Trời",
+    "hint": "Sao và là nguồn sáng chính."
+  },
+  {
+    "id": "q_g6_b54_2",
+    "skill": "g6_b54",
+    "type": "multiple_choice",
+    "question": "Trái Đất trong Hệ Mặt Trời là:",
+    "choices": [
+      "Hành tinh",
+      "Sao",
+      "Vệ tinh của sao khác",
+      "Thiên hà"
+    ],
+    "answer": "Hành tinh",
+    "hint": "Quay quanh Mặt Trời."
+  },
+  {
+    "id": "q_g6_b54_3",
+    "skill": "g6_b54",
+    "type": "multiple_choice",
+    "question": "Hành tinh gần Mặt Trời nhất (theo SGK THCS) thường được nhắc là:",
+    "choices": [
+      "Sao Thủy",
+      "Sao Hải Vương",
+      "Sao Diêm Vương (nếu không tính)",
+      "Sao Mộc"
+    ],
+    "answer": "Sao Thủy",
+    "hint": "Thứ tự từ Mặt Trời: Thủy, Kim, Trái Đất..."
+  },
+  {
+    "id": "q_g6_b55_1",
+    "skill": "g6_b55",
+    "type": "multiple_choice",
+    "question": "Ngân Hà là:",
+    "choices": [
+      "Thiên hà chứa Hệ Mặt Trời",
+      "Một hành tinh",
+      "Vệ tinh của Trái Đất",
+      "Chỉ là đám mây"
+    ],
+    "answer": "Thiên hà chứa Hệ Mặt Trời",
+    "hint": "Dải sáng ban đêm là mặt phẳng Ngân Hà."
+  },
+  {
+    "id": "q_g6_b55_2",
+    "skill": "g6_b55",
+    "type": "multiple_choice",
+    "question": "Mặt Trời nằm trong:",
+    "choices": [
+      "Ngân Hà",
+      "Thiên hà Andromeda",
+      "Chỉ quỹ đạo Mặt Trăng",
+      "Không thuộc thiên hà nào"
+    ],
+    "answer": "Ngân Hà",
+    "hint": "Một trong hàng tỷ sao Ngân Hà."
+  },
+  {
+    "id": "q_g6_b55_3",
+    "skill": "g6_b55",
+    "type": "multiple_choice",
+    "question": "Nhìn dải sáng ban đêm ta đang nhìn:",
+    "choices": [
+      "Mặt phẳng Ngân Hà (nhiều sao)",
+      "Chỉ một ngôi sao",
+      "Mặt Trăng",
+      "Mặt Trời ban ngày"
+    ],
+    "answer": "Mặt phẳng Ngân Hà (nhiều sao)",
+    "hint": "Tập trung sao dày đặc."
+  },
+  {
+    "id": "q_g7_b08_1",
+    "skill": "g7_b08",
+    "type": "multiple_choice",
+    "question": "Công thức tốc độ đúng là?",
+    "choices": [
+      "v = s/t",
+      "v = t/s",
+      "v = s×t",
+      "v = s + t"
+    ],
+    "answer": "v = s/t",
+    "hint": "Tốc độ = quãng đường / thời gian."
+  },
+  {
+    "id": "q_g7_b08_2",
+    "skill": "g7_b08",
+    "type": "multiple_choice",
+    "question": "Đơn vị tốc độ trong SI là?",
+    "choices": [
+      "m/s",
+      "km",
+      "N",
+      "J"
+    ],
+    "answer": "m/s",
+    "hint": "m/s = mét/giây."
+  },
+  {
+    "id": "q_g7_b08_3",
+    "skill": "g7_b08",
+    "type": "input",
+    "question": "Xe đi 100 km trong 2 h. Tốc độ = ? km/h (chỉ số).",
+    "answer": "50",
+    "hint": "v = s/t = 100/2."
+  },
+  {
+    "id": "q_g7_b09_1",
+    "skill": "g7_b09",
+    "type": "multiple_choice",
+    "question": "Đo tốc độ cần đo?",
+    "choices": [
+      "Quãng đường và thời gian",
+      "Chỉ khối lượng",
+      "Chỉ nhiệt độ",
+      "Chỉ lực"
+    ],
+    "answer": "Quãng đường và thời gian",
+    "hint": "v = s/t."
+  },
+  {
+    "id": "q_g7_b09_2",
+    "skill": "g7_b09",
+    "type": "input",
+    "question": "Vật đi 10 m trong 5 s. v = ? m/s (chỉ số).",
+    "answer": "2",
+    "hint": "v = 10/5 = 2 m/s."
+  },
+  {
+    "id": "q_g7_b09_3",
+    "skill": "g7_b09",
+    "type": "multiple_choice",
+    "question": "Giảm sai số khi đo tốc độ nên?",
+    "choices": [
+      "Đo nhiều lần, lấy trung bình",
+      "Chỉ đo một lần",
+      "Không ghi đơn vị",
+      "Đo bằng nhiệt kế"
+    ],
+    "answer": "Đo nhiều lần, lấy trung bình",
+    "hint": "Phương pháp khoa học."
+  },
+  {
+    "id": "q_g7_b10_1",
+    "skill": "g7_b10",
+    "type": "multiple_choice",
+    "question": "Đồ thị s–t, trục hoành thường biểu diễn?",
+    "choices": [
+      "Thời gian t",
+      "Quãng đường s",
+      "Tốc độ v",
+      "Khối lượng m"
+    ],
+    "answer": "Thời gian t",
+    "hint": "t trên trục hoành."
+  },
+  {
+    "id": "q_g7_b10_2",
+    "skill": "g7_b10",
+    "type": "multiple_choice",
+    "question": "Đường thẳng s–t đi qua gốc tọa độ cho thấy?",
+    "choices": [
+      "Chuyển động đều",
+      "Vật đứng yên",
+      "Chuyển động nhanh dần",
+      "Không có chuyển động"
+    ],
+    "answer": "Chuyển động đều",
+    "hint": "s tỉ lệ t."
+  },
+  {
+    "id": "q_g7_b10_3",
+    "skill": "g7_b10",
+    "type": "multiple_choice",
+    "question": "Độ dốc đồ thị s–t bằng?",
+    "choices": [
+      "Tốc độ v",
+      "Khối lượng",
+      "Lực F",
+      "Nhiệt độ"
+    ],
+    "answer": "Tốc độ v",
+    "hint": "v = Δs/Δt."
+  },
+  {
+    "id": "q_g7_b11_1",
+    "skill": "g7_b11",
+    "type": "multiple_choice",
+    "question": "Tốc độ xe cao thì quãng đường phanh thường?",
+    "choices": [
+      "Dài hơn",
+      "Ngắn hơn",
+      "Không đổi",
+      "Bằng 0"
+    ],
+    "answer": "Dài hơn",
+    "hint": "Nguy hiểm khi phanh gấp."
+  },
+  {
+    "id": "q_g7_b11_2",
+    "skill": "g7_b11",
+    "type": "multiple_choice",
+    "question": "Biện pháp an toàn giao thông?",
+    "choices": [
+      "Đội mũ bảo hiểm, tuân thủ tốc độ",
+      "Chạy nhanh nhất có thể",
+      "Không dùng đèn xe",
+      "Vượt đèn đỏ"
+    ],
+    "answer": "Đội mũ bảo hiểm, tuân thủ tốc độ",
+    "hint": "Bảo vệ bản thân và người khác."
+  },
+  {
+    "id": "q_g7_b11_3",
+    "skill": "g7_b11",
+    "type": "multiple_choice",
+    "question": "Tốc độ cho phép trên đường là để?",
+    "choices": [
+      "Giảm tai nạn",
+      "Tăng tai nạn",
+      "Chỉ trang trí biển",
+      "Không có mục đích"
+    ],
+    "answer": "Giảm tai nạn",
+    "hint": "Luật giao thông bảo vệ an toàn."
+  },
+  {
+    "id": "q_g7_b12_1",
+    "skill": "g7_b12",
+    "type": "multiple_choice",
+    "question": "Sóng âm truyền qua?",
+    "choices": [
+      "Không khí, nước, vật rắn",
+      "Chân không",
+      "Chỉ trong chân không",
+      "Không qua môi trường"
+    ],
+    "answer": "Không khí, nước, vật rắn",
+    "hint": "Cần môi trường elastic."
+  },
+  {
+    "id": "q_g7_b12_2",
+    "skill": "g7_b12",
+    "type": "multiple_choice",
+    "question": "Đơn vị tần số sóng âm là?",
+    "choices": [
+      "Hz (hertz)",
+      "m/s",
+      "N",
+      "Pa"
+    ],
+    "answer": "Hz (hertz)",
+    "hint": "Hz = số dao động/giây."
+  },
+  {
+    "id": "q_g7_b12_3",
+    "skill": "g7_b12",
+    "type": "multiple_choice",
+    "question": "Trong chân không, tiếng nói?",
+    "choices": [
+      "Không truyền được",
+      "To hơn bình thường",
+      "Không đổi",
+      "Chỉ truyền qua sắt"
+    ],
+    "answer": "Không truyền được",
+    "hint": "Không có môi trường mang sóng."
+  },
+  {
+    "id": "q_g7_b13_1",
+    "skill": "g7_b13",
+    "type": "multiple_choice",
+    "question": "Biên độ lớn thì âm?",
+    "choices": [
+      "To hơn",
+      "Nhỏ hơn",
+      "Cao hơn (trầm hơn)",
+      "Im lặng"
+    ],
+    "answer": "To hơn",
+    "hint": "Biên độ → độ to."
+  },
+  {
+    "id": "q_g7_b13_2",
+    "skill": "g7_b13",
+    "type": "multiple_choice",
+    "question": "Tần số cao thì âm?",
+    "choices": [
+      "Cao hơn (trầm thấp hơn nếu tần số thấp)",
+      "Luôn trầm",
+      "Không đổi",
+      "Không nghe được"
+    ],
+    "answer": "Cao hơn (trầm thấp hơn nếu tần số thấp)",
+    "hint": "Tần số → độ cao."
+  },
+  {
+    "id": "q_g7_b13_3",
+    "skill": "g7_b13",
+    "type": "multiple_choice",
+    "question": "Trống gõ mạnh so với gõ nhẹ?",
+    "choices": [
+      "To hơn",
+      "Trầm hơn",
+      "Cao hơn",
+      "Không khác"
+    ],
+    "answer": "To hơn",
+    "hint": "Biên độ lớn hơn."
+  },
+  {
+    "id": "q_g7_b14_1",
+    "skill": "g7_b14",
+    "type": "multiple_choice",
+    "question": "Tiếng vọng là?",
+    "choices": [
+      "Âm phản xạ từ vách, tường",
+      "Âm do nam châm",
+      "Ánh sáng phản xạ",
+      "Chỉ sóng điện từ"
+    ],
+    "answer": "Âm phản xạ từ vách, tường",
+    "hint": "Phản xạ âm."
+  },
+  {
+    "id": "q_g7_b14_2",
+    "skill": "g7_b14",
+    "type": "multiple_choice",
+    "question": "Sonar dùng để?",
+    "choices": [
+      "Đo độ sâu biển bằng phản xạ âm",
+      "Đo nhiệt độ",
+      "Đo khối lượng",
+      "Tạo ánh sáng"
+    ],
+    "answer": "Đo độ sâu biển bằng phản xạ âm",
+    "hint": "Gửi sóng âm, nhận vọng."
+  },
+  {
+    "id": "q_g7_b14_3",
+    "skill": "g7_b14",
+    "type": "multiple_choice",
+    "question": "Giảm ô nhiễm tiếng ồn có thể?",
+    "choices": [
+      "Cách âm, trồng cây",
+      "Bật loa to hơn",
+      "Phá tường",
+      "Không làm gì"
+    ],
+    "answer": "Cách âm, trồng cây",
+    "hint": "Hấp thụ và che chắn âm."
+  },
+  {
+    "id": "q_g7_b15_1",
+    "skill": "g7_b15",
+    "type": "multiple_choice",
+    "question": "Tia sáng đi theo?",
+    "choices": [
+      "Đường thẳng",
+      "Đường cong ngẫu nhiên",
+      "Chỉ đi vòng",
+      "Không đi được"
+    ],
+    "answer": "Đường thẳng",
+    "hint": "Nguyên lí truyền thẳng."
+  },
+  {
+    "id": "q_g7_b15_2",
+    "skill": "g7_b15",
+    "type": "multiple_choice",
+    "question": "Bóng tối hình thành khi?",
+    "choices": [
+      "Vật cản không cho ánh sáng qua",
+      "Không có nguồn sáng",
+      "Chỉ ban đêm",
+      "Có gương phẳng"
+    ],
+    "answer": "Vật cản không cho ánh sáng qua",
+    "hint": "Vùng không nhận sáng."
+  },
+  {
+    "id": "q_g7_b15_3",
+    "skill": "g7_b15",
+    "type": "multiple_choice",
+    "question": "Ánh sáng là dạng?",
+    "choices": [
+      "Năng lượng (quang năng)",
+      "Chỉ khối lượng",
+      "Chỉ lực",
+      "Chỉ nhiệt độ"
+    ],
+    "answer": "Năng lượng (quang năng)",
+    "hint": "Mặt Trời cung cấp quang năng."
+  },
+  {
+    "id": "q_g7_b16_1",
+    "skill": "g7_b16",
+    "type": "multiple_choice",
+    "question": "Định luật phản xạ ánh sáng?",
+    "choices": [
+      "Góc tới bằng góc phản xạ",
+      "Góc tới gấp đôi góc phản xạ",
+      "Không có góc phản xạ",
+      "Góc tùy ý"
+    ],
+    "answer": "Góc tới bằng góc phản xạ",
+    "hint": "Đo so với pháp tuyến."
+  },
+  {
+    "id": "q_g7_b16_2",
+    "skill": "g7_b16",
+    "type": "multiple_choice",
+    "question": "Pháp tuyến là?",
+    "choices": [
+      "Đường vuông góc mặt phản xạ tại điểm tới",
+      "Tia sáng tới",
+      "Tia sáng phản xạ",
+      "Mặt gương"
+    ],
+    "answer": "Đường vuông góc mặt phản xạ tại điểm tới",
+    "hint": "Chuẩn để đo góc."
+  },
+  {
+    "id": "q_g7_b16_3",
+    "skill": "g7_b16",
+    "type": "multiple_choice",
+    "question": "Nhìn thấy vật qua gương nhờ?",
+    "choices": [
+      "Phản xạ ánh sáng",
+      "Hấp thụ hết ánh sáng",
+      "Khúc xạ trong gương",
+      "Chỉ từ trường"
+    ],
+    "answer": "Phản xạ ánh sáng",
+    "hint": "Ánh sáng từ vật phản xạ vào mắt."
+  },
+  {
+    "id": "q_g7_b17_1",
+    "skill": "g7_b17",
+    "type": "multiple_choice",
+    "question": "Ảnh qua gương phẳng là ảnh?",
+    "choices": [
+      "Ảo",
+      "Thật",
+      "Lớn hơn vật",
+      "Ngược chiều không đối xứng"
+    ],
+    "answer": "Ảo",
+    "hint": "Không hứng được trên màn."
+  },
+  {
+    "id": "q_g7_b17_2",
+    "skill": "g7_b17",
+    "type": "multiple_choice",
+    "question": "Kích thước ảnh so với vật?",
+    "choices": [
+      "Bằng nhau",
+      "Luôn nhỏ hơn",
+      "Luôn lớn hơn",
+      "Không xác định"
+    ],
+    "answer": "Bằng nhau",
+    "hint": "Gương phẳng."
+  },
+  {
+    "id": "q_g7_b17_3",
+    "skill": "g7_b17",
+    "type": "multiple_choice",
+    "question": "Khoảng cách vật đến gương so với ảnh?",
+    "choices": [
+      "Bằng nhau",
+      "Gấp đôi",
+      "Bằng 0",
+      "Không liên quan"
+    ],
+    "answer": "Bằng nhau",
+    "hint": "Đối xứng qua mặt gương."
+  },
+  {
+    "id": "q_g7_b18_1",
+    "skill": "g7_b18",
+    "type": "multiple_choice",
+    "question": "Nam châm hút được?",
+    "choices": [
+      "Sắt, nikel, coban",
+      "Đồng, nhôm",
+      "Gỗ, nhựa",
+      "Muối ăn"
+    ],
+    "answer": "Sắt, nikel, coban",
+    "hint": "Một số kim loại."
+  },
+  {
+    "id": "q_g7_b18_2",
+    "skill": "g7_b18",
+    "type": "multiple_choice",
+    "question": "Hai cực cùng loại (N–N) sẽ?",
+    "choices": [
+      "Đẩy nhau",
+      "Hút nhau",
+      "Không tác dụng",
+      "Tan ra"
+    ],
+    "answer": "Đẩy nhau",
+    "hint": "Cực khác loại hút nhau."
+  },
+  {
+    "id": "q_g7_b18_3",
+    "skill": "g7_b18",
+    "type": "multiple_choice",
+    "question": "Nam châm thước kẻ chỉ hướng?",
+    "choices": [
+      "Bắc–Nam",
+      "Đông–Tây",
+      "Lên trời",
+      "Ngẫu nhiên"
+    ],
+    "answer": "Bắc–Nam",
+    "hint": "Trái Đất như nam châm lớn."
+  },
+  {
+    "id": "q_g7_b19_1",
+    "skill": "g7_b19",
+    "type": "multiple_choice",
+    "question": "Đường sức từ ngoài nam châm đi từ?",
+    "choices": [
+      "N ra S",
+      "S ra N",
+      "Chỉ trong nam châm",
+      "Không xác định"
+    ],
+    "answer": "N ra S",
+    "hint": "Quy ước chiều đường sức từ."
+  },
+  {
+    "id": "q_g7_b19_2",
+    "skill": "g7_b19",
+    "type": "multiple_choice",
+    "question": "Kim la bàn lệch vì?",
+    "choices": [
+      "Từ trường Trái Đất",
+      "Gió",
+      "Nhiệt độ",
+      "Áp suất"
+    ],
+    "answer": "Từ trường Trái Đất",
+    "hint": "Kim hướng theo từ trường."
+  },
+  {
+    "id": "q_g7_b19_3",
+    "skill": "g7_b19",
+    "type": "multiple_choice",
+    "question": "Từ trường tác dụng lên?",
+    "choices": [
+      "Nam châm, dây dẫn có dòng",
+      "Chỉ gỗ",
+      "Chỉ nước tinh khiết",
+      "Chỉ không khí không dòng điện"
+    ],
+    "answer": "Nam châm, dây dẫn có dòng",
+    "hint": "Từ trường vô hình."
+  },
+  {
+    "id": "q_g7_b20_1",
+    "skill": "g7_b20",
+    "type": "multiple_choice",
+    "question": "Nam châm điện tạo bởi?",
+    "choices": [
+      "Cuộn dây có dòng điện",
+      "Chỉ đá",
+      "Chỉ nước",
+      "Không cần dòng điện"
+    ],
+    "answer": "Cuộn dây có dòng điện",
+    "hint": "Dòng điện → từ trường."
+  },
+  {
+    "id": "q_g7_b20_2",
+    "skill": "g7_b20",
+    "type": "multiple_choice",
+    "question": "Lõi sắt trong cuộn dây giúp?",
+    "choices": [
+      "Tăng cường từ trường",
+      "Giảm từ trường",
+      "Cách điện",
+      "Tạo ánh sáng"
+    ],
+    "answer": "Tăng cường từ trường",
+    "hint": "Sắt dễ nhiễm từ."
+  },
+  {
+    "id": "q_g7_b20_3",
+    "skill": "g7_b20",
+    "type": "multiple_choice",
+    "question": "Tắt dòng điện nam châm điện thường?",
+    "choices": [
+      "Mất từ tính (nếu lõi mềm)",
+      "Mạnh hơn mãi",
+      "Chuyển thành nam châm vĩnh cửu",
+      "Phát sáng"
+    ],
+    "answer": "Mất từ tính (nếu lõi mềm)",
+    "hint": "Nam châm điện tạm thời."
+  },
+  {
+    "id": "q_g8_b13_1",
+    "skill": "g8_b13",
+    "type": "multiple_choice",
+    "question": "Công thức khối lượng riêng là?",
+    "choices": [
+      "D = m/V",
+      "D = V/m",
+      "D = m×V",
+      "D = m + V"
+    ],
+    "answer": "D = m/V",
+    "hint": "Khối lượng chia thể tích."
+  },
+  {
+    "id": "q_g8_b13_2",
+    "skill": "g8_b13",
+    "type": "multiple_choice",
+    "question": "Đơn vị khối lượng riêng trong SI là?",
+    "choices": [
+      "kg/m³",
+      "N/m²",
+      "J/kg",
+      "A/m"
+    ],
+    "answer": "kg/m³",
+    "hint": "kg/m³ là đơn vị chuẩn."
+  },
+  {
+    "id": "q_g8_b13_3",
+    "skill": "g8_b13",
+    "type": "input",
+    "question": "Vật 2 kg, V = 0,001 m³. D = ? kg/m³ (chỉ số).",
+    "answer": "2000",
+    "hint": "D = 2/0,001 = 2000."
+  },
+  {
+    "id": "q_g8_b14_1",
+    "skill": "g8_b14",
+    "type": "multiple_choice",
+    "question": "Xác định D cần đo?",
+    "choices": [
+      "m và V",
+      "Chỉ nhiệt độ",
+      "Chỉ lực",
+      "Chỉ thời gian"
+    ],
+    "answer": "m và V",
+    "hint": "D = m/V."
+  },
+  {
+    "id": "q_g8_b14_2",
+    "skill": "g8_b14",
+    "type": "multiple_choice",
+    "question": "1 g/cm³ bằng bao nhiêu kg/m³?",
+    "choices": [
+      "1000",
+      "100",
+      "10",
+      "1"
+    ],
+    "answer": "1000",
+    "hint": "1 g/cm³ = 1000 kg/m³."
+  },
+  {
+    "id": "q_g8_b14_3",
+    "skill": "g8_b14",
+    "type": "multiple_choice",
+    "question": "Khối lập phương cạnh a thì V = ?",
+    "choices": [
+      "a³",
+      "3a",
+      "a²",
+      "6a²"
+    ],
+    "answer": "a³",
+    "hint": "Thể tích hình lập phương."
+  },
+  {
+    "id": "q_g8_b15_1",
+    "skill": "g8_b15",
+    "type": "multiple_choice",
+    "question": "Công thức áp suất là?",
+    "choices": [
+      "p = F/S",
+      "p = F×S",
+      "p = S/F",
+      "p = F + S"
+    ],
+    "answer": "p = F/S",
+    "hint": "Lực chia diện tích."
+  },
+  {
+    "id": "q_g8_b15_2",
+    "skill": "g8_b15",
+    "type": "multiple_choice",
+    "question": "Đơn vị áp suất Pa là?",
+    "choices": [
+      "N/m²",
+      "N·m",
+      "J/s",
+      "kg/m³"
+    ],
+    "answer": "N/m²",
+    "hint": "1 Pa = 1 N/m²."
+  },
+  {
+    "id": "q_g8_b15_3",
+    "skill": "g8_b15",
+    "type": "multiple_choice",
+    "question": "Giày rộng đế so với gót nhọn khi cùng trọng lượng người?",
+    "choices": [
+      "Áp suất nhỏ hơn",
+      "Áp suất lớn hơn",
+      "Không đổi",
+      "Bằng 0"
+    ],
+    "answer": "Áp suất nhỏ hơn",
+    "hint": "S lớn → p nhỏ."
+  },
+  {
+    "id": "q_g8_b16_1",
+    "skill": "g8_b16",
+    "type": "multiple_choice",
+    "question": "Áp suất chất lỏng tăng khi?",
+    "choices": [
+      "h sâu hơn",
+      "h nông hơn",
+      "Không phụ thuộc h",
+      "Chỉ phụ thuộc màu"
+    ],
+    "answer": "h sâu hơn",
+    "hint": "p = ρ·g·h."
+  },
+  {
+    "id": "q_g8_b16_2",
+    "skill": "g8_b16",
+    "type": "multiple_choice",
+    "question": "Áp suất khí quyển xấp xỉ?",
+    "choices": [
+      "101 kPa",
+      "1 Pa",
+      "1000 MPa",
+      "0 Pa"
+    ],
+    "answer": "101 kPa",
+    "hint": "≈ 101 325 Pa."
+  },
+  {
+    "id": "q_g8_b16_3",
+    "skill": "g8_b16",
+    "type": "multiple_choice",
+    "question": "Công thức áp suất chất lỏng tĩnh?",
+    "choices": [
+      "p = ρ·g·h",
+      "p = m/V",
+      "p = F×S",
+      "p = U/I"
+    ],
+    "answer": "p = ρ·g·h",
+    "hint": "ρ khối lượng riêng chất lỏng."
+  },
+  {
+    "id": "q_g8_b17_1",
+    "skill": "g8_b17",
+    "type": "multiple_choice",
+    "question": "Lực đẩy Archimedes hướng?",
+    "choices": [
+      "Lên trên",
+      "Xuống dưới",
+      "Ngang",
+      "Không xác định"
+    ],
+    "answer": "Lên trên",
+    "hint": "Ngược trọng lực."
+  },
+  {
+    "id": "q_g8_b17_2",
+    "skill": "g8_b17",
+    "type": "multiple_choice",
+    "question": "Vật nổi trên nước khi?",
+    "choices": [
+      "ρ_vật < ρ_nước",
+      "ρ_vật > ρ_nước",
+      "ρ_vật = 0",
+      "Không liên quan ρ"
+    ],
+    "answer": "ρ_vật < ρ_nước",
+    "hint": "P = F_A khi cân bằng nổi."
+  },
+  {
+    "id": "q_g8_b17_3",
+    "skill": "g8_b17",
+    "type": "multiple_choice",
+    "question": "F_A bằng trọng lượng phần chất lỏng?",
+    "choices": [
+      "Bị vật chiếm chỗ (thể tích chìm)",
+      "Toàn bộ bình",
+      "Không liên quan thể tích",
+      "Chỉ khối lượng vật"
+    ],
+    "answer": "Bị vật chiếm chỗ (thể tích chìm)",
+    "hint": "V là thể tích phần chìm."
+  },
+  {
+    "id": "q_g8_b18_1",
+    "skill": "g8_b18",
+    "type": "multiple_choice",
+    "question": "Moment lực M = ?",
+    "choices": [
+      "F·d",
+      "F/d",
+      "F + d",
+      "F − d"
+    ],
+    "answer": "F·d",
+    "hint": "d là cánh tay đòn."
+  },
+  {
+    "id": "q_g8_b18_2",
+    "skill": "g8_b18",
+    "type": "multiple_choice",
+    "question": "Đơn vị moment lực là?",
+    "choices": [
+      "N·m",
+      "N/m",
+      "J/kg",
+      "Pa"
+    ],
+    "answer": "N·m",
+    "hint": "Newton mét."
+  },
+  {
+    "id": "q_g8_b18_3",
+    "skill": "g8_b18",
+    "type": "multiple_choice",
+    "question": "Mở cửa, đẩy xa bản lề thì?",
+    "choices": [
+      "Dễ quay hơn (d lớn)",
+      "Khó quay hơn",
+      "Không đổi",
+      "Cửa không quay"
+    ],
+    "answer": "Dễ quay hơn (d lớn)",
+    "hint": "M = F·d lớn hơn với cùng F."
+  },
+  {
+    "id": "q_g8_b19_1",
+    "skill": "g8_b19",
+    "type": "multiple_choice",
+    "question": "Đòn bẩy cân bằng khi?",
+    "choices": [
+      "F₁·d₁ = F₂·d₂",
+      "F₁ = F₂",
+      "d₁ = d₂ luôn",
+      "F₁ + F₂ = 0"
+    ],
+    "answer": "F₁·d₁ = F₂·d₂",
+    "hint": "Quy tắc moment."
+  },
+  {
+    "id": "q_g8_b19_2",
+    "skill": "g8_b19",
+    "type": "multiple_choice",
+    "question": "Đòn bẩy lợi thế giúp?",
+    "choices": [
+      "Giảm lực cần dùng",
+      "Tăng lực cần dùng",
+      "Không tiết kiệm lực",
+      "Chỉ đo nhiệt"
+    ],
+    "answer": "Giảm lực cần dùng",
+    "hint": "Đổi lấy quãng đường dài hơn."
+  },
+  {
+    "id": "q_g8_b19_3",
+    "skill": "g8_b19",
+    "type": "multiple_choice",
+    "question": "Kìm cắt là ứng dụng?",
+    "choices": [
+      "Đòn bẩy",
+      "Áp suất khí",
+      "Nhiễm điện",
+      "Bức xạ"
+    ],
+    "answer": "Đòn bẩy",
+    "hint": "Moment lực."
+  },
+  {
+    "id": "q_g8_b20_1",
+    "skill": "g8_b20",
+    "type": "multiple_choice",
+    "question": "Nhiễm điện do cọ xát là?",
+    "choices": [
+      "Chuyển electron giữa vật",
+      "Tạo proton mới",
+      "Tạo nhiệt độ 0",
+      "Chỉ xảy ra với nước"
+    ],
+    "answer": "Chuyển electron giữa vật",
+    "hint": "Electron di chuyển."
+  },
+  {
+    "id": "q_g8_b20_2",
+    "skill": "g8_b20",
+    "type": "multiple_choice",
+    "question": "Hai vật cùng điện tích sẽ?",
+    "choices": [
+      "Đẩy nhau",
+      "Hút nhau",
+      "Không tác dụng",
+      "Tan ra"
+    ],
+    "answer": "Đẩy nhau",
+    "hint": "Cùng dấu đẩy."
+  },
+  {
+    "id": "q_g8_b20_3",
+    "skill": "g8_b20",
+    "type": "multiple_choice",
+    "question": "Đơn vị điện tích là?",
+    "choices": [
+      "Coulomb (C)",
+      "Volt (V)",
+      "Ampere (A)",
+      "Ohm (Ω)"
+    ],
+    "answer": "Coulomb (C)",
+    "hint": "C là đơn vị điện tích."
+  },
+  {
+    "id": "q_g8_b21_1",
+    "skill": "g8_b21",
+    "type": "multiple_choice",
+    "question": "Dòng điện là?",
+    "choices": [
+      "Dòng điện tích có hướng",
+      "Chỉ electron đứng yên",
+      "Chỉ ánh sáng",
+      "Chỉ nhiệt"
+    ],
+    "answer": "Dòng điện tích có hướng",
+    "hint": "Có chiều quy ước."
+  },
+  {
+    "id": "q_g8_b21_2",
+    "skill": "g8_b21",
+    "type": "multiple_choice",
+    "question": "Nguồn điện có tác dụng?",
+    "choices": [
+      "Duy trì hiệu điện thế",
+      "Chỉ đo nhiệt",
+      "Chỉ cách điện",
+      "Không cần trong mạch"
+    ],
+    "answer": "Duy trì hiệu điện thế",
+    "hint": "Pin, ắc quy..."
+  },
+  {
+    "id": "q_g8_b21_3",
+    "skill": "g8_b21",
+    "type": "multiple_choice",
+    "question": "Trong dây kim loại dòng điện chủ yếu do?",
+    "choices": [
+      "Electron",
+      "Proton di chuyển tự do",
+      "Neutron",
+      "Photon"
+    ],
+    "answer": "Electron",
+    "hint": "Electron tự do."
+  },
+  {
+    "id": "q_g8_b22_1",
+    "skill": "g8_b22",
+    "type": "multiple_choice",
+    "question": "Mạch kín cần có?",
+    "choices": [
+      "Nguồn, dây dẫn, tải",
+      "Chỉ dây",
+      "Chỉ đèn",
+      "Không cần nguồn"
+    ],
+    "answer": "Nguồn, dây dẫn, tải",
+    "hint": "Dòng chạy kín."
+  },
+  {
+    "id": "q_g8_b22_2",
+    "skill": "g8_b22",
+    "type": "multiple_choice",
+    "question": "Công tắc mở thì?",
+    "choices": [
+      "Mạch hở, không có dòng",
+      "Dòng tăng gấp đôi",
+      "U = 0 luôn",
+      "Cháy nguồn"
+    ],
+    "answer": "Mạch hở, không có dòng",
+    "hint": "Mạch không kín."
+  },
+  {
+    "id": "q_g8_b22_3",
+    "skill": "g8_b22",
+    "type": "multiple_choice",
+    "question": "Chiều dòng điện quy ước (ngoài nguồn)?",
+    "choices": [
+      "Từ cực dương ra cực âm",
+      "Từ âm ra dương trong mọi chỗ",
+      "Ngẫu nhiên",
+      "Không quy ước"
+    ],
+    "answer": "Từ cực dương ra cực âm",
+    "hint": "Quy ước dòng dương."
+  },
+  {
+    "id": "q_g8_b23_1",
+    "skill": "g8_b23",
+    "type": "multiple_choice",
+    "question": "Tác dụng nhiệt của dòng điện?",
+    "choices": [
+      "Dây điện nóng lên",
+      "Chỉ phát sáng",
+      "Chỉ từ tính",
+      "Không có"
+    ],
+    "answer": "Dây điện nóng lên",
+    "hint": "Hiệu ứng Joule."
+  },
+  {
+    "id": "q_g8_b23_2",
+    "skill": "g8_b23",
+    "type": "multiple_choice",
+    "question": "Dòng điện qua cuộn dây có thể?",
+    "choices": [
+      "Tạo từ trường",
+      "Tạo trọng lực",
+      "Làm nguội ngay",
+      "Chỉ đo áp suất"
+    ],
+    "answer": "Tạo từ trường",
+    "hint": "Nam châm điện."
+  },
+  {
+    "id": "q_g8_b23_3",
+    "skill": "g8_b23",
+    "type": "multiple_choice",
+    "question": "Dòng quá tải có thể gây?",
+    "choices": [
+      "Cháy dây dẫn",
+      "Giảm nhiệt",
+      "Tăng an toàn",
+      "Không ảnh hưởng"
+    ],
+    "answer": "Cháy dây dẫn",
+    "hint": "Cần cầu chì, aptomat."
+  },
+  {
+    "id": "q_g8_b24_1",
+    "skill": "g8_b24",
+    "type": "multiple_choice",
+    "question": "Cường độ dòng điện đo bằng?",
+    "choices": [
+      "Ampe (A)",
+      "Volt (V)",
+      "Ohm (Ω)",
+      "Watt (W)"
+    ],
+    "answer": "Ampe (A)",
+    "hint": "Ampe kế."
+  },
+  {
+    "id": "q_g8_b24_2",
+    "skill": "g8_b24",
+    "type": "multiple_choice",
+    "question": "Hiệu điện thế đo bằng?",
+    "choices": [
+      "Volt (V)",
+      "Ampe (A)",
+      "Coulomb (C)",
+      "Pascal (Pa)"
+    ],
+    "answer": "Volt (V)",
+    "hint": "Vôn kế."
+  },
+  {
+    "id": "q_g8_b24_3",
+    "skill": "g8_b24",
+    "type": "multiple_choice",
+    "question": "Ampe kế mắc?",
+    "choices": [
+      "Tiếp (series) trong mạch",
+      "Song song tải",
+      "Không mắc",
+      "Chỉ nối đất"
+    ],
+    "answer": "Tiếp (series) trong mạch",
+    "hint": "Đo I qua mạch."
+  },
+  {
+    "id": "q_g8_b25_1",
+    "skill": "g8_b25",
+    "type": "multiple_choice",
+    "question": "Vôn kế mắc?",
+    "choices": [
+      "Song song tải",
+      "Tiếp mạch",
+      "Cắt dây",
+      "Không cần nguồn"
+    ],
+    "answer": "Song song tải",
+    "hint": "Đo U hai đầu tải."
+  },
+  {
+    "id": "q_g8_b25_2",
+    "skill": "g8_b25",
+    "type": "multiple_choice",
+    "question": "Trước khi đóng mạch thí nghiệm nên?",
+    "choices": [
+      "Kiểm tra mắc đúng, an toàn",
+      "Chạm tay ướt",
+      "Nối tắt nguồn",
+      "Không đeo kính"
+    ],
+    "answer": "Kiểm tra mắc đúng, an toàn",
+    "hint": "An toàn điện."
+  },
+  {
+    "id": "q_g8_b25_3",
+    "skill": "g8_b25",
+    "type": "input",
+    "question": "Pin 1,5 V. Viết số hiệu điện thế (chỉ số, dùng dấu phẩy nếu cần).",
+    "answer": "1,5",
+    "hint": "Đọc vôn kế hoặc nhãn pin."
+  },
+  {
+    "id": "q_g8_b26_1",
+    "skill": "g8_b26",
+    "type": "multiple_choice",
+    "question": "Nội năng phụ thuộc?",
+    "choices": [
+      "Nhiệt độ và trạng thái vật chất",
+      "Chỉ màu sắc",
+      "Chỉ hình dạng",
+      "Không đổi"
+    ],
+    "answer": "Nhiệt độ và trạng thái vật chất",
+    "hint": "Nội năng tăng khi nóng lên."
+  },
+  {
+    "id": "q_g8_b26_2",
+    "skill": "g8_b26",
+    "type": "multiple_choice",
+    "question": "Nhiệt lượng truyền vào vật thường?",
+    "choices": [
+      "Làm tăng nội năng hoặc đổi thể",
+      "Luôn giảm nhiệt độ",
+      "Không ảnh hưởng",
+      "Chỉ đổi màu"
+    ],
+    "answer": "Làm tăng nội năng hoặc đổi thể",
+    "hint": "Q vào → nội năng tăng."
+  },
+  {
+    "id": "q_g8_b26_3",
+    "skill": "g8_b26",
+    "type": "multiple_choice",
+    "question": "Nhiệt độ và nội năng?",
+    "choices": [
+      "Liên quan nhưng khác khái niệm",
+      "Giống hệt nhau",
+      "Không liên quan",
+      "Chỉ đo bằng kg"
+    ],
+    "answer": "Liên quan nhưng khác khái niệm",
+    "hint": "Nhiệt độ đo mức nóng lạnh."
+  },
+  {
+    "id": "q_g8_b27_1",
+    "skill": "g8_b27",
+    "type": "multiple_choice",
+    "question": "Joulemeter đo?",
+    "choices": [
+      "Năng lượng điện chuyển thành nhiệt",
+      "Chỉ khối lượng",
+      "Chỉ lực",
+      "Chỉ tốc độ"
+    ],
+    "answer": "Năng lượng điện chuyển thành nhiệt",
+    "hint": "E = U·I·t."
+  },
+  {
+    "id": "q_g8_b27_2",
+    "skill": "g8_b27",
+    "type": "multiple_choice",
+    "question": "Đơn vị năng lượng là?",
+    "choices": [
+      "Joule (J)",
+      "Watt (W)",
+      "Newton (N)",
+      "Pascal (Pa)"
+    ],
+    "answer": "Joule (J)",
+    "hint": "1 J = 1 N·m."
+  },
+  {
+    "id": "q_g8_b27_3",
+    "skill": "g8_b27",
+    "type": "multiple_choice",
+    "question": "Năng lượng điện càng lớn đun nước thì nước?",
+    "choices": [
+      "Nóng hơn (nếu cùng khối lượng nước)",
+      "Lạnh hơn",
+      "Không đổi",
+      "Đông ngay"
+    ],
+    "answer": "Nóng hơn (nếu cùng khối lượng nước)",
+    "hint": "Q = E chuyển thành nội năng."
+  },
+  {
+    "id": "q_g8_b28_1",
+    "skill": "g8_b28",
+    "type": "multiple_choice",
+    "question": "Truyền nhiệt qua dẫn nhiệt?",
+    "choices": [
+      "Kim loại nóng lên",
+      "Chỉ trong chân không",
+      "Không cần chênh nhiệt",
+      "Chỉ ban đêm"
+    ],
+    "answer": "Kim loại nóng lên",
+    "hint": "Tiếp xúc trực tiếp."
+  },
+  {
+    "id": "q_g8_b28_2",
+    "skill": "g8_b28",
+    "type": "multiple_choice",
+    "question": "Đối lưu xảy ra chủ yếu ở?",
+    "choices": [
+      "Chất lỏng và khí",
+      "Chỉ vật rắn tĩnh",
+      "Chân không",
+      "Chỉ trong pin"
+    ],
+    "answer": "Chất lỏng và khí",
+    "hint": "Dòng chất lỏng/khí mang nhiệt."
+  },
+  {
+    "id": "q_g8_b28_3",
+    "skill": "g8_b28",
+    "type": "multiple_choice",
+    "question": "Mặt Trời sưởi ấm Trái Đất chủ yếu qua?",
+    "choices": [
+      "Bức xạ nhiệt",
+      "Dẫn nhiệt trong chân không",
+      "Chỉ đối lưu không khí",
+      "Dòng điện"
+    ],
+    "answer": "Bức xạ nhiệt",
+    "hint": "Không cần môi chất."
+  },
+  {
+    "id": "q_g8_b29_1",
+    "skill": "g8_b29",
+    "type": "multiple_choice",
+    "question": "Vật nóng lên thường?",
+    "choices": [
+      "Nở ra",
+      "Co lại",
+      "Không đổi kích thước",
+      "Tan ra"
+    ],
+    "answer": "Nở ra",
+    "hint": "Nở vì nhiệt."
+  },
+  {
+    "id": "q_g8_b29_2",
+    "skill": "g8_b29",
+    "type": "multiple_choice",
+    "question": "Khe hở trên cầu sắt để?",
+    "choices": [
+      "Cho phép nở nhiệt",
+      "Trang trí",
+      "Giảm trọng lượng",
+      "Tăng ma sát"
+    ],
+    "answer": "Cho phép nở nhiệt",
+    "hint": "Tránh cong vênh."
+  },
+  {
+    "id": "q_g8_b29_3",
+    "skill": "g8_b29",
+    "type": "multiple_choice",
+    "question": "Nở dài Δl phụ thuộc?",
+    "choices": [
+      "l₀, α và Δt",
+      "Chỉ màu",
+      "Chỉ lực",
+      "Chỉ áp suất khí"
+    ],
+    "answer": "l₀, α và Δt",
+    "hint": "Δl = l₀·α·Δt."
+  },
+  {
+    "id": "q_g9_b02_1",
+    "skill": "g9_b02",
+    "type": "multiple_choice",
+    "question": "Công thức động năng là?",
+    "choices": [
+      "Wđ = ½mv²",
+      "Wđ = mv",
+      "Wđ = mgh",
+      "Wđ = F/s"
+    ],
+    "answer": "Wđ = ½mv²",
+    "hint": "Phụ thuộc m và v."
+  },
+  {
+    "id": "q_g9_b02_2",
+    "skill": "g9_b02",
+    "type": "multiple_choice",
+    "question": "Công thức thế năng (g ≈ 10 N/kg) là?",
+    "choices": [
+      "Wt = mgh",
+      "Wt = ½mv²",
+      "Wt = m/g",
+      "Wt = F·s"
+    ],
+    "answer": "Wt = mgh",
+    "hint": "Phụ thuộc độ cao h."
+  },
+  {
+    "id": "q_g9_b02_3",
+    "skill": "g9_b02",
+    "type": "multiple_choice",
+    "question": "Đơn vị năng lượng trong SI là?",
+    "choices": [
+      "Joule (J)",
+      "Newton (N)",
+      "Watt (W)",
+      "Pascal (Pa)"
+    ],
+    "answer": "Joule (J)",
+    "hint": "1 J = 1 N·m."
+  },
+  {
+    "id": "q_g9_b03_1",
+    "skill": "g9_b03",
+    "type": "multiple_choice",
+    "question": "Cơ năng bằng?",
+    "choices": [
+      "Động năng + thế năng",
+      "Chỉ động năng",
+      "Chỉ thế năng",
+      "m·g"
+    ],
+    "answer": "Động năng + thế năng",
+    "hint": "Wc = Wđ + Wt."
+  },
+  {
+    "id": "q_g9_b03_2",
+    "skill": "g9_b03",
+    "type": "multiple_choice",
+    "question": "Không ma sát thì cơ năng?",
+    "choices": [
+      "Bảo toàn",
+      "Luôn bằng 0",
+      "Tăng vô hạn",
+      "Không xác định"
+    ],
+    "answer": "Bảo toàn",
+    "hint": "Chỉ chuyển đổi giữa Wđ và Wt."
+  },
+  {
+    "id": "q_g9_b03_3",
+    "skill": "g9_b03",
+    "type": "multiple_choice",
+    "question": "Vật rơi tự do (bỏ qua ma sát): thế năng giảm thì động năng?",
+    "choices": [
+      "Tăng tương ứng",
+      "Giảm",
+      "Không đổi",
+      "Bằng 0"
+    ],
+    "answer": "Tăng tương ứng",
+    "hint": "Bảo toàn cơ năng."
+  },
+  {
+    "id": "q_g9_b04_1",
+    "skill": "g9_b04",
+    "type": "multiple_choice",
+    "question": "Công thực hiện A = ?",
+    "choices": [
+      "F·s",
+      "F/s",
+      "F + s",
+      "m·g"
+    ],
+    "answer": "F·s",
+    "hint": "Lực nhân quãng đường theo phương lực."
+  },
+  {
+    "id": "q_g9_b04_2",
+    "skill": "g9_b04",
+    "type": "multiple_choice",
+    "question": "Công suất P = ?",
+    "choices": [
+      "A/t",
+      "A×t",
+      "F/s",
+      "m·v"
+    ],
+    "answer": "A/t",
+    "hint": "Công chia thời gian."
+  },
+  {
+    "id": "q_g9_b04_3",
+    "skill": "g9_b04",
+    "type": "input",
+    "question": "Nâng vật 50 N lên 3 m. A = ? J (chỉ số).",
+    "answer": "150",
+    "hint": "A = F·s = 50×3."
+  },
+  {
+    "id": "q_g9_b05_1",
+    "skill": "g9_b05",
+    "type": "multiple_choice",
+    "question": "Khúc xạ xảy ra khi?",
+    "choices": [
+      "Ánh sáng qua mặt phân cách hai môi trường",
+      "Chỉ trong chân không",
+      "Không có ánh sáng",
+      "Chỉ ban đêm"
+    ],
+    "answer": "Ánh sáng qua mặt phân cách hai môi trường",
+    "hint": "Đổi hướng tia."
+  },
+  {
+    "id": "q_g9_b05_2",
+    "skill": "g9_b05",
+    "type": "multiple_choice",
+    "question": "Từ không khí vào nước, tia khúc xạ?",
+    "choices": [
+      "Hướng về pháp tuyến",
+      "Ra xa pháp tuyến hơn tia tới",
+      "Không đổi hướng",
+      "Dừng lại"
+    ],
+    "answer": "Hướng về pháp tuyến",
+    "hint": "n_nước > n_không khí."
+  },
+  {
+    "id": "q_g9_b05_3",
+    "skill": "g9_b05",
+    "type": "multiple_choice",
+    "question": "Que trong nước trông gãy do?",
+    "choices": [
+      "Khúc xạ ánh sáng",
+      "Phản xạ toàn phần",
+      "Chỉ phản xạ thường",
+      "Từ trường"
+    ],
+    "answer": "Khúc xạ ánh sáng",
+    "hint": "Mắt nhận tia khúc xạ."
+  },
+  {
+    "id": "q_g9_b06_1",
+    "skill": "g9_b06",
+    "type": "multiple_choice",
+    "question": "Phản xạ toàn phần xảy ra khi?",
+    "choices": [
+      "Góc tới lớn hơn góc tới hạn",
+      "Góc tới bằng 0",
+      "Không có môi trường",
+      "Chỉ với âm thanh"
+    ],
+    "answer": "Góc tới lớn hơn góc tới hạn",
+    "hint": "Không có tia khúc xạ."
+  },
+  {
+    "id": "q_g9_b06_2",
+    "skill": "g9_b06",
+    "type": "multiple_choice",
+    "question": "Sợi quang truyền sáng nhờ?",
+    "choices": [
+      "Phản xạ toàn phần",
+      "Chỉ khúc xạ",
+      "Chỉ hấp thụ",
+      "Dòng điện"
+    ],
+    "answer": "Phản xạ toàn phần",
+    "hint": "Ánh sáng giữ trong sợi."
+  },
+  {
+    "id": "q_g9_b06_3",
+    "skill": "g9_b06",
+    "type": "multiple_choice",
+    "question": "Phản xạ toàn phần khác phản xạ thường ở?",
+    "choices": [
+      "Góc tới lớn, trong môi trường chiết suất cao hơn",
+      "Mọi góc",
+      "Chỉ góc 0",
+      "Chỉ trong nước"
+    ],
+    "answer": "Góc tới lớn, trong môi trường chiết suất cao hơn",
+    "hint": "Điều kiện góc tới hạn."
+  },
+  {
+    "id": "q_g9_b07_1",
+    "skill": "g9_b07",
+    "type": "multiple_choice",
+    "question": "Lăng kính tách sáng trắng thành?",
+    "choices": [
+      "Quang phổ màu",
+      "Chỉ một màu",
+      "Chỉ hồng ngoại",
+      "Không tách"
+    ],
+    "answer": "Quang phổ màu",
+    "hint": "Chiết suất theo màu."
+  },
+  {
+    "id": "q_g9_b07_2",
+    "skill": "g9_b07",
+    "type": "multiple_choice",
+    "question": "Cầu vồng hình thành do?",
+    "choices": [
+      "Khúc xạ và phản xạ trong giọt nước",
+      "Chỉ phản xạ toàn phần",
+      "Chỉ từ trường",
+      "Chỉ dòng điện"
+    ],
+    "answer": "Khúc xạ và phản xạ trong giọt nước",
+    "hint": "Tách sắc màu."
+  },
+  {
+    "id": "q_g9_b07_3",
+    "skill": "g9_b07",
+    "type": "multiple_choice",
+    "question": "Trong lăng kính, tia sáng?",
+    "choices": [
+      "Khúc xạ qua các mặt nghiêng",
+      "Không đổi hướng",
+      "Chỉ phản xạ",
+      "Dừng ngay"
+    ],
+    "answer": "Khúc xạ qua các mặt nghiêng",
+    "hint": "Mặt nghiêng gây lệch."
+  },
+  {
+    "id": "q_g9_b08_1",
+    "skill": "g9_b08",
+    "type": "multiple_choice",
+    "question": "Thấu kính hội tụ có hình?",
+    "choices": [
+      "Dày ở giữa",
+      "Mỏng ở giữa",
+      "Phẳng",
+      "Không khúc xạ"
+    ],
+    "answer": "Dày ở giữa",
+    "hint": "Hội tụ tia song song về F."
+  },
+  {
+    "id": "q_g9_b08_2",
+    "skill": "g9_b08",
+    "type": "multiple_choice",
+    "question": "Tiêu cự f là?",
+    "choices": [
+      "Khoảng cách từ quang tâm đến tiêu điểm",
+      "Đường kính thấu kính",
+      "Chiều dài vật",
+      "Công suất điện"
+    ],
+    "answer": "Khoảng cách từ quang tâm đến tiêu điểm",
+    "hint": "f đo bằng m."
+  },
+  {
+    "id": "q_g9_b08_3",
+    "skill": "g9_b08",
+    "type": "multiple_choice",
+    "question": "Thấu kính phân kỳ làm tia song song?",
+    "choices": [
+      "Phân kỳ ra xa trục",
+      "Hội tụ về F",
+      "Dừng lại",
+      "Phản xạ toàn phần"
+    ],
+    "answer": "Phân kỳ ra xa trục",
+    "hint": "Tiêu điểm ảo."
+  },
+  {
+    "id": "q_g9_b09_1",
+    "skill": "g9_b09",
+    "type": "multiple_choice",
+    "question": "Đo tiêu cự thấu kính hội tụ có thể dùng?",
+    "choices": [
+      "Phương pháp vật xa hoặc bài B",
+      "Chỉ cân khối lượng",
+      "Chỉ nhiệt kế",
+      "Chỉ ampe kế"
+    ],
+    "answer": "Phương pháp vật xa hoặc bài B",
+    "hint": "Thực hành SGK."
+  },
+  {
+    "id": "q_g9_b09_2",
+    "skill": "g9_b09",
+    "type": "multiple_choice",
+    "question": "Thấu kính hội tụ có tiêu cự f?",
+    "choices": [
+      "> 0",
+      "< 0",
+      "= 0 luôn",
+      "Không có"
+    ],
+    "answer": "> 0",
+    "hint": "Quy ước f hội tụ dương."
+  },
+  {
+    "id": "q_g9_b09_3",
+    "skill": "g9_b09",
+    "type": "multiple_choice",
+    "question": "Giảm sai số khi đo f nên?",
+    "choices": [
+      "Đo nhiều lần, lấy trung bình",
+      "Chỉ đo một lần",
+      "Không cần ghi đơn vị",
+      "Dùng thước đo lực"
+    ],
+    "answer": "Đo nhiều lần, lấy trung bình",
+    "hint": "Phương pháp khoa học."
+  },
+  {
+    "id": "q_g9_b10_1",
+    "skill": "g9_b10",
+    "type": "multiple_choice",
+    "question": "Kính lúp là?",
+    "choices": [
+      "Thấu kính hội tụ",
+      "Thấu kính phân kỳ",
+      "Gương cầu",
+      "Lăng kính"
+    ],
+    "answer": "Thấu kính hội tụ",
+    "hint": "Ứng dụng quang học."
+  },
+  {
+    "id": "q_g9_b10_2",
+    "skill": "g9_b10",
+    "type": "multiple_choice",
+    "question": "Vật đặt trong tiêu cự f → ảnh?",
+    "choices": [
+      "Ảo, phóng đại",
+      "Thật, thu nhỏ",
+      "Không có ảnh",
+      "Chỉ tối"
+    ],
+    "answer": "Ảo, phóng đại",
+    "hint": "Quan sát kính lúp."
+  },
+  {
+    "id": "q_g9_b10_3",
+    "skill": "g9_b10",
+    "type": "multiple_choice",
+    "question": "f càng nhỏ thì độ phóng đại?",
+    "choices": [
+      "Càng lớn (cùng khoảng cách mắt)",
+      "Càng nhỏ",
+      "Không đổi",
+      "Bằng 0"
+    ],
+    "answer": "Càng lớn (cùng khoảng cách mắt)",
+    "hint": "G ≈ L/f."
+  },
+  {
+    "id": "q_g9_b11_1",
+    "skill": "g9_b11",
+    "type": "multiple_choice",
+    "question": "Định luật Ohm viết đúng là?",
+    "choices": [
+      "I = U/R",
+      "I = R/U",
+      "I = U×R",
+      "U = I/R"
+    ],
+    "answer": "I = U/R",
+    "hint": "I tỉ lệ U, nghịch R."
+  },
+  {
+    "id": "q_g9_b11_2",
+    "skill": "g9_b11",
+    "type": "input",
+    "question": "U = 12 V, R = 4 Ω. I = ? A (chỉ số).",
+    "answer": "3",
+    "hint": "I = U/R = 12/4."
+  },
+  {
+    "id": "q_g9_b11_3",
+    "skill": "g9_b11",
+    "type": "multiple_choice",
+    "question": "Đơn vị điện trở là?",
+    "choices": [
+      "Ohm (Ω)",
+      "Volt (V)",
+      "Ampere (A)",
+      "Watt (W)"
+    ],
+    "answer": "Ohm (Ω)",
+    "hint": "Ω đọc là ohm."
+  },
+  {
+    "id": "q_g9_b12_1",
+    "skill": "g9_b12",
+    "type": "multiple_choice",
+    "question": "R1=2Ω, R2=3Ω nối tiếp. Rt = ?",
+    "choices": [
+      "5",
+      "1.2",
+      "6",
+      "0.5"
+    ],
+    "answer": "5",
+    "hint": "Rt = R1 + R2."
+  },
+  {
+    "id": "q_g9_b12_2",
+    "skill": "g9_b12",
+    "type": "multiple_choice",
+    "question": "Hai điện trở song song có đặc điểm?",
+    "choices": [
+      "Cùng điện áp U",
+      "Cùng dòng I trên mọi nhánh",
+      "Rt = R1 + R2",
+      "Không có U"
+    ],
+    "answer": "Cùng điện áp U",
+    "hint": "Song song: U bằng nhau."
+  },
+  {
+    "id": "q_g9_b12_3",
+    "skill": "g9_b12",
+    "type": "input",
+    "question": "R1=4Ω, R2=4Ω song song. Rt = ? Ω (chỉ số).",
+    "answer": "2",
+    "hint": "1/Rt = 1/4 + 1/4."
+  },
+  {
+    "id": "q_g9_b13_1",
+    "skill": "g9_b13",
+    "type": "multiple_choice",
+    "question": "Công thức công suất điện?",
+    "choices": [
+      "P = U·I",
+      "P = U/I",
+      "P = I/R",
+      "P = R/U"
+    ],
+    "answer": "P = U·I",
+    "hint": "P đo bằng W."
+  },
+  {
+    "id": "q_g9_b13_2",
+    "skill": "g9_b13",
+    "type": "multiple_choice",
+    "question": "1 kW·h bằng bao nhiêu J?",
+    "choices": [
+      "3,6·10⁶",
+      "1000",
+      "360",
+      "3,6"
+    ],
+    "answer": "3,6·10⁶",
+    "hint": "Đơn vị điện năng tiêu thụ."
+  },
+  {
+    "id": "q_g9_b13_3",
+    "skill": "g9_b13",
+    "type": "multiple_choice",
+    "question": "Điện năng W = ?",
+    "choices": [
+      "P·t",
+      "P/t",
+      "U/R",
+      "I²·R luôn sai"
+    ],
+    "answer": "P·t",
+    "hint": "Công suất nhân thời gian."
+  },
+  {
+    "id": "q_g9_b14_1",
+    "skill": "g9_b14",
+    "type": "multiple_choice",
+    "question": "Cảm ứng điện từ xảy ra khi?",
+    "choices": [
+      "Cuộn dây và từ trường chuyển động tương đối",
+      "Vật đứng yên tuyệt đối",
+      "Không có nam châm",
+      "Chỉ có ánh sáng"
+    ],
+    "answer": "Cuộn dây và từ trường chuyển động tương đối",
+    "hint": "Faraday."
+  },
+  {
+    "id": "q_g9_b14_2",
+    "skill": "g9_b14",
+    "type": "multiple_choice",
+    "question": "Máy phát điện dựa trên?",
+    "choices": [
+      "Cảm ứng điện từ",
+      "Chỉ nhiễm điện",
+      "Chỉ khúc xạ",
+      "Chỉ Archimedes"
+    ],
+    "answer": "Cảm ứng điện từ",
+    "hint": "Quay cuộn dây trong từ trường."
+  },
+  {
+    "id": "q_g9_b14_3",
+    "skill": "g9_b14",
+    "type": "multiple_choice",
+    "question": "Dòng cảm ứng là?",
+    "choices": [
+      "Dòng do thay đổi từ thông",
+      "Dòng từ pin vĩnh viễn",
+      "Chỉ dòng một chiều tĩnh",
+      "Không có trong cuộn dây"
+    ],
+    "answer": "Dòng do thay đổi từ thông",
+    "hint": "Nguyên lý biến áp."
+  },
+  {
+    "id": "q_g9_b15_1",
+    "skill": "g9_b15",
+    "type": "multiple_choice",
+    "question": "Dòng điện xoay chiều?",
+    "choices": [
+      "Đổi chiều theo thời gian",
+      "Luôn một chiều",
+      "Không đổi cường độ",
+      "Chỉ trong pin"
+    ],
+    "answer": "Đổi chiều theo thời gian",
+    "hint": "AC vs DC."
+  },
+  {
+    "id": "q_g9_b15_2",
+    "skill": "g9_b15",
+    "type": "multiple_choice",
+    "question": "Tần số dòng điện sinh ở Việt Nam?",
+    "choices": [
+      "50 Hz",
+      "60 Hz",
+      "100 Hz",
+      "1 Hz"
+    ],
+    "answer": "50 Hz",
+    "hint": "50 chu kì/giây."
+  },
+  {
+    "id": "q_g9_b15_3",
+    "skill": "g9_b15",
+    "type": "multiple_choice",
+    "question": "Pin cung cấp dòng?",
+    "choices": [
+      "Một chiều (DC)",
+      "Xoay chiều (AC)",
+      "Không có dòng",
+      "Chỉ xoay chiều 50 Hz"
+    ],
+    "answer": "Một chiều (DC)",
+    "hint": "Pin vs máy phát."
+  },
+  {
+    "id": "q_g9_b16_1",
+    "skill": "g9_b16",
+    "type": "multiple_choice",
+    "question": "Than, dầu mỏ là?",
+    "choices": [
+      "Năng lượng hóa thạch",
+      "Năng lượng tái tạo",
+      "Chỉ quang năng trực tiếp",
+      "Không chứa năng lượng"
+    ],
+    "answer": "Năng lượng hóa thạch",
+    "hint": "Hình thành hàng triệu năm."
+  },
+  {
+    "id": "q_g9_b16_2",
+    "skill": "g9_b16",
+    "type": "multiple_choice",
+    "question": "Nguồn gốc năng lượng hóa thạch?",
+    "choices": [
+      "Sinh vật cổ qua quang hợp",
+      "Chỉ từ Mặt Trăng",
+      "Chỉ từ sét",
+      "Không từ sinh vật"
+    ],
+    "answer": "Sinh vật cổ qua quang hợp",
+    "hint": "Vòng năng lượng Trái Đất."
+  },
+  {
+    "id": "q_g9_b16_3",
+    "skill": "g9_b16",
+    "type": "multiple_choice",
+    "question": "Đốt hóa thạch tạo ra chủ yếu?",
+    "choices": [
+      "CO₂ và nhiệt",
+      "Chỉ oxy",
+      "Chỉ nước tinh khiết",
+      "Không khí thuần"
+    ],
+    "answer": "CO₂ và nhiệt",
+    "hint": "Ảnh hưởng khí hậu."
+  },
+  {
+    "id": "q_g9_b17_1",
+    "skill": "g9_b17",
+    "type": "multiple_choice",
+    "question": "Nguồn năng lượng tái tạo là?",
+    "choices": [
+      "Năng lượng mặt trời",
+      "Than đá",
+      "Dầu mỏ",
+      "Khí thiên nhiên hóa thạch"
+    ],
+    "answer": "Năng lượng mặt trời",
+    "hint": "Tái tạo liên tục."
+  },
+  {
+    "id": "q_g9_b17_2",
+    "skill": "g9_b17",
+    "type": "multiple_choice",
+    "question": "Thủy điện dùng?",
+    "choices": [
+      "Động năng nước chảy",
+      "Chỉ hóa năng pin",
+      "Chỉ ma sát",
+      "Chỉ từ trường tĩnh"
+    ],
+    "answer": "Động năng nước chảy",
+    "hint": "Tuabin quay phát điện."
+  },
+  {
+    "id": "q_g9_b17_3",
+    "skill": "g9_b17",
+    "type": "multiple_choice",
+    "question": "Dùng năng lượng tái tạo giúp?",
+    "choices": [
+      "Giảm phát thải CO₂",
+      "Tăng hóa thạch",
+      "Lãng phí tài nguyên",
+      "Không ảnh hưởng môi trường"
+    ],
+    "answer": "Giảm phát thải CO₂",
+    "hint": "Bền vững."
+  }
+]

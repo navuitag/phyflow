@@ -1,0 +1,1719 @@
+.app-shell {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 32px 24px 96px;
+}
+
+.hero-panel {
+  align-items: stretch;
+  background:
+    radial-gradient(circle at 85% 15%, rgba(245, 185, 66, 0.28), transparent 28%),
+    linear-gradient(135deg, #ffffff, #edf8f4);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.75fr);
+  margin-bottom: 24px;
+  overflow: hidden;
+  padding: 32px;
+}
+
+.hero-panel h1 {
+  max-width: 680px;
+}
+
+.hero-panel p {
+  max-width: 600px;
+}
+
+.hero-actions,
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.daily-card,
+.skill-card,
+.quiz-card,
+.lesson-step,
+.completion-panel,
+.review-summary,
+.error-card,
+.profile-grid article,
+.stat-grid article,
+.empty-state {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(25, 63, 101, 0.08);
+}
+
+.daily-card {
+  align-self: stretch;
+  padding: 24px;
+}
+
+.stat-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 30px;
+}
+
+.stat-grid article {
+  padding: 20px;
+}
+
+.stat-grid strong {
+  display: block;
+  font-size: 30px;
+}
+
+.stat-grid span {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.section-head,
+.practice-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 0 14px;
+}
+
+.section-head a,
+.back-link {
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.skill-grid,
+.skill-path {
+  display: grid;
+  gap: 16px;
+}
+
+.skill-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: space-between;
+  min-height: 260px;
+  padding: 22px;
+}
+
+.skill-card.locked {
+  opacity: 0.62;
+}
+
+.mastery small {
+  color: var(--muted);
+  display: block;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.page-title {
+  margin-bottom: 24px;
+  max-width: 760px;
+}
+
+.onboarding {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 32px 20px;
+}
+
+.onboarding-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  max-width: 560px;
+  padding: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.onboarding-card .brand-mark {
+  height: 52px;
+  margin: 0 auto 14px;
+  width: 52px;
+  font-size: 24px;
+}
+
+.onboarding-card .eyebrow {
+  margin-bottom: 4px;
+}
+
+.onboarding-card p {
+  margin: 0 auto 22px;
+  max-width: 440px;
+}
+
+.grade-pick-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grade-pick {
+  align-items: center;
+  background: #f8fbfe;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 22px 16px;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.grade-pick:hover {
+  border-color: var(--green);
+  box-shadow: 0 10px 22px rgba(32, 163, 107, 0.18);
+  transform: translateY(-2px);
+}
+
+.grade-pick-num {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.grade-pick-meta {
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.grade-tabs {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto 16px;
+  max-width: 760px;
+}
+
+.grade-tab {
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 12px;
+  text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.grade-tab strong {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.grade-tab span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.grade-tab:hover {
+  border-color: var(--blue);
+  transform: translateY(-1px);
+}
+
+.grade-tab.active {
+  background: var(--green);
+  border-color: var(--green);
+  box-shadow: 0 8px 18px rgba(32, 163, 107, 0.24);
+}
+
+.grade-tab.active strong,
+.grade-tab.active span {
+  color: white;
+}
+
+.grade-summary {
+  align-items: center;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 750;
+  gap: 8px 18px;
+  justify-content: space-between;
+  margin: 0 auto 18px;
+  max-width: 760px;
+}
+
+.chapter-group {
+  margin: 0 auto 26px;
+  max-width: 760px;
+}
+
+.chapter-head {
+  margin-bottom: 12px;
+}
+
+.chapter-head h2 {
+  margin: 0;
+}
+
+.skill-path {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 760px;
+  position: relative;
+}
+
+.skill-path .skill-card {
+  min-height: 210px;
+}
+
+.lesson-layout {
+  align-items: start;
+  display: grid;
+  gap: 22px;
+  grid-template-columns: 280px minmax(0, 1fr);
+}
+
+.lesson-sidebar {
+  position: sticky;
+  top: 96px;
+}
+
+.lesson-steps {
+  display: grid;
+  gap: 16px;
+}
+
+.lesson-step {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 46px 1fr;
+  padding: 24px;
+}
+
+.step-count {
+  align-items: center;
+  background: #e7f8ef;
+  border-radius: 8px;
+  color: var(--green-dark);
+  display: inline-flex;
+  font-weight: 900;
+  height: 42px;
+  justify-content: center;
+  width: 42px;
+}
+
+.completion-panel {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.practice-layout {
+  display: grid;
+  gap: 18px;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+.quiz-card {
+  padding: 26px;
+}
+
+.quiz-meta {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hint-btn {
+  background: #fff6df;
+  border: 1px solid #f4d889;
+  border-radius: 8px;
+  color: #8a6200;
+  cursor: pointer;
+  font-weight: 800;
+  min-height: 38px;
+  padding: 0 14px;
+}
+
+.choice-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 22px;
+}
+
+.choice-btn {
+  background: #f8fbfe;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 850;
+  min-height: 58px;
+}
+
+.choice-btn:hover {
+  border-color: var(--blue);
+}
+
+.answer-form {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.answer-input {
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  flex: 1;
+  min-height: 50px;
+  padding: 0 14px;
+}
+
+.feedback-panel {
+  margin-top: 18px;
+}
+
+.feedback-panel:not(:empty) {
+  background: #f7fbff;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.review-grid {
+  align-items: start;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 320px 1fr;
+}
+
+.review-summary,
+.error-card,
+.profile-grid article,
+.empty-state {
+  padding: 22px;
+}
+
+.weak-row {
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.error-list {
+  display: grid;
+  gap: 14px;
+}
+
+.profile-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.badge-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge-list span {
+  background: #fff4d7;
+  border-radius: 8px;
+  color: #8a6200;
+  font-weight: 800;
+  padding: 8px 10px;
+}
+
+.bottom-nav {
+  display: none;
+}
+
+.viz {
+  margin-top: 18px;
+}
+
+.fraction-bar,
+.mini-bar {
+  border: 2px solid #24536f;
+  border-radius: 8px;
+  display: grid;
+  min-height: 62px;
+  overflow: hidden;
+}
+
+.fraction-cell,
+.mini-bar span {
+  background: white;
+  border-right: 1px solid #24536f;
+}
+
+.fraction-cell:last-child,
+.mini-bar span:last-child {
+  border-right: 0;
+}
+
+.fraction-cell.active,
+.mini-bar .active {
+  background: var(--green);
+}
+
+.viz-caption {
+  color: var(--text);
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.compare-viz {
+  display: grid;
+  gap: 12px;
+}
+
+.compare-row {
+  align-items: center;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 52px 1fr;
+}
+
+.mini-bar {
+  min-height: 34px;
+}
+
+.number-line-viz svg {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.axis,
+.tick {
+  stroke: #17324d;
+  stroke-width: 4;
+}
+
+.point-a {
+  fill: var(--yellow);
+}
+
+.point-b {
+  fill: var(--green);
+}
+
+.number-line-viz text {
+  fill: var(--text);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.balance-viz {
+  text-align: center;
+}
+
+.balance-beam {
+  align-items: center;
+  background: #e9f3ff;
+  border: 2px solid #24536f;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 420px;
+  min-height: 72px;
+  padding: 0 26px;
+  transform: rotate(-1deg);
+}
+
+.balance-beam span {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.balance-stand {
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-top: 90px solid #24536f;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
+.concept-viz,
+.power-viz,
+.divisibility-viz,
+.integer-viz,
+.geometry-viz,
+.angle-viz,
+.triangle-viz,
+.algebra-viz,
+.ratio-viz,
+.solid-viz,
+.graph-viz,
+.circle-viz,
+.radical-viz,
+.inequality-viz,
+.system-viz,
+.frequency-viz,
+.chart-viz,
+.percent-viz,
+.estimate-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.concept-viz {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+}
+
+.concept-viz > span,
+.power-viz span,
+.integer-viz span,
+.algebra-viz span,
+.estimate-viz span,
+.estimate-viz strong {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  font-weight: 900;
+  padding: 10px 12px;
+}
+
+.concept-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, 34px);
+}
+
+.concept-grid i {
+  aspect-ratio: 1;
+  background: var(--green);
+  border-radius: 8px;
+}
+
+.power-viz,
+.integer-viz,
+.algebra-viz,
+.estimate-viz {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.power-viz div {
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.number-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.number-chips span {
+  background: #e7f8ef;
+  border-radius: 8px;
+  color: var(--green-dark);
+  font-weight: 900;
+  padding: 10px 14px;
+}
+
+.geometry-viz svg {
+  width: 100%;
+}
+
+.shape-a {
+  fill: #e7f0ff;
+  stroke: var(--blue);
+  stroke-width: 4;
+}
+
+.shape-b {
+  fill: #fff4d7;
+  stroke: #b47b00;
+  stroke-width: 4;
+}
+
+.sym-line {
+  stroke: var(--red);
+  stroke-dasharray: 8 8;
+  stroke-width: 3;
+}
+
+.angle-viz svg,
+.triangle-viz svg,
+.solid-viz svg,
+.graph-viz svg,
+.circle-viz svg {
+  width: 100%;
+}
+
+.parallel-line,
+.transversal,
+.triangle-helper,
+.solid-edge {
+  stroke: #17324d;
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.parallel-line {
+  stroke: var(--blue);
+}
+
+.angle-arc {
+  fill: none;
+  stroke: var(--red);
+  stroke-width: 5;
+}
+
+.angle-viz text,
+.triangle-viz text {
+  fill: var(--text);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.triangle-shape {
+  fill: #e7f8ef;
+  stroke: var(--green-dark);
+  stroke-width: 5;
+}
+
+.triangle-helper {
+  stroke: var(--red);
+  stroke-dasharray: 8 8;
+}
+
+.triangle-point {
+  fill: var(--red);
+}
+
+.algebra-viz span {
+  font-size: 22px;
+  padding: 12px 16px;
+}
+
+.ratio-viz {
+  display: grid;
+  gap: 12px;
+}
+
+.ratio-viz div {
+  background: #e1ebf4;
+  border-radius: 999px;
+  height: 28px;
+  overflow: hidden;
+}
+
+.ratio-viz span {
+  background: var(--green);
+  display: block;
+  height: 100%;
+}
+
+.ratio-viz strong {
+  font-size: 22px;
+}
+
+.solid-top {
+  fill: #e7f0ff;
+}
+
+.solid-side {
+  fill: #d1e4ff;
+}
+
+.solid-front {
+  fill: #fff4d7;
+}
+
+.solid-top,
+.solid-side,
+.solid-front {
+  stroke: #17324d;
+  stroke-width: 4;
+}
+
+.graph-axis {
+  stroke: #17324d;
+  stroke-linecap: round;
+  stroke-width: 4;
+}
+
+.graph-line {
+  stroke: var(--blue);
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.graph-point {
+  fill: var(--red);
+}
+
+.graph-viz text {
+  fill: var(--text);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.circle-main {
+  fill: #e7f8ef;
+  stroke: var(--green-dark);
+  stroke-width: 5;
+}
+
+.circle-radius,
+.circle-chord,
+.circle-tangent {
+  stroke: #17324d;
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.circle-tangent {
+  stroke: var(--red);
+}
+
+.circle-viz text {
+  fill: var(--text);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.radical-viz,
+.inequality-viz,
+.system-viz {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.radical-viz span,
+.inequality-viz span,
+.system-viz span,
+.system-viz strong {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 12px 14px;
+}
+
+.frequency-viz {
+  display: grid;
+  gap: 8px;
+}
+
+.frequency-viz div {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 90px repeat(3, 1fr);
+}
+
+.frequency-viz strong,
+.frequency-viz span {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+}
+
+.chart-viz {
+  align-items: end;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 52px) 1fr;
+  min-height: 160px;
+}
+
+.chart-viz .bar {
+  background: var(--blue);
+  border-radius: 8px 8px 0 0;
+  min-height: 34px;
+}
+
+.chart-viz .bar:nth-child(2) {
+  background: var(--green);
+}
+
+.chart-viz .bar:nth-child(3) {
+  background: var(--yellow);
+}
+
+.chart-viz strong {
+  align-self: center;
+}
+
+.percent-ring {
+  align-items: center;
+  background: conic-gradient(var(--green) 0 25%, #e0eaf2 25% 100%);
+  border-radius: 50%;
+  display: flex;
+  height: 132px;
+  justify-content: center;
+  margin: 0 auto 10px;
+  width: 132px;
+}
+
+.percent-ring span {
+  align-items: center;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 900;
+  height: 86px;
+  justify-content: center;
+  width: 86px;
+}
+
+.atom-viz,
+.molecule-viz,
+.reaction-viz,
+.periodic-viz,
+.states-viz,
+.acidbase-viz,
+.valence-viz,
+.lab-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.atom-core {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.atom-nucleus {
+  align-items: center;
+  background: radial-gradient(circle, #fff4d7, #f5b942);
+  border: 3px solid #b47b00;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 88px;
+  justify-content: center;
+  width: 88px;
+}
+
+.atom-nucleus span {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.atom-orbit {
+  border: 2px dashed var(--blue);
+  border-radius: 50%;
+  height: 140px;
+  position: relative;
+  width: 140px;
+}
+
+.atom-orbit::after {
+  background: var(--blue);
+  border-radius: 50%;
+  content: "";
+  height: 12px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+}
+
+.molecule-viz {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+
+.atom-ball {
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  display: inline-flex;
+  font-weight: 900;
+  height: 48px;
+  justify-content: center;
+  width: 48px;
+}
+
+.atom-ball.positive {
+  background: var(--red);
+}
+
+.atom-ball.negative {
+  background: var(--blue);
+}
+
+.atom-ball.neutral {
+  background: var(--green);
+}
+
+.bond-line {
+  background: var(--text);
+  border-radius: 2px;
+  height: 4px;
+  width: 36px;
+}
+
+.reaction-viz {
+  text-align: center;
+}
+
+.reaction-row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.reaction-arrow {
+  color: var(--green-dark);
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.reaction-particle {
+  background: #e7f0ff;
+  border: 2px solid var(--blue);
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 10px 14px;
+}
+
+.periodic-grid {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(8, 1fr);
+  max-width: 420px;
+}
+
+.periodic-cell {
+  aspect-ratio: 1;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px;
+  text-align: center;
+}
+
+.periodic-cell.highlight {
+  background: #e7f8ef;
+  border-color: var(--green);
+  color: var(--green-dark);
+}
+
+.states-viz {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.state-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  text-align: center;
+}
+
+.state-card strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.acidbase-viz {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.ph-scale {
+  background: linear-gradient(90deg, var(--red), var(--yellow), var(--green), var(--blue));
+  border-radius: 999px;
+  height: 16px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.valence-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.valence-chips span {
+  background: #e7f8ef;
+  border-radius: 8px;
+  color: var(--green-dark);
+  font-weight: 900;
+  padding: 8px 12px;
+}
+
+.lab-viz {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.lab-item {
+  background: white;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  font-weight: 800;
+  padding: 16px 8px;
+  text-align: center;
+}
+
+.khtn-pillars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.khtn-pillars span {
+  background: #e7f8ef;
+  border-radius: 8px;
+  color: var(--green-dark);
+  font-weight: 900;
+  padding: 10px 14px;
+}
+
+.measure-viz,
+.temperature-viz,
+.substances-viz,
+.oxygen-viz,
+.materials-viz,
+.mixture-viz,
+.separation-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.balance-scale {
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.temp-scale {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.temp-scale span {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  gap: 4px;
+  padding: 14px 18px;
+}
+
+.temp-scale small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.substance-row,
+.mixture-types div {
+  align-items: center;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 12px 14px;
+}
+
+.air-bar {
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  margin: 0 auto 10px;
+  max-width: 360px;
+  overflow: hidden;
+}
+
+.air-bar span:first-child {
+  align-items: center;
+  background: var(--blue);
+  color: white;
+  display: flex;
+  font-size: 12px;
+  font-weight: 900;
+  justify-content: center;
+}
+
+.air-bar span:last-child {
+  align-items: center;
+  background: #e1ebf4;
+  color: var(--text);
+  display: flex;
+  font-size: 12px;
+  font-weight: 900;
+  justify-content: center;
+}
+
+.mixture-types {
+  display: grid;
+  gap: 10px;
+}
+
+.molecule-types-viz,
+.bond-intro-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.bond-intro-viz .molecule-viz {
+  margin-bottom: 8px;
+}
+
+.mole-viz,
+.solution-viz,
+.stoich-viz,
+.catalyst-viz,
+.acid-viz,
+.oxide-viz,
+.salt-viz,
+.fertilizer-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.mole-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 16px 24px;
+}
+
+.mole-card strong {
+  display: block;
+  font-size: 22px;
+}
+
+.mole-card span {
+  color: var(--green-dark);
+  font-weight: 900;
+}
+
+.solution-beaker {
+  background: linear-gradient(180deg, #e7f0ff 60%, #c5dbff 100%);
+  border: 2px solid var(--blue);
+  border-radius: 0 0 12px 12px;
+  font-weight: 900;
+  margin: 0 auto 10px;
+  max-width: 120px;
+  min-height: 80px;
+  padding-top: 36px;
+}
+
+.metal-viz,
+.activity-viz,
+.alloy-viz,
+.nonmetal-viz,
+.alkane-viz,
+.alkene-viz,
+.alcohol-viz,
+.acetic-viz,
+.lipid-viz,
+.glucose-viz,
+.starch-viz,
+.protein-viz,
+.polymer-viz,
+.earth-viz,
+.silicate-viz,
+.carbon-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+/* PhyFlow — Vật lí visualizations */
+.formula-chip {
+  background: #e7f8ef;
+  border-radius: 8px;
+  color: var(--green-dark);
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 4px;
+  padding: 10px 16px;
+}
+
+.ruler-bar {
+  background: linear-gradient(90deg, #fff 0%, #fff 9%, var(--line) 9%, var(--line) 10%);
+  background-size: 10% 100%;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 12px;
+  max-width: 360px;
+  padding: 8px 12px;
+}
+
+.motion-viz,
+.velocity-viz,
+.force-viz,
+.pressure-viz,
+.heat-viz,
+.charge-viz,
+.circuit-viz,
+.ohm-viz,
+.series-viz,
+.parallel-viz,
+.power-viz,
+.magnet-viz,
+.light-viz,
+.sound-viz,
+.simulation-viz,
+.length-viz,
+.time-viz,
+.properties-viz,
+.spring-viz,
+.gravity-viz,
+.friction-viz,
+.drag-viz,
+.energy-viz,
+.energy-forms-viz,
+.energy-transform-viz,
+.energy-waste-viz,
+.renewable-viz,
+.save-energy-viz,
+.sun-motion-viz,
+.moon-viz,
+.solar-system-viz,
+.galaxy-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.motion-track {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.motion-dot {
+  align-items: center;
+  background: var(--green);
+  border-radius: 50%;
+  color: white;
+  display: inline-flex;
+  font-weight: 900;
+  height: 36px;
+  justify-content: center;
+  width: 36px;
+}
+
+.motion-line {
+  background: var(--blue);
+  border-radius: 2px;
+  height: 4px;
+  width: 120px;
+}
+
+.force-diagram {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.force-block {
+  background: #e7f0ff;
+  border: 2px solid var(--blue);
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 16px 24px;
+}
+
+.force-arrow {
+  color: var(--red);
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.heat-flow {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.heat-hot {
+  background: #fff0f2;
+  border-radius: 8px;
+  color: var(--red);
+  font-weight: 900;
+  padding: 12px 18px;
+}
+
+.heat-cold {
+  background: #e7f0ff;
+  border-radius: 8px;
+  color: var(--blue);
+  font-weight: 900;
+  padding: 12px 18px;
+}
+
+.heat-arrow {
+  color: var(--green-dark);
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.charge-pair {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.circuit-diagram {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.circuit-battery,
+.circuit-resistor,
+.circuit-ammeter {
+  background: white;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 10px 14px;
+}
+
+.circuit-resistor {
+  border-color: var(--yellow);
+}
+
+.ohm-formula,
+.ohm-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.ohm-values span {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 8px 12px;
+}
+
+.parallel-branches {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.parallel-branches div {
+  background: white;
+  border: 2px dashed var(--blue);
+  border-radius: 8px;
+  padding: 20px 28px;
+}
+
+.magnet-shape {
+  align-items: center;
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.mag-pole {
+  background: var(--red);
+  border-radius: 8px 0 0 8px;
+  color: white;
+  font-weight: 900;
+  padding: 14px 18px;
+}
+
+.mag-pole:last-child {
+  background: var(--blue);
+  border-radius: 0 8px 8px 0;
+}
+
+.mag-body {
+  background: #e1ebf4;
+  height: 44px;
+  width: 80px;
+}
+
+.light-ray {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.ray-in,
+.ray-out {
+  color: var(--yellow);
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.ray-surface {
+  color: var(--text);
+  font-weight: 900;
+}
+
+.sound-wave svg {
+  max-width: 360px;
+  width: 100%;
+}
+
+.sim-controls {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.sim-controls label {
+  align-items: center;
+  display: flex;
+  font-weight: 750;
+  gap: 10px;
+}
+
+.sim-controls input[type="range"] {
+  flex: 1;
+}
+
+#simCanvas {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 12px;
+  max-width: 100%;
+}
+
+.sim-readout {
+  color: var(--green-dark);
+  font-weight: 850;
+  text-align: center;
+}
+
+.force-arrow.left {
+  color: var(--blue);
+}
+
+.force-arrow.down {
+  display: block;
+}
+
+.spring-row {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.spring-coil {
+  color: var(--green);
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.solar-orbit {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.solar-sun {
+  font-size: 32px;
+}
+
+.solar-planet {
+  font-size: 24px;
+}
+
+.measure-speed-viz,
+.st-graph-viz,
+.traffic-viz,
+.sound-pitch-viz,
+.echo-viz,
+.light-ray-viz,
+.mirror-viz,
+.magnetic-field-viz,
+.electromagnet-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.st-graph-svg {
+  display: block;
+  margin: 0 auto 12px;
+  max-width: 280px;
+}
+
+.mirror-diagram {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.mirror-line {
+  background: linear-gradient(180deg, #c8d8e8, #e8f0f8);
+  border: 2px solid var(--blue);
+  font-weight: 750;
+  padding: 16px 8px;
+}
+
+.density-viz,
+.density-lab-viz,
+.liquid-pressure-viz,
+.archimedes-viz,
+.moment-viz,
+.lever-viz,
+.current-source-viz,
+.current-effects-viz,
+.current-voltage-viz,
+.measure-iu-viz,
+.thermal-energy-viz,
+.joulemeter-viz,
+.heat-transfer-viz,
+.thermal-expansion-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.force-arrow.up {
+  color: var(--green);
+}
+
+.kinetic-energy-viz,
+.mechanical-energy-viz,
+.work-power-viz,
+.refraction-viz,
+.total-reflection-viz,
+.prism-viz,
+.lens-viz,
+.focal-length-viz,
+.magnifier-lens-viz,
+.circuit-mixed-viz,
+.induction-viz,
+.ac-current-viz,
+.energy-cycle-viz {
+  background: #f8fbfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.prism-shape {
+  font-size: 22px;
+  font-weight: 850;
+  margin-bottom: 12px;
+}
+
+.galaxy-spiral {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,2113 @@
+[
+  {
+    "id": "g6_b01",
+    "title": "Bài 1. Giới thiệu về Khoa học tự nhiên",
+    "skill": "g6_b01",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nhận biết ba lĩnh vực KHTN và vai trò Vật lí trong đời sống."
+      },
+      {
+        "type": "visualization",
+        "title": "Vai trò Vật lí",
+        "content": "Vật lí nghiên cứu chuyển động, lực, nhiệt, điện, ánh sáng và âm thanh.",
+        "visualization": "khtn"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Quả bóng rơi, xe chạy, bóng đèn sáng đều liên quan Vật lí."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "KHTN gồm Vật lí, Hóa học, Sinh học."
+      }
+    ]
+  },
+  {
+    "id": "g6_b02",
+    "title": "Bài 2. An toàn trong phòng thực hành",
+    "skill": "g6_b02",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Tuân thủ quy tắc an toàn khi làm thí nghiệm Vật lí – Hóa – Sinh."
+      },
+      {
+        "type": "visualization",
+        "title": "An toàn lab",
+        "content": "Đeo kính bảo hộ; kiểm tra dây điện trước khi đóng nguồn; không chạm tay ướt vào thiết bị.",
+        "visualization": "lab"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Khi dùng nguồn điện một chiều nhỏ, kiểm tra mạch kín trước."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Báo giáo viên ngay khi có sự cố."
+      }
+    ]
+  },
+  {
+    "id": "g6_b05",
+    "title": "Bài 5. Đo chiều dài",
+    "skill": "g6_b05",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dùng thước kẻ, thước dây; đơn vị m, cm, mm và đọc số liệu."
+      },
+      {
+        "type": "visualization",
+        "title": "Đo chiều dài",
+        "content": "Thước kẻ, thước dây; đơn vị m, cm, mm.",
+        "visualization": "length"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đo chiều dài bàn học: l ≈ 1,2 m = 120 cm."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "1 m = 100 cm = 1000 mm."
+      }
+    ]
+  },
+  {
+    "id": "g6_b06",
+    "title": "Bài 6. Đo khối lượng",
+    "skill": "g6_b06",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dùng cân, đơn vị gam và kilogam khi đo trong thí nghiệm Vật lí."
+      },
+      {
+        "type": "visualization",
+        "title": "Cân khối lượng",
+        "content": "Khối lượng đo lượng chất; đơn vị g, kg.",
+        "visualization": "measure"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Quyển vở cân được 200 g = 0,2 kg."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đặt cân trên mặt phẳng, đọc số khi ổn định."
+      }
+    ]
+  },
+  {
+    "id": "g6_b07",
+    "title": "Bài 7. Đo thời gian",
+    "skill": "g6_b07",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dùng đồng hồ, bấm giờ đo thời gian chuyển động và quá trình vật lí."
+      },
+      {
+        "type": "visualization",
+        "title": "Đo thời gian",
+        "content": "Đồng hồ, bấm giờ; đơn vị s, phút, h.",
+        "visualization": "time"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đo thời gian quả bóng lăn từ A đến B: t = 3 s."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "1 h = 60 phút = 3600 s."
+      }
+    ]
+  },
+  {
+    "id": "g6_b08",
+    "title": "Bài 8. Đo nhiệt độ",
+    "skill": "g6_b08",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Đọc nhiệt kế, thang độ C và liên hệ với hiện tượng nhiệt."
+      },
+      {
+        "type": "visualization",
+        "title": "Nhiệt kế",
+        "content": "Nhiệt độ đo mức nóng lạnh; thang độ C.",
+        "visualization": "temperature"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nước sôi khoảng 100°C; nước đá tan ở 0°C."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đọc vạch ngang mực cột thủy ngân."
+      }
+    ]
+  },
+  {
+    "id": "g6_b40",
+    "title": "Bài 40. Lực là gì?",
+    "skill": "g6_b40",
+    "chapter": "Lực trong đời sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Lực là tác dụng làm vật biến dạng hoặc thay đổi chuyển động."
+      },
+      {
+        "type": "visualization",
+        "title": "Khái niệm lực",
+        "content": "Lực là tác dụng cơ học; có thể làm biến dạng hoặc đổi chuyển động.",
+        "visualization": "force"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đẩy xe đạp → xe chuyển động; nén lò xo → lò xo co lại."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Lực là đại lượng vectơ (có phương, chiều)."
+      }
+    ]
+  },
+  {
+    "id": "g6_b41",
+    "title": "Bài 41. Biểu diễn lực",
+    "skill": "g6_b41",
+    "chapter": "Lực trong đời sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Vẽ mũi tên biểu diễn lực: điểm đặt, phương, chiều và độ lớn."
+      },
+      {
+        "type": "visualization",
+        "title": "Biểu diễn lực",
+        "content": "Vẽ mũi tên: điểm đặt tại vật, hướng theo chiều lực, độ dài tỉ lệ độ lớn.",
+        "visualization": "forceVector"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Kéo vật sang phải → mũi tên hướng sang phải từ vật."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Ghi ký hiệu F, đơn vị N (Newton)."
+      }
+    ]
+  },
+  {
+    "id": "g6_b42",
+    "title": "Bài 42. Biến dạng của lò xo",
+    "skill": "g6_b42",
+    "chapter": "Lực trong đời sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Lò xo co giãn khi có lực tác dụng; biến dạng đàn hồi."
+      },
+      {
+        "type": "visualization",
+        "title": "Lò xo",
+        "content": "Lò xo biến dạng khi có lực; trả về hình cũ nếu không vượt giới hạn đàn hồi.",
+        "visualization": "spring"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Treo vật vào lò xo → lò xo giãn; bỏ vật → lò xo co lại."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Biến dạng đàn hồi: hình dạng phục hồi khi bỏ lực."
+      }
+    ]
+  },
+  {
+    "id": "g6_b43",
+    "title": "Bài 43. Trọng lực, lực hấp dẫn",
+    "skill": "g6_b43",
+    "chapter": "Lực trong đời sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Trọng lượng do Trái Đất hút vật; P = m·g (g ≈ 10 N/kg)."
+      },
+      {
+        "type": "visualization",
+        "title": "Trọng lượng",
+        "content": "Trọng lượng P do Trái Đất hút; P = m·g, g ≈ 10 N/kg.",
+        "visualization": "gravity"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Vật 2 kg có trọng lượng P ≈ 20 N."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Trọng lượng ≠ khối lượng (đơn vị khác nhau)."
+      }
+    ]
+  },
+  {
+    "id": "g6_b44",
+    "title": "Bài 44. Lực ma sát",
+    "skill": "g6_b44",
+    "chapter": "Lực trong đời sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Lực ma sát cản chuyển động tương đối giữa hai bề mặt tiếp xúc."
+      },
+      {
+        "type": "visualization",
+        "title": "Lực ma sát",
+        "content": "Xuất hiện khi hai bề mặt tiếp xúc trượt; cản chuyển động tương đối.",
+        "visualization": "friction"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Xe phanh trên đường nhờ lực ma sát giữa lốp và mặt đường."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Ma sát trượt và ma sát nghỉ khác nhau."
+      }
+    ]
+  },
+  {
+    "id": "g6_b45",
+    "title": "Bài 45. Lực cản của nước",
+    "skill": "g6_b45",
+    "chapter": "Lực trong đời sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nước và không khí cản chuyển động; lực cản tăng khi vật đi nhanh hơn."
+      },
+      {
+        "type": "visualization",
+        "title": "Lực cản",
+        "content": "Chất lỏng và khí cản chuyển động của vật đi trong chúng.",
+        "visualization": "drag"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Cá bơi gặp lực cản nước; ô tô gặp lực cản không khí."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Hình dạng trơn giúp giảm lực cản."
+      }
+    ]
+  },
+  {
+    "id": "g6_b46",
+    "title": "Bài 46. Năng lượng và sự truyền năng lượng",
+    "skill": "g6_b46",
+    "chapter": "Năng lượng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Năng lượng truyền từ vật này sang vật khác hoặc qua môi trường."
+      },
+      {
+        "type": "visualization",
+        "title": "Truyền năng lượng",
+        "content": "Năng lượng có thể truyền qua va chạm, dẫn nhiệt, bức xạ.",
+        "visualization": "energy"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Tay chạm cốc nóng → nhiệt truyền sang tay."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Năng lượng không tự sinh ra từ không."
+      }
+    ]
+  },
+  {
+    "id": "g6_b47",
+    "title": "Bài 47. Một số dạng năng lượng",
+    "skill": "g6_b47",
+    "chapter": "Năng lượng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Cơ năng, nhiệt năng, điện năng, quang năng, hóa năng."
+      },
+      {
+        "type": "visualization",
+        "title": "Các dạng năng lượng",
+        "content": "Cơ năng (vật chuyển động/nâng), nhiệt, điện, quang, hóa.",
+        "visualization": "energyForms"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Pin: hóa năng → điện năng; quạt: điện → cơ năng."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Mỗi dạng có ứng dụng riêng."
+      }
+    ]
+  },
+  {
+    "id": "g6_b48",
+    "title": "Bài 48. Sự chuyển hóa năng lượng",
+    "skill": "g6_b48",
+    "chapter": "Năng lượng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Năng lượng chuyển từ dạng này sang dạng khác nhưng bảo toàn."
+      },
+      {
+        "type": "visualization",
+        "title": "Chuyển hóa năng lượng",
+        "content": "Năng lượng chuyển dạng nhưng tổng bảo toàn (trong hệ kín).",
+        "visualization": "energyTransform"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đèn LED: điện năng → quang năng (+ nhiệt)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không có máy sinh năng lượng vô hạn."
+      }
+    ]
+  },
+  {
+    "id": "g6_b49",
+    "title": "Bài 49. Năng lượng hao phí",
+    "skill": "g6_b49",
+    "chapter": "Năng lượng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Một phần năng lượng chuyển thành nhiệt, tiếng ồn, không dùng được."
+      },
+      {
+        "type": "visualization",
+        "title": "Hao phí năng lượng",
+        "content": "Một phần năng lượng thành nhiệt thừa, tiếng ồn, không hữu ích.",
+        "visualization": "energyWaste"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Động cơ xe tỏa nhiệt ra môi trường."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Giảm hao phí = tăng hiệu suất."
+      }
+    ]
+  },
+  {
+    "id": "g6_b50",
+    "title": "Bài 50. Năng lượng tái tạo",
+    "skill": "g6_b50",
+    "chapter": "Năng lượng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Năng lượng mặt trời, gió, thủy điện, sinh khối tái tạo nhanh."
+      },
+      {
+        "type": "visualization",
+        "title": "Năng lượng tái tạo",
+        "content": "Mặt trời, gió, thủy điện, sinh khối tái tạo nhanh hơn than dầu.",
+        "visualization": "renewable"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Pin mặt trời chuyển quang năng thành điện."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Ít làm cạn kiệt nguồn như nhiên liệu hóa thạch."
+      }
+    ]
+  },
+  {
+    "id": "g6_b51",
+    "title": "Bài 51. Tiết kiệm năng lượng",
+    "skill": "g6_b51",
+    "chapter": "Năng lượng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Giảm tiêu thụ, dùng thiết bị tiết kiệm, tái sử dụng nguồn sạch."
+      },
+      {
+        "type": "visualization",
+        "title": "Tiết kiệm năng lượng",
+        "content": "Tắt thiết bị khi không dùng; chọn bóng LED; giảm lãng phí.",
+        "visualization": "saveEnergy"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Rút phích điện thiết bị standby tiết kiệm điện."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Mỗi người đều có thể tiết kiệm năng lượng."
+      }
+    ]
+  },
+  {
+    "id": "g6_b52",
+    "title": "Bài 52. Chuyển động nhìn thấy của Mặt Trời. Thiên thể",
+    "skill": "g6_b52",
+    "chapter": "Trái Đất và bầu trời",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mặt Trời mọc lặn do Trái Đất quay; thiên thể là vật thiên văn."
+      },
+      {
+        "type": "visualization",
+        "title": "Mặt Trời mọc lặn",
+        "content": "Do Trái Đất quay quanh trục; Mặt Trời gần như đứng yên so với Trái Đất.",
+        "visualization": "sunMotion"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Buổi sáng thấy Mặt Trời mọc ở phía đông (ở Bắc bán cầu)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Thiên thể: sao, hành tinh, Mặt Trăng, Mặt Trời..."
+      }
+    ]
+  },
+  {
+    "id": "g6_b53",
+    "title": "Bài 53. Mặt Trăng",
+    "skill": "g6_b53",
+    "chapter": "Trái Đất và bầu trời",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mặt Trăng quay quanh Trái Đất; các pha Mặt Trăng theo chu kì."
+      },
+      {
+        "type": "visualization",
+        "title": "Mặt Trăng",
+        "content": "Vệ tinh tự nhiên quay quanh Trái Đất; pha trăng do vị trí Mặt Trăng – Trái Đất – Mặt Trời.",
+        "visualization": "moon"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Trăng non → trăng khuyết → trăng tròn trong ~29,5 ngày."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Mặt Trăng phản chiếu ánh sáng Mặt Trời."
+      }
+    ]
+  },
+  {
+    "id": "g6_b54",
+    "title": "Bài 54. Hệ Mặt Trời",
+    "skill": "g6_b54",
+    "chapter": "Trái Đất và bầu trời",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mặt Trời, các hành tinh, tiểu hành tinh và sao chổi."
+      },
+      {
+        "type": "visualization",
+        "title": "Hệ Mặt Trời",
+        "content": "Mặt Trời ở trung tâm; 8 hành tinh quay quanh (theo SGK THCS).",
+        "visualization": "solarSystem"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Trái Đất hành tinh thứ 3 từ Mặt Trời."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Sao chổi, tiểu hành tinh cũng thuộc hệ."
+      }
+    ]
+  },
+  {
+    "id": "g6_b55",
+    "title": "Bài 55. Ngân Hà",
+    "skill": "g6_b55",
+    "chapter": "Trái Đất và bầu trời",
+    "source": "Bám mạch SGK Khoa học tự nhiên 6 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Ngân Hà là thiên hà xoắn ốc chứa Hệ Mặt Trời."
+      },
+      {
+        "type": "visualization",
+        "title": "Ngân Hà",
+        "content": "Thiên hà xoắn ốc chứa hàng tỷ sao, trong đó có Mặt Trời.",
+        "visualization": "galaxy"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nhìn dải sáng ban đêm là nhìn vào mặt phẳng Ngân Hà."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Vũ trụ còn nhiều thiên hà khác Ngân Hà."
+      }
+    ]
+  },
+  {
+    "id": "g7_b08",
+    "title": "Bài 8. Tốc độ chuyển động",
+    "skill": "g7_b08",
+    "chapter": "Tốc độ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Khái niệm tốc độ v = s/t; đơn vị m/s, km/h."
+      },
+      {
+        "type": "visualization",
+        "title": "Tốc độ",
+        "content": "Tốc độ v = s/t · v: m/s hoặc km/h.",
+        "visualization": "velocity"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Xe đi 120 km trong 2 h → v = 60 km/h."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Chuyển động nhanh → tốc độ lớn."
+      }
+    ]
+  },
+  {
+    "id": "g7_b09",
+    "title": "Bài 9. Đo tốc độ",
+    "skill": "g7_b09",
+    "chapter": "Tốc độ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Đo quãng đường và thời gian để tính tốc độ trong thí nghiệm."
+      },
+      {
+        "type": "visualization",
+        "title": "Đo tốc độ",
+        "content": "Đo s (m) và t (s), thay vào v = s/t.",
+        "visualization": "measureSpeed"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Bóng lăn 5 m trong 2 s → v = 2,5 m/s."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Lặp đo nhiều lần, lấy trung bình giảm sai số."
+      }
+    ]
+  },
+  {
+    "id": "g7_b10",
+    "title": "Bài 10. Đồ thị quãng đường – thời gian",
+    "skill": "g7_b10",
+    "chapter": "Tốc độ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Đọc và vẽ đồ thị s–t; nhận biết chuyển động đều."
+      },
+      {
+        "type": "visualization",
+        "title": "Đồ thị s–t",
+        "content": "Trục hoành: t (s), trục tung: s (m). Đường thẳng đi qua gốc → chuyển động đều.",
+        "visualization": "stGraph"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Độ dốc đồ thị = tốc độ v."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đọc s tại t = 4 s trên đồ thị."
+      }
+    ]
+  },
+  {
+    "id": "g7_b11",
+    "title": "Bài 11. Ảnh hưởng của tốc độ trong an toàn giao thông",
+    "skill": "g7_b11",
+    "chapter": "Tốc độ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Tốc độ cao tăng quãng đường phanh; tuân thủ luật giao thông."
+      },
+      {
+        "type": "visualization",
+        "title": "An toàn giao thông",
+        "content": "Tốc độ cao → quãng đường phanh dài → nguy hiểm.",
+        "visualization": "traffic"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đội mũ bảo hiểm, đi đúng làn, tuân thủ tốc độ."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không vượt quá tốc độ cho phép."
+      }
+    ]
+  },
+  {
+    "id": "g7_b12",
+    "title": "Bài 12. Sóng âm",
+    "skill": "g7_b12",
+    "chapter": "Âm thanh",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Sóng âm lan truyền qua môi trường elastic; tần số và bước sóng."
+      },
+      {
+        "type": "visualization",
+        "title": "Sóng âm",
+        "content": "Âm là dao động lan truyền qua không khí, nước, vật rắn.",
+        "visualization": "sound"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Gõ trống → không khí rung → tai nghe thấy."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không truyền trong chân không."
+      }
+    ]
+  },
+  {
+    "id": "g7_b13",
+    "title": "Bài 13. Độ to và độ cao của âm",
+    "skill": "g7_b13",
+    "chapter": "Âm thanh",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Biên độ → độ to; tần số → độ cao (cao/trầm)."
+      },
+      {
+        "type": "visualization",
+        "title": "Độ to và độ cao",
+        "content": "Biên độ lớn → âm to; tần số cao → âm cao (trầm thấp).",
+        "visualization": "soundPitch"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Trống lớn gõ mạnh → to; sáo ngắn → cao."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đơn vị tần số: Hz."
+      }
+    ]
+  },
+  {
+    "id": "g7_b14",
+    "title": "Bài 14. Phản xạ âm, chống ô nhiễm tiếng ồn",
+    "skill": "g7_b14",
+    "chapter": "Âm thanh",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Tiếng vọng, phản xạ âm; giảm tiếng ồn trong đời sống."
+      },
+      {
+        "type": "visualization",
+        "title": "Phản xạ âm",
+        "content": "Tiếng vọng: âm phản xạ từ vách, tường, núi.",
+        "visualization": "echo"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Dùng tiếng vọng đo độ sâu biển (sonar)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Giảm ồn: cách âm, cây xanh, quy định giờ yên lặng."
+      }
+    ]
+  },
+  {
+    "id": "g7_b15",
+    "title": "Bài 15. Năng lượng ánh sáng. Tia sáng, vùng tối",
+    "skill": "g7_b15",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Ánh sáng mang quang năng; tia sáng thẳng; bóng tối và bóng đổ."
+      },
+      {
+        "type": "visualization",
+        "title": "Tia sáng và bóng",
+        "content": "Tia sáng đi thẳng; nguồn sáng hẹp → bóng tối sắc nét.",
+        "visualization": "lightRay"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Che nguồn sáng → vùng tối phía sau vật cản."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Ánh sáng là dạng năng lượng."
+      }
+    ]
+  },
+  {
+    "id": "g7_b16",
+    "title": "Bài 16. Sự phản xạ ánh sáng",
+    "skill": "g7_b16",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Định luật phản xạ: góc tới bằng góc phản xạ (so với pháp tuyến)."
+      },
+      {
+        "type": "visualization",
+        "title": "Phản xạ ánh sáng",
+        "content": "Góc tới i = góc phản xạ i′ (đo so với pháp tuyến).",
+        "visualization": "light"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Soi gương thấy ảnh nhờ phản xạ."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Mặt nhẵn phản xạ tốt."
+      }
+    ]
+  },
+  {
+    "id": "g7_b17",
+    "title": "Bài 17. Ảnh của vật qua gương phẳng",
+    "skill": "g7_b17",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Ảnh ảo, cùng kích thước, đối xứng qua gương phẳng."
+      },
+      {
+        "type": "visualization",
+        "title": "Ảnh trong gương",
+        "content": "Ảnh ảo, cùng kích thước vật, đối xứng qua mặt gương.",
+        "visualization": "mirror"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đứng trước gương: khoảng cách ảnh = khoảng cách vật."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Ảnh không thể đặt màn hứng."
+      }
+    ]
+  },
+  {
+    "id": "g7_b18",
+    "title": "Bài 18. Nam châm",
+    "skill": "g7_b18",
+    "chapter": "Từ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nam châm có hai cực N, S; tương tác hút/đẩy."
+      },
+      {
+        "type": "visualization",
+        "title": "Nam châm",
+        "content": "Hút sắt, nikel, coban; cực N–S hút nhau, N–N hoặc S–S đẩy nhau.",
+        "visualization": "magnet"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nam châm thước kẻ chỉ hướng Bắc–Nam."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không tách hai cực riêng lẻ."
+      }
+    ]
+  },
+  {
+    "id": "g7_b19",
+    "title": "Bài 19. Từ trường",
+    "skill": "g7_b19",
+    "chapter": "Từ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Từ trường quanh nam châm; đường sức từ N ra S (ngoài không gian)."
+      },
+      {
+        "type": "visualization",
+        "title": "Từ trường",
+        "content": "Vùng quanh nam châm có từ trường; kim la bàn lệch.",
+        "visualization": "magneticField"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đường sức từ: N → S (ngoài nam châm)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Từ trường vô hình, tác dụng lên nam châm nhỏ."
+      }
+    ]
+  },
+  {
+    "id": "g7_b20",
+    "title": "Bài 20. Chế tạo nam châm điện đơn giản",
+    "skill": "g7_b20",
+    "chapter": "Từ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 7 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dòng điện trong cuộn dây tạo từ trường; nam châm điện."
+      },
+      {
+        "type": "visualization",
+        "title": "Nam châm điện",
+        "content": "Cuộn dây có dòng điện → từ trường; lõi sắt mạnh hơn.",
+        "visualization": "electromagnet"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Cuộn dây quanh đinh thép, đóng mạch → hút pin."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tắt dòng → mất từ tính (nam châm điện)."
+      }
+    ]
+  },
+  {
+    "id": "g8_b13",
+    "title": "Bài 13. Khối lượng riêng",
+    "skill": "g8_b13",
+    "chapter": "Khối lượng riêng và áp suất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Khối lượng riêng D = m/V; đơn vị kg/m³, g/cm³."
+      },
+      {
+        "type": "visualization",
+        "title": "Khối lượng riêng",
+        "content": "D = m/V · D đơn vị kg/m³ hoặc g/cm³.",
+        "visualization": "density"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nhôm D ≈ 2700 kg/m³; nước ≈ 1000 kg/m³."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Vật cùng thể tích, D lớn → nặng hơn."
+      }
+    ]
+  },
+  {
+    "id": "g8_b14",
+    "title": "Bài 14. Thực hành xác định khối lượng riêng",
+    "skill": "g8_b14",
+    "chapter": "Khối lượng riêng và áp suất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Đo khối lượng và thể tích vật rắn, tính D = m/V."
+      },
+      {
+        "type": "visualization",
+        "title": "Xác định D",
+        "content": "Cân m, đo V (thước hoặc cách thủy), tính D = m/V.",
+        "visualization": "densityLab"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Khối lập phương cạnh 2 cm, m = 21,6 g → V = 8 cm³ → D = 2,7 g/cm³."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đổi đơn vị: 1 g/cm³ = 1000 kg/m³."
+      }
+    ]
+  },
+  {
+    "id": "g8_b15",
+    "title": "Bài 15. Áp suất trên một bề mặt",
+    "skill": "g8_b15",
+    "chapter": "Khối lượng riêng và áp suất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Áp suất p = F/S; đơn vị Pa (N/m²)."
+      },
+      {
+        "type": "visualization",
+        "title": "Áp suất",
+        "content": "p = F/S · F vuông góc mặt tiếp xúc.",
+        "visualization": "pressure"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Giày rộng → S lớn → p nhỏ, lún ít hơn."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đơn vị Pa = N/m²."
+      }
+    ]
+  },
+  {
+    "id": "g8_b16",
+    "title": "Bài 16. Áp suất chất lỏng. Áp suất khí quyển",
+    "skill": "g8_b16",
+    "chapter": "Khối lượng riêng và áp suất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "p = ρ·g·h; áp suất khí quyển ≈ 101 325 Pa."
+      },
+      {
+        "type": "visualization",
+        "title": "Áp suất chất lỏng",
+        "content": "p = ρ·g·h; h sâu hơn → p lớn hơn.",
+        "visualization": "liquidPressure"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đập nước sâu chịu áp suất lớn."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Áp suất khí quyển ≈ 1 atm ≈ 101 kPa."
+      }
+    ]
+  },
+  {
+    "id": "g8_b17",
+    "title": "Bài 17. Lực đẩy Archimedes",
+    "skill": "g8_b17",
+    "chapter": "Khối lượng riêng và áp suất",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "F_A = ρ·g·V (vật chìm hoàn toàn); vật nổi khi ρ_vật < ρ_chất lỏng."
+      },
+      {
+        "type": "visualization",
+        "title": "Archimedes",
+        "content": "F_A hướng lên, bằng trọng lượng phần chất lỏng bị vật chiếm chỗ.",
+        "visualization": "archimedes"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Thuyền gỗ nổi vì ρ_gỗ < ρ_nước."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Vật chìm: P > F_A; nổi: P = F_A (cân bằng)."
+      }
+    ]
+  },
+  {
+    "id": "g8_b18",
+    "title": "Bài 18. Tác dụng làm quay của lực. Moment lực",
+    "skill": "g8_b18",
+    "chapter": "Tác dụng làm quay của lực",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Moment lực M = F·d; đơn vị N·m."
+      },
+      {
+        "type": "visualization",
+        "title": "Moment lực",
+        "content": "M = F·d (d là cánh tay đòn vuông góc lực).",
+        "visualization": "moment"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Mở cửa: đẩy xa bản lề → d lớn → dễ quay."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đơn vị N·m."
+      }
+    ]
+  },
+  {
+    "id": "g8_b19",
+    "title": "Bài 19. Đòn bẩy và ứng dụng",
+    "skill": "g8_b19",
+    "chapter": "Tác dụng làm quay của lực",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Đòn bẩy cân bằng khi F₁·d₁ = F₂·d₂."
+      },
+      {
+        "type": "visualization",
+        "title": "Đòn bẩy",
+        "content": "Cân bằng: F₁·d₁ = F₂·d₂.",
+        "visualization": "lever"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Kìm cắt: lực nhỏ ở tay cầm tạo lực lớn ở đầu cắt."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đòn bẩy lợi thế: tiết kiệm lực."
+      }
+    ]
+  },
+  {
+    "id": "g8_b20",
+    "title": "Bài 20. Hiện tượng nhiễm điện do cọ xát",
+    "skill": "g8_b20",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Cọ xát làm vật mang điện tích; điện tích dương, âm."
+      },
+      {
+        "type": "visualization",
+        "title": "Nhiễm điện",
+        "content": "Cọ xát → electron chuyển → vật dư/thiếu electron.",
+        "visualization": "charge"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Thước nhựa cọ áo len → hút giấy nhẹ."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Điện tích cùng loại đẩy, khác loại hút."
+      }
+    ]
+  },
+  {
+    "id": "g8_b21",
+    "title": "Bài 21. Dòng điện, nguồn điện",
+    "skill": "g8_b21",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dòng điện là dòng điện tích có hướng; nguồn điện duy trì hiệu điện thế."
+      },
+      {
+        "type": "visualization",
+        "title": "Dòng điện",
+        "content": "Dòng điện tích có hướng; trong kim loại chủ yếu electron.",
+        "visualization": "currentSource"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Pin cung cấp nguồn; dòng chạy từ + → − qua mạch ngoài."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không có nguồn → không có dòng lâu dài."
+      }
+    ]
+  },
+  {
+    "id": "g8_b22",
+    "title": "Bài 22. Mạch điện đơn giản",
+    "skill": "g8_b22",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mạch kín: nguồn, dây dẫn, tải; dòng chạy kín."
+      },
+      {
+        "type": "visualization",
+        "title": "Mạch kín",
+        "content": "Mạch kín gồm nguồn, dây, tải (đèn, điện trở).",
+        "visualization": "circuit"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Công tắc đóng → mạch kín → đèn sáng."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Mạch hở → không có dòng."
+      }
+    ]
+  },
+  {
+    "id": "g8_b23",
+    "title": "Bài 23. Tác dụng của dòng điện",
+    "skill": "g8_b23",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dòng điện tỏa nhiệt, tác dụng từ, tác dụng quang (đèn)."
+      },
+      {
+        "type": "visualization",
+        "title": "Tác dụng dòng điện",
+        "content": "Tỏa nhiệt (bóng đèn), từ (nam châm điện), quang (LED).",
+        "visualization": "currentEffects"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Dây điện quá tải → nóng → cháy."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Không chạm tay ướt vào thiết bị điện."
+      }
+    ]
+  },
+  {
+    "id": "g8_b24",
+    "title": "Bài 24. Cường độ dòng điện và hiệu điện thế",
+    "skill": "g8_b24",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "I đo bằng A; U đo bằng V; ampe kế mắc tiếp, vôn kế mắc song song."
+      },
+      {
+        "type": "visualization",
+        "title": "I và U",
+        "content": "I (A): lượng điện tích qua mặt cắt/giây. U (V): hiệu thế giữa hai điểm.",
+        "visualization": "currentVoltage"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Ampe kế mắc tiếp; vôn kế mắc song song tải."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "1 A = 1 C/s."
+      }
+    ]
+  },
+  {
+    "id": "g8_b25",
+    "title": "Bài 25. Thực hành đo cường độ dòng điện và hiệu điện thế",
+    "skill": "g8_b25",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mắc ampe kế tiếp, vôn kế song song tải; đọc số liệu an toàn."
+      },
+      {
+        "type": "visualization",
+        "title": "Đo I, U",
+        "content": "Kiểm tra cực ampe kế (+ nối về + nguồn); vôn kế song song.",
+        "visualization": "measureIU"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đo U pin ≈ 1,5 V; I bóng đèn nhỏ vài mA–A."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đóng mạch sau khi mắc đúng."
+      }
+    ]
+  },
+  {
+    "id": "g8_b26",
+    "title": "Bài 26. Năng lượng nhiệt và nội năng",
+    "skill": "g8_b26",
+    "chapter": "Nhiệt",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nội năng phụ thuộc nhiệt độ; nhiệt lượng Q truyền làm đổi nội năng."
+      },
+      {
+        "type": "visualization",
+        "title": "Nội năng",
+        "content": "Nội năng liên quan chuyển động hỗn loạn phân tử; nhiệt độ cao → nội năng lớn.",
+        "visualization": "thermalEnergy"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nước sôi: nội năng tăng, nhiệt độ không đổi (đang hóa hơi)."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Nhiệt lượng Q truyền vào → nội năng tăng (hoặc đổi thể)."
+      }
+    ]
+  },
+  {
+    "id": "g8_b27",
+    "title": "Bài 27. Thực hành đo năng lượng nhiệt bằng joulemeter",
+    "skill": "g8_b27",
+    "chapter": "Nhiệt",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Joulemeter đo năng lượng điện chuyển thành nhiệt."
+      },
+      {
+        "type": "visualization",
+        "title": "Joulemeter",
+        "content": "Đo năng lượng điện E = U·I·t chuyển thành nhiệt.",
+        "visualization": "joulemeter"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Đun nước bằng điện trở: E càng lớn → nước nóng hơn."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đơn vị năng lượng: J (Joule)."
+      }
+    ]
+  },
+  {
+    "id": "g8_b28",
+    "title": "Bài 28. Sự truyền nhiệt",
+    "skill": "g8_b28",
+    "chapter": "Nhiệt",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dẫn nhiệt, đối lưu, bức xạ nhiệt."
+      },
+      {
+        "type": "visualization",
+        "title": "Truyền nhiệt",
+        "content": "Dẫn nhiệt (kim loại), đối lưu (chất lỏng/khí), bức xạ (Mặt Trời).",
+        "visualization": "heatTransfer"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Muỗng kim loại trong nồi nóng → dẫn nhiệt."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Nhiệt từ vật nóng sang vật lạnh."
+      }
+    ]
+  },
+  {
+    "id": "g8_b29",
+    "title": "Bài 29. Sự nở vì nhiệt",
+    "skill": "g8_b29",
+    "chapter": "Nhiệt",
+    "source": "Bám mạch SGK Khoa học tự nhiên 8 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Vật nở khi nóng lên: nở dài, nở thể tích."
+      },
+      {
+        "type": "visualization",
+        "title": "Nở vì nhiệt",
+        "content": "Vật nở dài, nở thể tích khi nóng lên.",
+        "visualization": "thermalExpansion"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Khe hở trên cầu sắt cho nở nhiệt."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Nở dài: Δl = l₀·α·Δt (α hệ số nở)."
+      }
+    ]
+  },
+  {
+    "id": "g9_b02",
+    "title": "Bài 2. Động năng. Thế năng",
+    "skill": "g9_b02",
+    "chapter": "Năng lượng cơ học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Động năng Wđ = ½mv²; thế năng Wt = mgh (g ≈ 10 N/kg)."
+      },
+      {
+        "type": "visualization",
+        "title": "Động năng và thế năng",
+        "content": "Wđ = ½mv² · Wt = mgh.",
+        "visualization": "kineticEnergy"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Vật rơi: thế năng giảm, động năng tăng."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đơn vị năng lượng: J (Joule)."
+      }
+    ]
+  },
+  {
+    "id": "g9_b03",
+    "title": "Bài 3. Cơ năng",
+    "skill": "g9_b03",
+    "chapter": "Năng lượng cơ học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Cơ năng = động năng + thế năng; bảo toàn cơ năng (không ma sát)."
+      },
+      {
+        "type": "visualization",
+        "title": "Bảo toàn cơ năng",
+        "content": "Wc = Wđ + Wt; không ma sát thì Wc không đổi.",
+        "visualization": "mechanicalEnergy"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Con lắc lý tưởng: điểm cao nhất Wđ=0, điểm thấp nhất Wt=0."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Ma sát → cơ năng giảm thành nhiệt."
+      }
+    ]
+  },
+  {
+    "id": "g9_b04",
+    "title": "Bài 4. Công và công suất",
+    "skill": "g9_b04",
+    "chapter": "Năng lượng cơ học",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Công A = F·s; công suất P = A/t; đơn vị J và W."
+      },
+      {
+        "type": "visualization",
+        "title": "Công và công suất",
+        "content": "A = F·s (J) · P = A/t (W).",
+        "visualization": "workPower"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Nâng vật 10 N lên 2 m: A = 20 J."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "1 kW = 1000 W."
+      }
+    ]
+  },
+  {
+    "id": "g9_b05",
+    "title": "Bài 5. Khúc xạ ánh sáng",
+    "skill": "g9_b05",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Ánh sáng đổi hướng qua mặt phân cách hai môi trường."
+      },
+      {
+        "type": "visualization",
+        "title": "Khúc xạ",
+        "content": "Tia tới, tia khúc xạ, pháp tuyến; n₁sin i = n₂sin r.",
+        "visualization": "refraction"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Que trong nước trông gãy do khúc xạ."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Từ không khí vào nước: hướng về pháp tuyến."
+      }
+    ]
+  },
+  {
+    "id": "g9_b06",
+    "title": "Bài 6. Phản xạ toàn phần",
+    "skill": "g9_b06",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Góc tới lớn → khúc xạ 90° → phản xạ toàn phần."
+      },
+      {
+        "type": "visualization",
+        "title": "Phản xạ toàn phần",
+        "content": "Khi góc tới > góc tới hạn → phản xạ toàn phần.",
+        "visualization": "totalReflection"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Sợi quang truyền nhờ phản xạ toàn phần."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Góc tới hạn phụ thuộc n₁, n₂."
+      }
+    ]
+  },
+  {
+    "id": "g9_b07",
+    "title": "Bài 7. Lăng kính",
+    "skill": "g9_b07",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Lăng kính tách sáng trắng thành quang phổ; khúc xạ qua mặt nghiêng."
+      },
+      {
+        "type": "visualization",
+        "title": "Lăng kính",
+        "content": "Khúc xạ qua lăng kính tách sáng trắng.",
+        "visualization": "prism"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Cầu vồng: khúc xạ và phản xạ trong giọt nước."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Chiết suất khác nhau → tia lệch khác nhau."
+      }
+    ]
+  },
+  {
+    "id": "g9_b08",
+    "title": "Bài 8. Thấu kính",
+    "skill": "g9_b08",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Thấu kính hội tụ và phân kỳ; tiêu điểm F, tiêu cự f."
+      },
+      {
+        "type": "visualization",
+        "title": "Thấu kính",
+        "content": "Hội tụ: dày giữa; phân kỳ: mỏng giữa; F là tiêu điểm.",
+        "visualization": "lens"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Kính đeo cận là thấu kính hội tụ."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tiêu cự f đo bằng mét (m)."
+      }
+    ]
+  },
+  {
+    "id": "g9_b09",
+    "title": "Bài 9. Thực hành đo tiêu cự thấu kính hội tụ",
+    "skill": "g9_b09",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Phương pháp vật xa/vật gần hoặc bài B để tính f."
+      },
+      {
+        "type": "visualization",
+        "title": "Đo tiêu cự",
+        "content": "Vật xa: 1/f ≈ 1/s + 1/s′; hoặc dùng bài B.",
+        "visualization": "focalLength"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Thấu kính hội tụ f > 0; phân kỳ f < 0."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đo nhiều lần, lấy trung bình."
+      }
+    ]
+  },
+  {
+    "id": "g9_b10",
+    "title": "Bài 10. Kính lúp. Bài tập thấu kính",
+    "skill": "g9_b10",
+    "chapter": "Ánh sáng",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Kính lúp là thấu kính hội tụ; ảnh ảo phóng đại khi vật trong tiêu cự."
+      },
+      {
+        "type": "visualization",
+        "title": "Kính lúp",
+        "content": "Kính lúp = thấu kính hội tụ; vật trong tiêu cự → ảnh ảo phóng đại.",
+        "visualization": "magnifierLens"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Độ phóng đại G ≈ khoảng cách mắt / f."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Dùng quan sát chi tiết nhỏ."
+      }
+    ]
+  },
+  {
+    "id": "g9_b11",
+    "title": "Bài 11. Điện trở. Định luật Ohm",
+    "skill": "g9_b11",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "I = U/R; đơn vị Ω, V, A."
+      },
+      {
+        "type": "simulation",
+        "title": "Mô phỏng trực quan",
+        "content": "Kéo thanh trượt U và R để quan sát dòng điện thay đổi theo Định luật Ohm.",
+        "visualization": "ohm",
+        "simulation": "ohm",
+        "voltage": 12,
+        "resistance": 6
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "U = 12 V, R = 4 Ω → I = 3 A."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Điện trở cản dòng điện."
+      }
+    ]
+  },
+  {
+    "id": "g9_b12",
+    "title": "Bài 12. Đoạn mạch nối tiếp, song song",
+    "skill": "g9_b12",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nối tiếp: Rt = R1+R2, cùng I. Song song: 1/Rt = 1/R1+1/R2, cùng U."
+      },
+      {
+        "type": "visualization",
+        "title": "Mạch hỗn hợp",
+        "content": "Nối tiếp: Rt = R1+R2. Song song: 1/Rt = 1/R1+1/R2.",
+        "visualization": "circuitMixed"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "R1=2Ω, R2=3Ω nối tiếp → Rt=5Ω."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Song song: cùng U, dòng nhánh cộng lại."
+      }
+    ]
+  },
+  {
+    "id": "g9_b13",
+    "title": "Bài 13. Năng lượng của dòng điện và công suất điện",
+    "skill": "g9_b13",
+    "chapter": "Điện",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "P = U·I; điện năng W = P·t; kW·h."
+      },
+      {
+        "type": "visualization",
+        "title": "Công suất điện",
+        "content": "P = U·I · W = P·t · 1 kW·h = 3,6·10⁶ J.",
+        "visualization": "power"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Bóng 60 W bật 2 h → W = 0,12 kW·h."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Tiết kiệm điện giảm chi phí."
+      }
+    ]
+  },
+  {
+    "id": "g9_b14",
+    "title": "Bài 14. Cảm ứng điện từ. Nguyên tắc tạo dòng điện xoay chiều",
+    "skill": "g9_b14",
+    "chapter": "Điện từ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Nam châm và cuộn dây chuyển động tương đối → dòng cảm ứng."
+      },
+      {
+        "type": "visualization",
+        "title": "Cảm ứng điện từ",
+        "content": "Cuộn dây và nam châm chuyển động tương đối → dòng cảm ứng.",
+        "visualization": "induction"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Máy phát điện: quay cuộn dây trong từ trường."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Nguyên tắc máy biến áp."
+      }
+    ]
+  },
+  {
+    "id": "g9_b15",
+    "title": "Bài 15. Tác dụng của dòng điện xoay chiều",
+    "skill": "g9_b15",
+    "chapter": "Điện từ",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Dòng xoay chiều đổi chiều theo chu kì; máy phát, truyền tải điện."
+      },
+      {
+        "type": "visualization",
+        "title": "Dòng xoay chiều",
+        "content": "Dòng đổi chiều theo thời gian; tần số 50 Hz (Việt Nam).",
+        "visualization": "acCurrent"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Động cơ điện, bếp từ dùng dòng xoay chiều."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Khác dòng một chiều từ pin."
+      }
+    ]
+  },
+  {
+    "id": "g9_b16",
+    "title": "Bài 16. Vòng năng lượng trên Trái Đất. Năng lượng hóa thạch",
+    "skill": "g9_b16",
+    "chapter": "Năng lượng với cuộc sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Năng lượng Mặt Trời → sinh vật → hóa thạch; chu trình carbon."
+      },
+      {
+        "type": "visualization",
+        "title": "Vòng năng lượng",
+        "content": "Năng lượng Mặt Trời → quang hợp → hóa thạch sau hàng triệu năm.",
+        "visualization": "energyCycle"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Than, dầu là năng lượng hóa thạch."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Đốt hóa thạch tạo CO₂."
+      }
+    ]
+  },
+  {
+    "id": "g9_b17",
+    "title": "Bài 17. Một số dạng năng lượng tái tạo",
+    "skill": "g9_b17",
+    "chapter": "Năng lượng với cuộc sống",
+    "source": "Bám mạch SGK Khoa học tự nhiên 9 – Kết nối tri thức với cuộc sống (mạch Vật lí), nội dung tự biên soạn.",
+    "xp": 50,
+    "steps": [
+      {
+        "type": "intro",
+        "title": "Mục tiêu vi kỹ năng",
+        "content": "Mặt trời, gió, thủy điện, sinh khối; giảm phát thải CO₂."
+      },
+      {
+        "type": "visualization",
+        "title": "Năng lượng tái tạo",
+        "content": "Mặt trời, gió, thủy điện, sinh khối tái tạo nhanh.",
+        "visualization": "renewable"
+      },
+      {
+        "type": "example",
+        "title": "Ví dụ từ SGK",
+        "content": "Pin mặt trời giảm phụ thuộc hóa thạch."
+      },
+      {
+        "type": "summary",
+        "title": "Ghi nhớ nhanh",
+        "content": "Bảo vệ môi trường và bền vững."
+      }
+    ]
+  }
+]

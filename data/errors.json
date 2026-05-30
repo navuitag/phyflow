@@ -1,0 +1,416 @@
+[
+  {
+    "pattern": "uoc",
+    "skill": "g6_b02",
+    "errorType": "safety_error",
+    "title": "Chạm tay ướt vào điện",
+    "message": "Không chạm tay ướt vào dây điện hoặc thiết bị đang cắm.",
+    "hint": "Rút phích và báo giáo viên.",
+    "recommendation": "g6_b02"
+  },
+  {
+    "pattern": "1000 cm",
+    "skill": "g6_b05",
+    "errorType": "unit_error",
+    "title": "Nhầm đổi m và cm",
+    "message": "1 m = 100 cm, không phải 1000 cm.",
+    "hint": "1 m = 100 cm = 1000 mm.",
+    "recommendation": "g6_b05"
+  },
+  {
+    "pattern": "n",
+    "skill": "g6_b06",
+    "errorType": "unit_error",
+    "title": "Nhầm khối lượng và lực",
+    "message": "Khối lượng đo bằng kg/g; Newton (N) là đơn vị lực.",
+    "hint": "Trọng lượng mới có đơn vị N.",
+    "recommendation": "g6_b06"
+  },
+  {
+    "pattern": "3600 phut",
+    "skill": "g6_b07",
+    "errorType": "unit_error",
+    "title": "Nhầm đổi giờ và phút",
+    "message": "1 giờ = 60 phút, không phải 3600 phút.",
+    "hint": "3600 giây = 1 giờ.",
+    "recommendation": "g6_b07"
+  },
+  {
+    "pattern": "0",
+    "skill": "g6_b08",
+    "errorType": "temp_error",
+    "title": "Nhầm nóng chảy và sôi",
+    "message": "0°C là nóng chảy băng, không phải sôi nước.",
+    "hint": "Sôi nước khoảng 100°C.",
+    "recommendation": "g6_b08"
+  },
+  {
+    "pattern": "j",
+    "skill": "g6_b40",
+    "errorType": "unit_error",
+    "title": "Nhầm đơn vị lực",
+    "message": "Lực đo bằng N (Newton), không phải J (Joule).",
+    "hint": "J là đơn vị năng lượng/công.",
+    "recommendation": "g6_b40"
+  },
+  {
+    "pattern": "kg",
+    "skill": "g6_b43",
+    "errorType": "concept_error",
+    "title": "Nhầm khối lượng và trọng lượng",
+    "message": "Khối lượng m (kg) khác trọng lượng P (N).",
+    "hint": "P = m·g.",
+    "recommendation": "g6_b43"
+  },
+  {
+    "pattern": "p=m/g",
+    "skill": "g6_b43",
+    "errorType": "formula_error",
+    "title": "Sai công thức trọng lượng",
+    "message": "P = m·g, không phải m/g.",
+    "hint": "g ≈ 10 N/kg.",
+    "recommendation": "g6_b43"
+  },
+  {
+    "pattern": "nhanh hon",
+    "skill": "g6_b44",
+    "errorType": "concept_error",
+    "title": "Ma sát luôn tăng tốc",
+    "message": "Ma sát trượt thường cản chuyển động.",
+    "hint": "Ma sát có thể có lợi (phanh xe).",
+    "recommendation": "g6_b44"
+  },
+  {
+    "pattern": "mat di",
+    "skill": "g6_b48",
+    "errorType": "concept_error",
+    "title": "Năng lượng mất hoàn toàn",
+    "message": "Năng lượng chuyển dạng, không tự mất trong hệ kín.",
+    "hint": "Một phần thành nhiệt hao phí.",
+    "recommendation": "g6_b48"
+  },
+  {
+    "pattern": "than",
+    "skill": "g6_b50",
+    "errorType": "concept_error",
+    "title": "Nhầm tái tạo và hóa thạch",
+    "message": "Than đá là nhiên liệu hóa thạch, không tái tạo nhanh.",
+    "hint": "Mặt trời, gió là tái tạo.",
+    "recommendation": "g6_b50"
+  },
+  {
+    "pattern": "mat troi quay",
+    "skill": "g6_b52",
+    "errorType": "concept_error",
+    "title": "Nhầm chuyển động Mặt Trời",
+    "message": "Mặt Trời mọc lặn do Trái Đất quay, không phải Mặt Trời quanh Trái Đất.",
+    "hint": "Trái Đất quay quanh trục.",
+    "recommendation": "g6_b52"
+  },
+  {
+    "pattern": "tu sang",
+    "skill": "g6_b53",
+    "errorType": "concept_error",
+    "title": "Mặt Trăng tự phát sáng",
+    "message": "Mặt Trăng phản chiếu ánh sáng Mặt Trời.",
+    "hint": "Pha trăng do góc chiếu sáng.",
+    "recommendation": "g6_b53"
+  },
+  {
+    "pattern": "mat trang",
+    "skill": "g6_b54",
+    "errorType": "concept_error",
+    "title": "Nhầm vệ tinh và hành tinh",
+    "message": "Mặt Trăng là vệ tinh; Trái Đất là hành tinh.",
+    "hint": "Hành tinh quay quanh Mặt Trời.",
+    "recommendation": "g6_b54"
+  },
+  {
+    "pattern": "t/s",
+    "skill": "g7_b08",
+    "errorType": "formula_error",
+    "title": "Sai công thức tốc độ",
+    "message": "v = s/t, không phải t/s.",
+    "hint": "Quãng đường chia thời gian.",
+    "recommendation": "g7_b08"
+  },
+  {
+    "pattern": "km",
+    "skill": "g7_b08",
+    "errorType": "unit_error",
+    "title": "Nhầm đơn vị",
+    "message": "m/s là SI; km/h cần đổi khi tính toán hỗn hợp.",
+    "hint": "1 m/s = 3,6 km/h.",
+    "recommendation": "g7_b08"
+  },
+  {
+    "pattern": "s=t",
+    "skill": "g7_b10",
+    "errorType": "graph_error",
+    "title": "Nhầm trục đồ thị",
+    "message": "Trục hoành thường là t, trục tung là s.",
+    "hint": "Đọc nhãn trục trước.",
+    "recommendation": "g7_b10"
+  },
+  {
+    "pattern": "tan so",
+    "skill": "g7_b13",
+    "errorType": "concept_error",
+    "title": "Nhầm độ to và độ cao",
+    "message": "Biên độ → to/nhỏ; tần số → cao/trầm.",
+    "hint": "Gõ mạnh → biên độ lớn.",
+    "recommendation": "g7_b13"
+  },
+  {
+    "pattern": "phan xa anh sang",
+    "skill": "g7_b14",
+    "errorType": "concept_error",
+    "title": "Nhầm phản xạ âm và ánh sáng",
+    "message": "Tiếng vọng là phản xạ âm, không phải ánh sáng.",
+    "hint": "Sonar dùng sóng âm.",
+    "recommendation": "g7_b14"
+  },
+  {
+    "pattern": "gap doi",
+    "skill": "g7_b16",
+    "errorType": "concept_error",
+    "title": "Sai định luật phản xạ",
+    "message": "Góc tới bằng góc phản xạ, không gấp đôi.",
+    "hint": "Đo so với pháp tuyến.",
+    "recommendation": "g7_b16"
+  },
+  {
+    "pattern": "that",
+    "skill": "g7_b17",
+    "errorType": "concept_error",
+    "title": "Nhầm ảnh thật và ảo",
+    "message": "Gương phẳng cho ảnh ảo.",
+    "hint": "Ảnh thật hứng được trên màn.",
+    "recommendation": "g7_b17"
+  },
+  {
+    "pattern": "dong",
+    "skill": "g7_b18",
+    "errorType": "concept_error",
+    "title": "Nhầm kim loại hút nam châm",
+    "message": "Đồng, nhôm không bị nam châm hút mạnh như sắt.",
+    "hint": "Sắt, nikel, coban.",
+    "recommendation": "g7_b18"
+  },
+  {
+    "pattern": "s ra n",
+    "skill": "g7_b19",
+    "errorType": "concept_error",
+    "title": "Sai chiều đường sức từ",
+    "message": "Ngoài nam châm: N → S.",
+    "hint": "Trong nam châm: S → N.",
+    "recommendation": "g7_b19"
+  },
+  {
+    "pattern": "vinh cuu",
+    "skill": "g7_b20",
+    "errorType": "concept_error",
+    "title": "Nhầm nam châm điện và vĩnh cửu",
+    "message": "Nam châm điện mất từ khi cắt dòng.",
+    "hint": "Cần dòng điện liên tục.",
+    "recommendation": "g7_b20"
+  },
+  {
+    "pattern": "v/m",
+    "skill": "g8_b13",
+    "errorType": "formula_error",
+    "title": "Sai công thức khối lượng riêng",
+    "message": "D = m/V, không phải V/m.",
+    "hint": "Khối lượng chia thể tích.",
+    "recommendation": "g8_b13"
+  },
+  {
+    "pattern": "f*s",
+    "skill": "g8_b15",
+    "errorType": "formula_error",
+    "title": "Sai công thức áp suất",
+    "message": "p = F/S, không phải F×S.",
+    "hint": "Chia lực cho diện tích.",
+    "recommendation": "g8_b15"
+  },
+  {
+    "pattern": "p=m/v",
+    "skill": "g8_b16",
+    "errorType": "formula_error",
+    "title": "Nhầm công thức áp suất chất lỏng",
+    "message": "p = ρ·g·h, không phải m/V.",
+    "hint": "ρ là khối lượng riêng chất lỏng.",
+    "recommendation": "g8_b16"
+  },
+  {
+    "pattern": "xuong",
+    "skill": "g8_b17",
+    "errorType": "concept_error",
+    "title": "Sai hướng Archimedes",
+    "message": "F_A hướng lên, ngược trọng lực.",
+    "hint": "F_A = ρ·g·V (phần chìm).",
+    "recommendation": "g8_b17"
+  },
+  {
+    "pattern": "f/d",
+    "skill": "g8_b18",
+    "errorType": "formula_error",
+    "title": "Sai moment lực",
+    "message": "M = F·d, không phải F/d.",
+    "hint": "d vuông góc lực.",
+    "recommendation": "g8_b18"
+  },
+  {
+    "pattern": "proton",
+    "skill": "g8_b20",
+    "errorType": "concept_error",
+    "title": "Nhầm nhiễm điện",
+    "message": "Cọ xát chủ yếu chuyển electron.",
+    "hint": "Electron dễ di chuyển hơn trong vật.",
+    "recommendation": "g8_b20"
+  },
+  {
+    "pattern": "song song",
+    "skill": "g8_b24",
+    "errorType": "circuit_error",
+    "title": "Mắc sai ampe kế",
+    "message": "Ampe kế mắc tiếp, không song song.",
+    "hint": "Vôn kế mới song song tải.",
+    "recommendation": "g8_b24"
+  },
+  {
+    "pattern": "tiếp",
+    "skill": "g8_b24",
+    "errorType": "circuit_error",
+    "title": "Mắc sai vôn kế",
+    "message": "Vôn kế mắc song song, không tiếp mạch.",
+    "hint": "Đo U hai đầu tải.",
+    "recommendation": "g8_b24"
+  },
+  {
+    "pattern": "nhiet do",
+    "skill": "g8_b26",
+    "errorType": "concept_error",
+    "title": "Nhầm nhiệt và nhiệt độ",
+    "message": "Nhiệt lượng Q khác nhiệt độ.",
+    "hint": "Nội năng liên quan nhiệt độ.",
+    "recommendation": "g8_b26"
+  },
+  {
+    "pattern": "lanh sang nong",
+    "skill": "g8_b28",
+    "errorType": "concept_error",
+    "title": "Sai chiều truyền nhiệt",
+    "message": "Nhiệt từ vật nóng sang vật lạnh.",
+    "hint": "Không tự chuyển ngược.",
+    "recommendation": "g8_b28"
+  },
+  {
+    "pattern": "co lai",
+    "skill": "g8_b29",
+    "errorType": "concept_error",
+    "title": "Sai nở vì nhiệt",
+    "message": "Vật thường nở khi nóng lên.",
+    "hint": "Trừ một số trường hợp đặc biệt (nước 0–4°C).",
+    "recommendation": "g8_b29"
+  },
+  {
+    "pattern": "mgh",
+    "skill": "g9_b02",
+    "errorType": "concept_error",
+    "title": "Nhầm động và thế năng",
+    "message": "Wđ = ½mv²; Wt = mgh.",
+    "hint": "Xem vật đang chuyển động hay ở độ cao.",
+    "recommendation": "g9_b02"
+  },
+  {
+    "pattern": "mat",
+    "skill": "g9_b03",
+    "errorType": "concept_error",
+    "title": "Cơ năng mất hoàn toàn",
+    "message": "Không ma sát: cơ năng bảo toàn, chỉ đổi dạng.",
+    "hint": "Ma sát → nhiệt.",
+    "recommendation": "g9_b03"
+  },
+  {
+    "pattern": "f/s",
+    "skill": "g9_b04",
+    "errorType": "formula_error",
+    "title": "Sai công thức công",
+    "message": "A = F·s, không phải F/s.",
+    "hint": "Công = lực × quãng đường.",
+    "recommendation": "g9_b04"
+  },
+  {
+    "pattern": "u/i",
+    "skill": "g9_b11",
+    "errorType": "formula_error",
+    "title": "Sai Định luật Ohm",
+    "message": "I = U/R, không phải U/I.",
+    "hint": "I tỉ lệ U, nghịch R.",
+    "recommendation": "g9_b11"
+  },
+  {
+    "pattern": "48",
+    "skill": "g9_b11",
+    "errorType": "logic_error",
+    "title": "Nhân thay vì chia",
+    "message": "I = U/R = 12/4 = 3 A.",
+    "hint": "Chia U cho R.",
+    "recommendation": "g9_b11"
+  },
+  {
+    "pattern": "r1+r2",
+    "skill": "g9_b12",
+    "errorType": "concept_error",
+    "title": "Nhầm nối tiếp và song song",
+    "message": "R1+R2 chỉ đúng nối tiếp.",
+    "hint": "Song song: 1/Rt = 1/R1 + 1/R2.",
+    "recommendation": "g9_b12"
+  },
+  {
+    "pattern": "p=u/i",
+    "skill": "g9_b13",
+    "errorType": "formula_error",
+    "title": "Sai công thức công suất",
+    "message": "P = U·I, không phải U/I.",
+    "hint": "P đo bằng W.",
+    "recommendation": "g9_b13"
+  },
+  {
+    "pattern": "phan xa",
+    "skill": "g9_b05",
+    "errorType": "concept_error",
+    "title": "Nhầm khúc xạ và phản xạ",
+    "message": "Que gãy trong nước là khúc xạ.",
+    "hint": "Phản xạ: góc tới = góc phản xạ.",
+    "recommendation": "g9_b05"
+  },
+  {
+    "pattern": "mo giua",
+    "skill": "g9_b08",
+    "errorType": "concept_error",
+    "title": "Nhầm hội tụ và phân kỳ",
+    "message": "Hội tụ dày giữa; phân kỳ mỏng giữa.",
+    "hint": "Nhìn hình thấu kính.",
+    "recommendation": "g9_b08"
+  },
+  {
+    "pattern": "nhiem dien",
+    "skill": "g9_b14",
+    "errorType": "concept_error",
+    "title": "Nhầm cảm ứng và nhiễm điện",
+    "message": "Cảm ứng cần chuyển động tương đối.",
+    "hint": "Máy phát dùng cảm ứng.",
+    "recommendation": "g9_b14"
+  },
+  {
+    "pattern": "tai tao",
+    "skill": "g9_b16",
+    "errorType": "concept_error",
+    "title": "Nhầm hóa thạch và tái tạo",
+    "message": "Than dầu là hóa thạch, không tái tạo nhanh.",
+    "hint": "Mặt trời, gió là tái tạo.",
+    "recommendation": "g9_b16"
+  }
+]

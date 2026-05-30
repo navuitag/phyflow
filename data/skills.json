@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "g6_b01",
+    "title": "Bài 1. Giới thiệu về Khoa học tự nhiên",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 1,
+    "domain": "Mở đầu & Đo lường",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Nhận biết ba lĩnh vực KHTN và vai trò Vật lí trong đời sống.",
+    "visualization": "khtn"
+  },
+  {
+    "id": "g6_b02",
+    "title": "Bài 2. An toàn trong phòng thực hành",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 2,
+    "domain": "Mở đầu & Đo lường",
+    "level": 1,
+    "prerequisite": [
+      "g6_b01"
+    ],
+    "description": "Tuân thủ quy tắc an toàn khi làm thí nghiệm Vật lí – Hóa – Sinh.",
+    "visualization": "lab"
+  },
+  {
+    "id": "g6_b05",
+    "title": "Bài 5. Đo chiều dài",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 5,
+    "domain": "Mở đầu & Đo lường",
+    "level": 1,
+    "prerequisite": [
+      "g6_b02"
+    ],
+    "description": "Dùng thước kẻ, thước dây; đơn vị m, cm, mm và đọc số liệu.",
+    "visualization": "length"
+  },
+  {
+    "id": "g6_b06",
+    "title": "Bài 6. Đo khối lượng",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 6,
+    "domain": "Mở đầu & Đo lường",
+    "level": 1,
+    "prerequisite": [
+      "g6_b05"
+    ],
+    "description": "Dùng cân, đơn vị gam và kilogam khi đo trong thí nghiệm Vật lí.",
+    "visualization": "measure"
+  },
+  {
+    "id": "g6_b07",
+    "title": "Bài 7. Đo thời gian",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 7,
+    "domain": "Mở đầu & Đo lường",
+    "level": 1,
+    "prerequisite": [
+      "g6_b06"
+    ],
+    "description": "Dùng đồng hồ, bấm giờ đo thời gian chuyển động và quá trình vật lí.",
+    "visualization": "time"
+  },
+  {
+    "id": "g6_b08",
+    "title": "Bài 8. Đo nhiệt độ",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Mở đầu về Khoa học tự nhiên",
+    "chapterIndex": 1,
+    "lessonNo": 8,
+    "domain": "Mở đầu & Đo lường",
+    "level": 1,
+    "prerequisite": [
+      "g6_b07"
+    ],
+    "description": "Đọc nhiệt kế, thang độ C và liên hệ với hiện tượng nhiệt.",
+    "visualization": "temperature"
+  },
+  {
+    "id": "g6_b40",
+    "title": "Bài 40. Lực là gì?",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Lực trong đời sống",
+    "chapterIndex": 8,
+    "lessonNo": 40,
+    "domain": "Lực học",
+    "level": 2,
+    "prerequisite": [
+      "g6_b08"
+    ],
+    "description": "Lực là tác dụng làm vật biến dạng hoặc thay đổi chuyển động.",
+    "visualization": "force"
+  },
+  {
+    "id": "g6_b41",
+    "title": "Bài 41. Biểu diễn lực",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Lực trong đời sống",
+    "chapterIndex": 8,
+    "lessonNo": 41,
+    "domain": "Lực học",
+    "level": 2,
+    "prerequisite": [
+      "g6_b40"
+    ],
+    "description": "Vẽ mũi tên biểu diễn lực: điểm đặt, phương, chiều và độ lớn.",
+    "visualization": "forceVector"
+  },
+  {
+    "id": "g6_b42",
+    "title": "Bài 42. Biến dạng của lò xo",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Lực trong đời sống",
+    "chapterIndex": 8,
+    "lessonNo": 42,
+    "domain": "Lực học",
+    "level": 2,
+    "prerequisite": [
+      "g6_b41"
+    ],
+    "description": "Lò xo co giãn khi có lực tác dụng; biến dạng đàn hồi.",
+    "visualization": "spring"
+  },
+  {
+    "id": "g6_b43",
+    "title": "Bài 43. Trọng lực, lực hấp dẫn",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Lực trong đời sống",
+    "chapterIndex": 8,
+    "lessonNo": 43,
+    "domain": "Lực học",
+    "level": 2,
+    "prerequisite": [
+      "g6_b42"
+    ],
+    "description": "Trọng lượng do Trái Đất hút vật; P = m·g (g ≈ 10 N/kg).",
+    "visualization": "gravity"
+  },
+  {
+    "id": "g6_b44",
+    "title": "Bài 44. Lực ma sát",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Lực trong đời sống",
+    "chapterIndex": 8,
+    "lessonNo": 44,
+    "domain": "Lực học",
+    "level": 2,
+    "prerequisite": [
+      "g6_b43"
+    ],
+    "description": "Lực ma sát cản chuyển động tương đối giữa hai bề mặt tiếp xúc.",
+    "visualization": "friction"
+  },
+  {
+    "id": "g6_b45",
+    "title": "Bài 45. Lực cản của nước",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Lực trong đời sống",
+    "chapterIndex": 8,
+    "lessonNo": 45,
+    "domain": "Lực học",
+    "level": 2,
+    "prerequisite": [
+      "g6_b44"
+    ],
+    "description": "Nước và không khí cản chuyển động; lực cản tăng khi vật đi nhanh hơn.",
+    "visualization": "drag"
+  },
+  {
+    "id": "g6_b46",
+    "title": "Bài 46. Năng lượng và sự truyền năng lượng",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng",
+    "chapterIndex": 9,
+    "lessonNo": 46,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g6_b45"
+    ],
+    "description": "Năng lượng truyền từ vật này sang vật khác hoặc qua môi trường.",
+    "visualization": "energy"
+  },
+  {
+    "id": "g6_b47",
+    "title": "Bài 47. Một số dạng năng lượng",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng",
+    "chapterIndex": 9,
+    "lessonNo": 47,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g6_b46"
+    ],
+    "description": "Cơ năng, nhiệt năng, điện năng, quang năng, hóa năng.",
+    "visualization": "energyForms"
+  },
+  {
+    "id": "g6_b48",
+    "title": "Bài 48. Sự chuyển hóa năng lượng",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng",
+    "chapterIndex": 9,
+    "lessonNo": 48,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g6_b47"
+    ],
+    "description": "Năng lượng chuyển từ dạng này sang dạng khác nhưng bảo toàn.",
+    "visualization": "energyTransform"
+  },
+  {
+    "id": "g6_b49",
+    "title": "Bài 49. Năng lượng hao phí",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng",
+    "chapterIndex": 9,
+    "lessonNo": 49,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g6_b48"
+    ],
+    "description": "Một phần năng lượng chuyển thành nhiệt, tiếng ồn, không dùng được.",
+    "visualization": "energyWaste"
+  },
+  {
+    "id": "g6_b50",
+    "title": "Bài 50. Năng lượng tái tạo",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng",
+    "chapterIndex": 9,
+    "lessonNo": 50,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g6_b49"
+    ],
+    "description": "Năng lượng mặt trời, gió, thủy điện, sinh khối tái tạo nhanh.",
+    "visualization": "renewable"
+  },
+  {
+    "id": "g6_b51",
+    "title": "Bài 51. Tiết kiệm năng lượng",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng",
+    "chapterIndex": 9,
+    "lessonNo": 51,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g6_b50"
+    ],
+    "description": "Giảm tiêu thụ, dùng thiết bị tiết kiệm, tái sử dụng nguồn sạch.",
+    "visualization": "saveEnergy"
+  },
+  {
+    "id": "g6_b52",
+    "title": "Bài 52. Chuyển động nhìn thấy của Mặt Trời. Thiên thể",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Trái Đất và bầu trời",
+    "chapterIndex": 10,
+    "lessonNo": 52,
+    "domain": "Thiên văn",
+    "level": 3,
+    "prerequisite": [
+      "g6_b51"
+    ],
+    "description": "Mặt Trời mọc lặn do Trái Đất quay; thiên thể là vật thiên văn.",
+    "visualization": "sunMotion"
+  },
+  {
+    "id": "g6_b53",
+    "title": "Bài 53. Mặt Trăng",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Trái Đất và bầu trời",
+    "chapterIndex": 10,
+    "lessonNo": 53,
+    "domain": "Thiên văn",
+    "level": 3,
+    "prerequisite": [
+      "g6_b52"
+    ],
+    "description": "Mặt Trăng quay quanh Trái Đất; các pha Mặt Trăng theo chu kì.",
+    "visualization": "moon"
+  },
+  {
+    "id": "g6_b54",
+    "title": "Bài 54. Hệ Mặt Trời",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Trái Đất và bầu trời",
+    "chapterIndex": 10,
+    "lessonNo": 54,
+    "domain": "Thiên văn",
+    "level": 3,
+    "prerequisite": [
+      "g6_b53"
+    ],
+    "description": "Mặt Trời, các hành tinh, tiểu hành tinh và sao chổi.",
+    "visualization": "solarSystem"
+  },
+  {
+    "id": "g6_b55",
+    "title": "Bài 55. Ngân Hà",
+    "grade": 6,
+    "book": "Kết nối tri thức",
+    "chapter": "Trái Đất và bầu trời",
+    "chapterIndex": 10,
+    "lessonNo": 55,
+    "domain": "Thiên văn",
+    "level": 3,
+    "prerequisite": [
+      "g6_b54"
+    ],
+    "description": "Ngân Hà là thiên hà xoắn ốc chứa Hệ Mặt Trời.",
+    "visualization": "galaxy"
+  },
+  {
+    "id": "g7_b08",
+    "title": "Bài 8. Tốc độ chuyển động",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Tốc độ",
+    "chapterIndex": 3,
+    "lessonNo": 8,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Khái niệm tốc độ v = s/t; đơn vị m/s, km/h.",
+    "visualization": "velocity"
+  },
+  {
+    "id": "g7_b09",
+    "title": "Bài 9. Đo tốc độ",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Tốc độ",
+    "chapterIndex": 3,
+    "lessonNo": 9,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [
+      "g7_b08"
+    ],
+    "description": "Đo quãng đường và thời gian để tính tốc độ trong thí nghiệm.",
+    "visualization": "measureSpeed"
+  },
+  {
+    "id": "g7_b10",
+    "title": "Bài 10. Đồ thị quãng đường – thời gian",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Tốc độ",
+    "chapterIndex": 3,
+    "lessonNo": 10,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [
+      "g7_b09"
+    ],
+    "description": "Đọc và vẽ đồ thị s–t; nhận biết chuyển động đều.",
+    "visualization": "stGraph"
+  },
+  {
+    "id": "g7_b11",
+    "title": "Bài 11. Ảnh hưởng của tốc độ trong an toàn giao thông",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Tốc độ",
+    "chapterIndex": 3,
+    "lessonNo": 11,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [
+      "g7_b10"
+    ],
+    "description": "Tốc độ cao tăng quãng đường phanh; tuân thủ luật giao thông.",
+    "visualization": "traffic"
+  },
+  {
+    "id": "g7_b12",
+    "title": "Bài 12. Sóng âm",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Âm thanh",
+    "chapterIndex": 4,
+    "lessonNo": 12,
+    "domain": "Âm học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b11"
+    ],
+    "description": "Sóng âm lan truyền qua môi trường elastic; tần số và bước sóng.",
+    "visualization": "sound"
+  },
+  {
+    "id": "g7_b13",
+    "title": "Bài 13. Độ to và độ cao của âm",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Âm thanh",
+    "chapterIndex": 4,
+    "lessonNo": 13,
+    "domain": "Âm học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b12"
+    ],
+    "description": "Biên độ → độ to; tần số → độ cao (cao/trầm).",
+    "visualization": "soundPitch"
+  },
+  {
+    "id": "g7_b14",
+    "title": "Bài 14. Phản xạ âm, chống ô nhiễm tiếng ồn",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Âm thanh",
+    "chapterIndex": 4,
+    "lessonNo": 14,
+    "domain": "Âm học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b13"
+    ],
+    "description": "Tiếng vọng, phản xạ âm; giảm tiếng ồn trong đời sống.",
+    "visualization": "echo"
+  },
+  {
+    "id": "g7_b15",
+    "title": "Bài 15. Năng lượng ánh sáng. Tia sáng, vùng tối",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 5,
+    "lessonNo": 15,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b14"
+    ],
+    "description": "Ánh sáng mang quang năng; tia sáng thẳng; bóng tối và bóng đổ.",
+    "visualization": "lightRay"
+  },
+  {
+    "id": "g7_b16",
+    "title": "Bài 16. Sự phản xạ ánh sáng",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 5,
+    "lessonNo": 16,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b15"
+    ],
+    "description": "Định luật phản xạ: góc tới bằng góc phản xạ (so với pháp tuyến).",
+    "visualization": "light"
+  },
+  {
+    "id": "g7_b17",
+    "title": "Bài 17. Ảnh của vật qua gương phẳng",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 5,
+    "lessonNo": 17,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g7_b16"
+    ],
+    "description": "Ảnh ảo, cùng kích thước, đối xứng qua gương phẳng.",
+    "visualization": "mirror"
+  },
+  {
+    "id": "g7_b18",
+    "title": "Bài 18. Nam châm",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Từ",
+    "chapterIndex": 6,
+    "lessonNo": 18,
+    "domain": "Từ học",
+    "level": 3,
+    "prerequisite": [
+      "g7_b17"
+    ],
+    "description": "Nam châm có hai cực N, S; tương tác hút/đẩy.",
+    "visualization": "magnet"
+  },
+  {
+    "id": "g7_b19",
+    "title": "Bài 19. Từ trường",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Từ",
+    "chapterIndex": 6,
+    "lessonNo": 19,
+    "domain": "Từ học",
+    "level": 3,
+    "prerequisite": [
+      "g7_b18"
+    ],
+    "description": "Từ trường quanh nam châm; đường sức từ N ra S (ngoài không gian).",
+    "visualization": "magneticField"
+  },
+  {
+    "id": "g7_b20",
+    "title": "Bài 20. Chế tạo nam châm điện đơn giản",
+    "grade": 7,
+    "book": "Kết nối tri thức",
+    "chapter": "Từ",
+    "chapterIndex": 6,
+    "lessonNo": 20,
+    "domain": "Từ học",
+    "level": 3,
+    "prerequisite": [
+      "g7_b19"
+    ],
+    "description": "Dòng điện trong cuộn dây tạo từ trường; nam châm điện.",
+    "visualization": "electromagnet"
+  },
+  {
+    "id": "g8_b13",
+    "title": "Bài 13. Khối lượng riêng",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Khối lượng riêng và áp suất",
+    "chapterIndex": 3,
+    "lessonNo": 13,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Khối lượng riêng D = m/V; đơn vị kg/m³, g/cm³.",
+    "visualization": "density"
+  },
+  {
+    "id": "g8_b14",
+    "title": "Bài 14. Thực hành xác định khối lượng riêng",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Khối lượng riêng và áp suất",
+    "chapterIndex": 3,
+    "lessonNo": 14,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b13"
+    ],
+    "description": "Đo khối lượng và thể tích vật rắn, tính D = m/V.",
+    "visualization": "densityLab"
+  },
+  {
+    "id": "g8_b15",
+    "title": "Bài 15. Áp suất trên một bề mặt",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Khối lượng riêng và áp suất",
+    "chapterIndex": 3,
+    "lessonNo": 15,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b14"
+    ],
+    "description": "Áp suất p = F/S; đơn vị Pa (N/m²).",
+    "visualization": "pressure"
+  },
+  {
+    "id": "g8_b16",
+    "title": "Bài 16. Áp suất chất lỏng. Áp suất khí quyển",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Khối lượng riêng và áp suất",
+    "chapterIndex": 3,
+    "lessonNo": 16,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b15"
+    ],
+    "description": "p = ρ·g·h; áp suất khí quyển ≈ 101 325 Pa.",
+    "visualization": "liquidPressure"
+  },
+  {
+    "id": "g8_b17",
+    "title": "Bài 17. Lực đẩy Archimedes",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Khối lượng riêng và áp suất",
+    "chapterIndex": 3,
+    "lessonNo": 17,
+    "domain": "Cơ học",
+    "level": 1,
+    "prerequisite": [
+      "g8_b16"
+    ],
+    "description": "F_A = ρ·g·V (vật chìm hoàn toàn); vật nổi khi ρ_vật < ρ_chất lỏng.",
+    "visualization": "archimedes"
+  },
+  {
+    "id": "g8_b18",
+    "title": "Bài 18. Tác dụng làm quay của lực. Moment lực",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Tác dụng làm quay của lực",
+    "chapterIndex": 4,
+    "lessonNo": 18,
+    "domain": "Moment lực",
+    "level": 2,
+    "prerequisite": [
+      "g8_b17"
+    ],
+    "description": "Moment lực M = F·d; đơn vị N·m.",
+    "visualization": "moment"
+  },
+  {
+    "id": "g8_b19",
+    "title": "Bài 19. Đòn bẩy và ứng dụng",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Tác dụng làm quay của lực",
+    "chapterIndex": 4,
+    "lessonNo": 19,
+    "domain": "Moment lực",
+    "level": 2,
+    "prerequisite": [
+      "g8_b18"
+    ],
+    "description": "Đòn bẩy cân bằng khi F₁·d₁ = F₂·d₂.",
+    "visualization": "lever"
+  },
+  {
+    "id": "g8_b20",
+    "title": "Bài 20. Hiện tượng nhiễm điện do cọ xát",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 5,
+    "lessonNo": 20,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g8_b19"
+    ],
+    "description": "Cọ xát làm vật mang điện tích; điện tích dương, âm.",
+    "visualization": "charge"
+  },
+  {
+    "id": "g8_b21",
+    "title": "Bài 21. Dòng điện, nguồn điện",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 5,
+    "lessonNo": 21,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g8_b20"
+    ],
+    "description": "Dòng điện là dòng điện tích có hướng; nguồn điện duy trì hiệu điện thế.",
+    "visualization": "currentSource"
+  },
+  {
+    "id": "g8_b22",
+    "title": "Bài 22. Mạch điện đơn giản",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 5,
+    "lessonNo": 22,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g8_b21"
+    ],
+    "description": "Mạch kín: nguồn, dây dẫn, tải; dòng chạy kín.",
+    "visualization": "circuit"
+  },
+  {
+    "id": "g8_b23",
+    "title": "Bài 23. Tác dụng của dòng điện",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 5,
+    "lessonNo": 23,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g8_b22"
+    ],
+    "description": "Dòng điện tỏa nhiệt, tác dụng từ, tác dụng quang (đèn).",
+    "visualization": "currentEffects"
+  },
+  {
+    "id": "g8_b24",
+    "title": "Bài 24. Cường độ dòng điện và hiệu điện thế",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 5,
+    "lessonNo": 24,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g8_b23"
+    ],
+    "description": "I đo bằng A; U đo bằng V; ampe kế mắc tiếp, vôn kế mắc song song.",
+    "visualization": "currentVoltage"
+  },
+  {
+    "id": "g8_b25",
+    "title": "Bài 25. Thực hành đo cường độ dòng điện và hiệu điện thế",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 5,
+    "lessonNo": 25,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g8_b24"
+    ],
+    "description": "Mắc ampe kế tiếp, vôn kế song song tải; đọc số liệu an toàn.",
+    "visualization": "measureIU"
+  },
+  {
+    "id": "g8_b26",
+    "title": "Bài 26. Năng lượng nhiệt và nội năng",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Nhiệt",
+    "chapterIndex": 6,
+    "lessonNo": 26,
+    "domain": "Nhiệt học",
+    "level": 3,
+    "prerequisite": [
+      "g8_b25"
+    ],
+    "description": "Nội năng phụ thuộc nhiệt độ; nhiệt lượng Q truyền làm đổi nội năng.",
+    "visualization": "thermalEnergy"
+  },
+  {
+    "id": "g8_b27",
+    "title": "Bài 27. Thực hành đo năng lượng nhiệt bằng joulemeter",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Nhiệt",
+    "chapterIndex": 6,
+    "lessonNo": 27,
+    "domain": "Nhiệt học",
+    "level": 3,
+    "prerequisite": [
+      "g8_b26"
+    ],
+    "description": "Joulemeter đo năng lượng điện chuyển thành nhiệt.",
+    "visualization": "joulemeter"
+  },
+  {
+    "id": "g8_b28",
+    "title": "Bài 28. Sự truyền nhiệt",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Nhiệt",
+    "chapterIndex": 6,
+    "lessonNo": 28,
+    "domain": "Nhiệt học",
+    "level": 3,
+    "prerequisite": [
+      "g8_b27"
+    ],
+    "description": "Dẫn nhiệt, đối lưu, bức xạ nhiệt.",
+    "visualization": "heatTransfer"
+  },
+  {
+    "id": "g8_b29",
+    "title": "Bài 29. Sự nở vì nhiệt",
+    "grade": 8,
+    "book": "Kết nối tri thức",
+    "chapter": "Nhiệt",
+    "chapterIndex": 6,
+    "lessonNo": 29,
+    "domain": "Nhiệt học",
+    "level": 3,
+    "prerequisite": [
+      "g8_b28"
+    ],
+    "description": "Vật nở khi nóng lên: nở dài, nở thể tích.",
+    "visualization": "thermalExpansion"
+  },
+  {
+    "id": "g9_b02",
+    "title": "Bài 2. Động năng. Thế năng",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng cơ học",
+    "chapterIndex": 1,
+    "lessonNo": 2,
+    "domain": "Cơ năng",
+    "level": 1,
+    "prerequisite": [],
+    "description": "Động năng Wđ = ½mv²; thế năng Wt = mgh (g ≈ 10 N/kg).",
+    "visualization": "kineticEnergy"
+  },
+  {
+    "id": "g9_b03",
+    "title": "Bài 3. Cơ năng",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng cơ học",
+    "chapterIndex": 1,
+    "lessonNo": 3,
+    "domain": "Cơ năng",
+    "level": 1,
+    "prerequisite": [
+      "g9_b02"
+    ],
+    "description": "Cơ năng = động năng + thế năng; bảo toàn cơ năng (không ma sát).",
+    "visualization": "mechanicalEnergy"
+  },
+  {
+    "id": "g9_b04",
+    "title": "Bài 4. Công và công suất",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng cơ học",
+    "chapterIndex": 1,
+    "lessonNo": 4,
+    "domain": "Cơ năng",
+    "level": 1,
+    "prerequisite": [
+      "g9_b03"
+    ],
+    "description": "Công A = F·s; công suất P = A/t; đơn vị J và W.",
+    "visualization": "workPower"
+  },
+  {
+    "id": "g9_b05",
+    "title": "Bài 5. Khúc xạ ánh sáng",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 2,
+    "lessonNo": 5,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b04"
+    ],
+    "description": "Ánh sáng đổi hướng qua mặt phân cách hai môi trường.",
+    "visualization": "refraction"
+  },
+  {
+    "id": "g9_b06",
+    "title": "Bài 6. Phản xạ toàn phần",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 2,
+    "lessonNo": 6,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b05"
+    ],
+    "description": "Góc tới lớn → khúc xạ 90° → phản xạ toàn phần.",
+    "visualization": "totalReflection"
+  },
+  {
+    "id": "g9_b07",
+    "title": "Bài 7. Lăng kính",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 2,
+    "lessonNo": 7,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b06"
+    ],
+    "description": "Lăng kính tách sáng trắng thành quang phổ; khúc xạ qua mặt nghiêng.",
+    "visualization": "prism"
+  },
+  {
+    "id": "g9_b08",
+    "title": "Bài 8. Thấu kính",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 2,
+    "lessonNo": 8,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b07"
+    ],
+    "description": "Thấu kính hội tụ và phân kỳ; tiêu điểm F, tiêu cự f.",
+    "visualization": "lens"
+  },
+  {
+    "id": "g9_b09",
+    "title": "Bài 9. Thực hành đo tiêu cự thấu kính hội tụ",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 2,
+    "lessonNo": 9,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b08"
+    ],
+    "description": "Phương pháp vật xa/vật gần hoặc bài B để tính f.",
+    "visualization": "focalLength"
+  },
+  {
+    "id": "g9_b10",
+    "title": "Bài 10. Kính lúp. Bài tập thấu kính",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Ánh sáng",
+    "chapterIndex": 2,
+    "lessonNo": 10,
+    "domain": "Quang học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b09"
+    ],
+    "description": "Kính lúp là thấu kính hội tụ; ảnh ảo phóng đại khi vật trong tiêu cự.",
+    "visualization": "magnifierLens"
+  },
+  {
+    "id": "g9_b11",
+    "title": "Bài 11. Điện trở. Định luật Ohm",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 3,
+    "lessonNo": 11,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b10"
+    ],
+    "description": "I = U/R; đơn vị Ω, V, A.",
+    "visualization": "ohm",
+    "hasSimulation": true,
+    "simulation": "ohm"
+  },
+  {
+    "id": "g9_b12",
+    "title": "Bài 12. Đoạn mạch nối tiếp, song song",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 3,
+    "lessonNo": 12,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b11"
+    ],
+    "description": "Nối tiếp: Rt = R1+R2, cùng I. Song song: 1/Rt = 1/R1+1/R2, cùng U.",
+    "visualization": "circuitMixed"
+  },
+  {
+    "id": "g9_b13",
+    "title": "Bài 13. Năng lượng của dòng điện và công suất điện",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện",
+    "chapterIndex": 3,
+    "lessonNo": 13,
+    "domain": "Điện học",
+    "level": 2,
+    "prerequisite": [
+      "g9_b12"
+    ],
+    "description": "P = U·I; điện năng W = P·t; kW·h.",
+    "visualization": "power"
+  },
+  {
+    "id": "g9_b14",
+    "title": "Bài 14. Cảm ứng điện từ. Nguyên tắc tạo dòng điện xoay chiều",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện từ",
+    "chapterIndex": 4,
+    "lessonNo": 14,
+    "domain": "Điện từ",
+    "level": 3,
+    "prerequisite": [
+      "g9_b13"
+    ],
+    "description": "Nam châm và cuộn dây chuyển động tương đối → dòng cảm ứng.",
+    "visualization": "induction"
+  },
+  {
+    "id": "g9_b15",
+    "title": "Bài 15. Tác dụng của dòng điện xoay chiều",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Điện từ",
+    "chapterIndex": 4,
+    "lessonNo": 15,
+    "domain": "Điện từ",
+    "level": 3,
+    "prerequisite": [
+      "g9_b14"
+    ],
+    "description": "Dòng xoay chiều đổi chiều theo chu kì; máy phát, truyền tải điện.",
+    "visualization": "acCurrent"
+  },
+  {
+    "id": "g9_b16",
+    "title": "Bài 16. Vòng năng lượng trên Trái Đất. Năng lượng hóa thạch",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng với cuộc sống",
+    "chapterIndex": 5,
+    "lessonNo": 16,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g9_b15"
+    ],
+    "description": "Năng lượng Mặt Trời → sinh vật → hóa thạch; chu trình carbon.",
+    "visualization": "energyCycle"
+  },
+  {
+    "id": "g9_b17",
+    "title": "Bài 17. Một số dạng năng lượng tái tạo",
+    "grade": 9,
+    "book": "Kết nối tri thức",
+    "chapter": "Năng lượng với cuộc sống",
+    "chapterIndex": 5,
+    "lessonNo": 17,
+    "domain": "Năng lượng",
+    "level": 3,
+    "prerequisite": [
+      "g9_b16"
+    ],
+    "description": "Mặt trời, gió, thủy điện, sinh khối; giảm phát thải CO₂.",
+    "visualization": "renewable"
+  }
+]
