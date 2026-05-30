@@ -17,13 +17,15 @@ let data = {
   skills: [],
   lessons: [],
   questions: [],
-  errors: []
+  errors: [],
+  exercises: []
 };
 
 /** Khi user chọn "Luyện thêm" sau khi đúng hết câu, không hỏi chuyển bài lại cho đến khi rời practice. */
 const practiceSession = {
   skillId: null,
   continueAfterComplete: false,
+  workbookFilter: "all",
   flashcards: null,
   memory: null
 };
@@ -75,6 +77,9 @@ export function renderRoute() {
     } else if (sub === "memory") {
       content = renderPracticeMemory(id, state);
       after = () => bindPracticeMemory(id);
+    } else if (sub === "workbook") {
+      content = renderPracticeWorkbook(id, state);
+      after = () => bindPracticeWorkbook(id);
     } else {
       content = renderPractice(id, state);
       after = () => bindPractice(id);
@@ -399,10 +404,121 @@ function renderPracticeCompletionPanel(skillId) {
   `;
 }
 
+
+function getSkillExercises(skillId) {
+  return (data.exercises || []).filter((item) => item.skill === skillId);
+}
+
+function getFilteredExercises(skillId) {
+  const all = getSkillExercises(skillId);
+  if (practiceSession.workbookFilter === "sgk") return all.filter((item) => item.source === "sgk");
+  if (practiceSession.workbookFilter === "sbt") return all.filter((item) => item.source === "sbt");
+  return all;
+}
+
+function getCorrectExerciseIds(skillId, state) {
+  return new Set(
+    state.answers
+      .filter((answer) => answer.skill === skillId && answer.correct && String(answer.questionId).startsWith("ex_"))
+      .map((answer) => answer.questionId)
+  );
+}
+
+function areAllExercisesCorrect(skillId, state) {
+  const list = getFilteredExercises(skillId);
+  if (!list.length) return false;
+  const correctIds = getCorrectExerciseIds(skillId, state);
+  return list.every((item) => correctIds.has(item.id));
+}
+
+function pickPracticeExercise(skillId, state) {
+  const list = getFilteredExercises(skillId);
+  const correctIds = getCorrectExerciseIds(skillId, state);
+  const remaining = list.filter((item) => !correctIds.has(item.id));
+  if (remaining.length) return remaining[0];
+  if (!practiceSession.continueAfterComplete) return null;
+  const attempts = state.answers.filter((answer) => answer.skill === skillId && String(answer.questionId).startsWith("ex_")).length;
+  return list[attempts % list.length];
+}
+
+function renderWorkbookFilters(skillId, activeFilter) {
+  const counts = { all: 0, sgk: 0, sbt: 0 };
+  getSkillExercises(skillId).forEach((item) => {
+    counts.all += 1;
+    counts[item.source] = (counts[item.source] || 0) + 1;
+  });
+  const filters = [
+    { id: "all", label: `Tất cả (${counts.all})` },
+    { id: "sgk", label: `SGK (${counts.sgk})` },
+    { id: "sbt", label: `SBT (${counts.sbt})` }
+  ];
+  return `
+    <div class="workbook-filters" role="group" aria-label="Lọc bài tập">
+      ${filters.map((filter) => `
+        <button type="button" class="workbook-filter${filter.id === activeFilter ? " active" : ""}" data-workbook-filter="${filter.id}">${filter.label}</button>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderPracticeWorkbook(skillId, state) {
+  const list = getSkillExercises(skillId);
+  if (!list.length) return notFound("Chưa có bài tập rèn luyện cho kỹ năng này.");
+  resetPracticeModesIfNeeded(skillId);
+  const allComplete = areAllExercisesCorrect(skillId, state);
+  const exercise = allComplete && !practiceSession.continueAfterComplete ? null : pickPracticeExercise(skillId, state);
+  const done = getCorrectExerciseIds(skillId, state).size;
+  const progress = `
+    <p class="workbook-progress">Đã hoàn thành ${done}/${getFilteredExercises(skillId).length} bài tập${practiceSession.workbookFilter !== "all" ? ` (${practiceSession.workbookFilter.toUpperCase()})` : ""}</p>
+    ${renderWorkbookFilters(skillId, practiceSession.workbookFilter)}
+  `;
+  const body = exercise
+    ? `${progress}${renderQuizCard(exercise, { workbook: true })}`
+    : `${progress}${renderPracticeCompletionPanel(skillId)}`;
+  return renderPracticeShell(skillId, state, "workbook", body);
+}
+
+function bindPracticeWorkbook(skillId) {
+  bindVisualizations();
+  document.querySelectorAll("[data-workbook-filter]").forEach((button) => {
+    button.addEventListener("click", () => {
+      practiceSession.workbookFilter = button.dataset.workbookFilter;
+      practiceSession.continueAfterComplete = false;
+      renderRoute();
+    });
+  });
+  document.querySelector("#practiceContinue")?.addEventListener("click", () => {
+    practiceSession.continueAfterComplete = true;
+    renderRoute();
+  });
+  document.querySelector("#practiceNextLesson")?.addEventListener("click", () => navigateToNextSkill(skillId));
+  const exercise = (data.exercises || []).find((item) => item.id === document.querySelector(".quiz-card")?.dataset.questionId);
+  if (!exercise) return;
+  document.querySelectorAll(".choice-btn").forEach((button) => {
+    button.addEventListener("click", () => handleAnswer(button.dataset.answer, exercise, skillId));
+  });
+  const form = document.querySelector(".answer-form");
+  if (form) {
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      handleAnswer(new FormData(form).get("answer"), exercise, skillId);
+    });
+  }
+  document.querySelector(".hint-btn")?.addEventListener("click", (event) => {
+    const hint = event.currentTarget.dataset.hint;
+    if (hint) showModal({ title: "Gợi ý", body: hint });
+  });
+  document.querySelector(".solution-btn")?.addEventListener("click", (event) => {
+    const solution = event.currentTarget.dataset.solution;
+    if (solution) showModal({ title: "Lời giải SBT", body: solution });
+  });
+}
+
 function resetPracticeModesIfNeeded(skillId) {
   if (practiceSession.skillId !== skillId) {
     practiceSession.skillId = skillId;
     practiceSession.continueAfterComplete = false;
+    practiceSession.workbookFilter = "all";
     practiceSession.flashcards = null;
     practiceSession.memory = null;
   }
@@ -412,7 +528,8 @@ function renderPracticeTabs(skillId, activeMode) {
   const modes = [
     { id: "quiz", label: "Mini quiz", href: `#/practice/${skillId}` },
     { id: "flashcards", label: "Flashcards", href: `#/practice/${skillId}/flashcards` },
-    { id: "memory", label: "Memory", href: `#/practice/${skillId}/memory` }
+    { id: "memory", label: "Memory", href: `#/practice/${skillId}/memory` },
+    { id: "workbook", label: "Bài tập", href: `#/practice/${skillId}/workbook` }
   ];
 
   return `
@@ -693,10 +810,13 @@ function handleAnswer(answer, question, skillId) {
   const card = document.querySelector(".quiz-card");
   card.classList.remove("is-correct", "is-wrong");
   card.classList.add(result.correct ? "is-correct" : "is-wrong");
+  const isWorkbook = String(question.id || "").startsWith("ex_");
 
   if (result.correct) {
     const state = getState();
-    const allComplete = areAllQuestionsCorrect(skillId, state);
+    const allComplete = isWorkbook
+      ? areAllExercisesCorrect(skillId, state)
+      : areAllQuestionsCorrect(skillId, state);
 
     if (allComplete && !practiceSession.continueAfterComplete) {
       panel.innerHTML = `
@@ -712,8 +832,8 @@ function handleAnswer(answer, question, skillId) {
       <p>${allComplete ? "Tiếp tục luyện thêm..." : "Câu tiếp theo sẽ xuất hiện sau một nhịp."}</p>
     `;
     setTimeout(() => {
-      const nextRoute = `#/practice/${skillId}`;
-      if (window.location.hash === nextRoute) {
+      const nextRoute = isWorkbook ? `#/practice/${skillId}/workbook` : `#/practice/${skillId}`;
+      if (window.location.hash.startsWith(`#/practice/${skillId}`)) {
         renderRoute();
       } else {
         setRoute(nextRoute);

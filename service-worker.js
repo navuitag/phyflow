@@ -1,4 +1,4 @@
-const CACHE_NAME = "phyflow-vn-v9";
+const CACHE_NAME = "phyflow-vn-v10";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -31,7 +31,8 @@ const APP_SHELL = [
   "./data/skills.json",
   "./data/lessons.json",
   "./data/questions.json",
-  "./data/errors.json"
+  "./data/errors.json",
+  "./data/exercises.json"
 ];
 
 self.addEventListener("install", (event) => {
