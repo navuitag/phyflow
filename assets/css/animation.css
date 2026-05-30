@@ -44,7 +44,25 @@
   border-color: rgba(223, 79, 95, 0.65);
 }
 
-.skill-card:hover {
-  transform: translateY(-2px);
-  transition: transform 0.2s ease;
+.flashcard {
+  animation: fadeIn 0.24s ease;
+}
+
+.flashcard.back {
+  animation: flipIn 0.32s ease;
+}
+
+@keyframes flipIn {
+  from {
+    opacity: 0.6;
+    transform: rotateY(8deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+.memory-card.is-matched .memory-card-front {
+  animation: bounce 0.42s ease;
 }

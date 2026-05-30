@@ -1,12 +1,15 @@
-import { getState, resetProgress, setSelectedGrade, completeOnboarding, restartOnboarding } from "./state.js";
+import { getState, resetProgress, setSelectedGrade, completeOnboarding, restartOnboarding, updateState } from "./state.js";
 import { setRoute, escapeHtml } from "./utils.js";
 import { renderNavbar, renderBottomNav } from "../../components/navbar.js";
 import { renderLessonCard } from "../../components/lessonCard.js";
 import { renderQuizCard } from "../../components/quizCard.js";
+import { renderFlashcardPanel } from "../../components/flashcardPanel.js";
+import { renderMemoryPanel } from "../../components/memoryPanel.js";
 import { showModal } from "../../components/modal.js";
 import { renderVisualization, bindVisualizations } from "../../modules/visualization.js";
 import { completeLesson } from "../../modules/lessonEngine.js";
 import { submitAnswer } from "../../modules/quizEngine.js";
+import { buildFlashcardDeck, buildMemoryDeck, buildMemoryPairs } from "../../modules/practiceContent.js";
 import { getGamificationSummary } from "../../modules/gamification.js";
 import { getOverallAccuracy, getSkillProgress, getWeakSkills } from "../../modules/progress.js";
 
@@ -18,7 +21,12 @@ let data = {
 };
 
 /** Khi user chọn "Luyện thêm" sau khi đúng hết câu, không hỏi chuyển bài lại cho đến khi rời practice. */
-const practiceSession = { skillId: null, continueAfterComplete: false };
+const practiceSession = {
+  skillId: null,
+  continueAfterComplete: false,
+  flashcards: null,
+  memory: null
+};
 
 export function configureRouter(appData) {
   data = appData;
@@ -28,7 +36,10 @@ export function configureRouter(appData) {
 export function renderRoute() {
   const state = getState();
   const hash = window.location.hash || "#/home";
-  const [route, id] = hash.replace("#/", "").split("/");
+  const parts = hash.replace("#/", "").split("/").filter(Boolean);
+  const route = parts[0] || "home";
+  const id = parts[1];
+  const sub = parts[2];
 
   if (route !== "practice") {
     practiceSession.continueAfterComplete = false;
@@ -58,8 +69,16 @@ export function renderRoute() {
     content = renderSimulationPage(id, state);
     after = () => bindVisualizations();
   } else if (route === "practice") {
-    content = renderPractice(id, state);
-    after = () => bindPractice(id);
+    if (sub === "flashcards") {
+      content = renderPracticeFlashcards(id, state);
+      after = () => bindPracticeFlashcards(id);
+    } else if (sub === "memory") {
+      content = renderPracticeMemory(id, state);
+      after = () => bindPracticeMemory(id);
+    } else {
+      content = renderPractice(id, state);
+      after = () => bindPractice(id);
+    }
   } else if (route === "skills") {
     content = renderSkills(state);
     after = bindSkills;
@@ -380,31 +399,229 @@ function renderPracticeCompletionPanel(skillId) {
   `;
 }
 
+function resetPracticeModesIfNeeded(skillId) {
+  if (practiceSession.skillId !== skillId) {
+    practiceSession.skillId = skillId;
+    practiceSession.continueAfterComplete = false;
+    practiceSession.flashcards = null;
+    practiceSession.memory = null;
+  }
+}
+
+function renderPracticeTabs(skillId, activeMode) {
+  const modes = [
+    { id: "quiz", label: "Mini quiz", href: `#/practice/${skillId}` },
+    { id: "flashcards", label: "Flashcards", href: `#/practice/${skillId}/flashcards` },
+    { id: "memory", label: "Memory", href: `#/practice/${skillId}/memory` }
+  ];
+
+  return `
+    <nav class="practice-tabs" role="tablist" aria-label="Chế độ luyện tập">
+      ${modes.map((mode) => `
+        <a
+          class="practice-tab${mode.id === activeMode ? " active" : ""}"
+          href="${mode.href}"
+          role="tab"
+          aria-selected="${mode.id === activeMode}"
+        >${mode.label}</a>
+      `).join("")}
+    </nav>
+  `;
+}
+
+function renderPracticeShell(skillId, state, activeMode, body) {
+  const skill = data.skills.find((item) => item.id === skillId);
+  return `
+    <section class="practice-layout">
+      <div class="practice-header">
+        <a class="back-link" href="#/skills">← Kỹ năng</a>
+        <span class="tag">${labelSkill(skillId)}</span>
+      </div>
+      ${renderPracticeTabs(skillId, activeMode)}
+      ${activeMode === "quiz" ? renderVisualization({ visualization: skill?.visualization }) : ""}
+      ${body}
+    </section>
+  `;
+}
+
+function ensureFlashcardDeck(skillId) {
+  if (practiceSession.flashcards?.deck) return;
+  const lesson = data.lessons.find((item) => item.skill === skillId);
+  const skill = data.skills.find((item) => item.id === skillId);
+  practiceSession.flashcards = {
+    deck: buildFlashcardDeck(skillId, lesson, data.questions, skill),
+    index: 0,
+    flipped: false,
+    known: new Set(),
+    xpAwarded: false
+  };
+}
+
+function ensureMemorySession(skillId) {
+  if (practiceSession.memory?.deck) return;
+  const lesson = data.lessons.find((item) => item.skill === skillId);
+  const pairs = buildMemoryPairs(skillId, lesson, data.questions);
+  practiceSession.memory = {
+    pairs,
+    deck: buildMemoryDeck(pairs),
+    flipped: [],
+    matched: [],
+    moves: 0,
+    locked: false,
+    xpAwarded: false
+  };
+}
+
+function awardPracticeBonus(amount, title, body) {
+  updateState((next) => {
+    next.xp += amount;
+    next.todayXp += amount;
+  });
+  showModal({ title, body: `${body} (+${amount} XP)` });
+}
+
+function renderPracticeFlashcards(skillId, state) {
+  if (!data.skills.find((item) => item.id === skillId)) {
+    return notFound("Không tìm thấy kỹ năng.");
+  }
+  resetPracticeModesIfNeeded(skillId);
+  ensureFlashcardDeck(skillId);
+  const session = practiceSession.flashcards;
+  const panel = renderFlashcardPanel(session.deck, session.index, session.flipped);
+  return renderPracticeShell(skillId, state, "flashcards", panel);
+}
+
+function renderPracticeMemory(skillId, state) {
+  if (!data.skills.find((item) => item.id === skillId)) {
+    return notFound("Không tìm thấy kỹ năng.");
+  }
+  resetPracticeModesIfNeeded(skillId);
+  ensureMemorySession(skillId);
+  const session = practiceSession.memory;
+  const won = session.pairs.length > 0 && session.matched.length === session.pairs.length;
+  const panel = renderMemoryPanel(session.deck, session.flipped, session.matched, session.moves, won);
+  return renderPracticeShell(skillId, state, "memory", panel);
+}
+
+function bindPracticeFlashcards(skillId) {
+  const session = practiceSession.flashcards;
+  if (!session?.deck.length) return;
+
+  const updateProgress = () => {
+    const progress = document.querySelector("#flashcardProgress");
+    if (!progress) return;
+    progress.textContent = `${session.known.size}/${session.deck.length} thẻ đã nhớ`;
+  };
+  updateProgress();
+
+  const flip = () => {
+    session.flipped = !session.flipped;
+    renderRoute();
+  };
+
+  document.querySelector("#flashcardFlip")?.addEventListener("click", flip);
+
+  document.querySelector("#flashcardPrev")?.addEventListener("click", () => {
+    if (session.index <= 0) return;
+    session.index -= 1;
+    session.flipped = false;
+    renderRoute();
+  });
+
+  document.querySelector("#flashcardNext")?.addEventListener("click", () => {
+    if (session.index >= session.deck.length - 1) return;
+    session.index += 1;
+    session.flipped = false;
+    renderRoute();
+  });
+
+  document.querySelector("#flashcardKnown")?.addEventListener("click", () => {
+    const card = session.deck[session.index];
+    session.known.add(card.id);
+    if (session.known.size >= session.deck.length && !session.xpAwarded) {
+      session.xpAwarded = true;
+      renderRoute();
+      awardPracticeBonus(15, "Hoàn thành Flashcards!", "Bạn đã xem và ghi nhớ hết bộ thẻ.");
+      return;
+    }
+    if (session.index < session.deck.length - 1) {
+      session.index += 1;
+      session.flipped = false;
+    }
+    renderRoute();
+  });
+}
+
+function bindPracticeMemory(skillId) {
+  const session = practiceSession.memory;
+  if (!session?.deck.length) return;
+
+  document.querySelector("#memoryRestart")?.addEventListener("click", () => {
+    practiceSession.memory = null;
+    ensureMemorySession(skillId);
+    renderRoute();
+  });
+
+  document.querySelectorAll(".memory-card:not(.is-matched):not([disabled])").forEach((button) => {
+    button.addEventListener("click", () => handleMemoryFlip(skillId, button.dataset.cardId));
+  });
+}
+
+function handleMemoryFlip(skillId, cardId) {
+  const session = practiceSession.memory;
+  if (!session || session.locked) return;
+  if (session.flipped.includes(cardId)) return;
+
+  const card = session.deck.find((item) => item.id === cardId);
+  if (!card || session.matched.includes(card.pairId)) return;
+
+  session.flipped.push(cardId);
+
+  if (session.flipped.length < 2) {
+    renderRoute();
+    return;
+  }
+
+  session.moves += 1;
+  const [firstId, secondId] = session.flipped;
+  const first = session.deck.find((item) => item.id === firstId);
+  const second = session.deck.find((item) => item.id === secondId);
+
+  if (first.pairId === second.pairId) {
+    session.matched.push(first.pairId);
+    session.flipped = [];
+    renderRoute();
+    if (session.matched.length === session.pairs.length && !session.xpAwarded) {
+      session.xpAwarded = true;
+      setTimeout(() => {
+        awardPracticeBonus(20, "Hoàn thành Memory Training!", `Ghép đủ ${session.pairs.length} cặp trong ${session.moves} lượt.`);
+      }, 350);
+    }
+    return;
+  }
+
+  session.locked = true;
+  renderRoute();
+  setTimeout(() => {
+    session.flipped = [];
+    session.locked = false;
+    renderRoute();
+  }, 850);
+}
+
 function renderPractice(id, state) {
   const skillQuestions = getSkillQuestions(id);
   if (!skillQuestions.length) return notFound("Chưa có câu hỏi cho kỹ năng này.");
 
-  if (practiceSession.skillId !== id) {
-    practiceSession.skillId = id;
-    practiceSession.continueAfterComplete = false;
-  }
+  resetPracticeModesIfNeeded(id);
 
-  const skill = data.skills.find((s) => s.id === id);
   const allComplete = areAllQuestionsCorrect(id, state);
   const question = allComplete && !practiceSession.continueAfterComplete
     ? null
     : pickPracticeQuestion(id, state);
 
-  return `
-    <section class="practice-layout">
-      <div class="practice-header">
-        <a class="back-link" href="#/skills">← Kỹ năng</a>
-        <span class="tag">${labelSkill(id)}</span>
-      </div>
-      ${renderVisualization({ visualization: skill?.visualization })}
-      ${question ? renderQuizCard(question) : renderPracticeCompletionPanel(id)}
-    </section>
-  `;
+  const body = question ? renderQuizCard(question) : renderPracticeCompletionPanel(id);
+  return renderPracticeShell(id, state, "quiz", body);
 }
 
 function bindPractice(id) {
