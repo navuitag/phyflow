@@ -1,4 +1,4 @@
-const CACHE_NAME = "phyflow-vn-v6";
+const CACHE_NAME = "phyflow-vn-v7";
 const APP_SHELL = [
   "./",
   "./index.html",

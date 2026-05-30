@@ -1,8 +1,9 @@
-import { escapeHtml } from "../assets/js/utils.js";
+import { escapeHtml, shuffle } from "../assets/js/utils.js";
 
 export function renderQuizCard(question) {
+  const choices = question.type === "multiple_choice" ? shuffle(question.choices) : [];
   const answerArea = question.type === "multiple_choice"
-    ? `<div class="choice-grid">${question.choices.map((choice) => `
+    ? `<div class="choice-grid">${choices.map((choice) => `
         <button class="choice-btn" data-answer="${escapeHtml(choice)}">${escapeHtml(choice)}</button>
       `).join("")}</div>`
     : `
