@@ -1,4 +1,5 @@
 import { escapeHtml } from "../assets/js/utils.js";
+import { formatMathHtml } from "../assets/js/mathFormat.js";
 
 export function renderFlashcardPanel(deck, index, flipped) {
   if (!deck.length) {
@@ -17,7 +18,7 @@ export function renderFlashcardPanel(deck, index, flipped) {
       </div>
       <button class="flashcard ${face}" type="button" id="flashcardFlip" aria-pressed="${flipped}">
         <span class="flashcard-label">${flipped ? "Mặt sau" : "Mặt trước"}</span>
-        <p class="flashcard-text">${escapeHtml(text).replace(/\n/g, "<br>")}</p>
+        <p class="flashcard-text math-content">${formatMathHtml(text).replace(/\n/g, "<br>")}</p>
         <span class="flashcard-hint">Chạm để lật thẻ</span>
       </button>
       <div class="flashcard-nav">

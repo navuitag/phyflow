@@ -1,5 +1,6 @@
 import { getState, resetProgress, setSelectedGrade, completeOnboarding, restartOnboarding, updateState } from "./state.js";
 import { setRoute, escapeHtml } from "./utils.js";
+import { formatMathHtml } from "./mathFormat.js";
 import { renderNavbar, renderBottomNav } from "../../components/navbar.js";
 import { renderLessonCard } from "../../components/lessonCard.js";
 import { renderQuizCard } from "../../components/quizCard.js";
@@ -297,7 +298,7 @@ function renderLesson(id, state) {
             <span class="step-count">${index + 1}</span>
             <div>
               <h2>${step.title}</h2>
-              <p>${step.content}</p>
+              <p class="math-content">${formatMathHtml(step.content)}</p>
               ${step.type === "visualization" || step.type === "simulation" ? renderVisualization(step) : ""}
             </div>
           </article>
@@ -844,8 +845,8 @@ function handleAnswer(answer, question, skillId) {
 
   panel.innerHTML = `
     <strong>${escapeHtml(result.error.title)}</strong>
-    <p>${escapeHtml(result.error.message)}</p>
-    <p><b>Gợi ý:</b> ${escapeHtml(result.error.hint)}</p>
+    <p class="math-content">${formatMathHtml(result.error.message)}</p>
+    <p class="math-content"><b>Gợi ý:</b> ${formatMathHtml(result.error.hint)}</p>
     <a class="btn quiet" href="#/lesson/${result.error.recommendation}">Ôn lại bài liên quan</a>
   `;
 }
@@ -873,8 +874,8 @@ function renderErrors(state) {
           <article class="error-card">
             <span class="tag">${labelSkill(error.skill)}</span>
             <h2>${escapeHtml(error.title)}</h2>
-            <p>${escapeHtml(error.message)}</p>
-            <p><b>Gợi ý:</b> ${escapeHtml(error.hint)}</p>
+            <p class="math-content">${formatMathHtml(error.message)}</p>
+            <p class="math-content"><b>Gợi ý:</b> ${formatMathHtml(error.hint)}</p>
             <a class="btn quiet" href="#/practice/${error.recommendation}">Luyện lại</a>
           </article>
         `).join("") : "<article class='empty-state'>Làm vài câu quiz để sổ tay bắt đầu ghi nhận lỗi nhé.</article>"}

@@ -1,4 +1,4 @@
-const CACHE_NAME = "phyflow-vn-v10";
+const CACHE_NAME = "phyflow-vn-v11";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,10 +7,12 @@ const APP_SHELL = [
   "./assets/css/layout.css",
   "./assets/css/animation.css",
   "./assets/css/responsive.css",
+  "./assets/css/math-format.css",
   "./assets/js/app.js",
   "./assets/js/router.js",
   "./assets/js/state.js",
   "./assets/js/utils.js",
+  "./assets/js/mathFormat.js",
   "./vendor/three.module.min.js",
   "./vendor/OrbitControls.js",
   "./modules/lessonEngine.js",

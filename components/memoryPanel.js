@@ -1,4 +1,5 @@
 import { escapeHtml } from "../assets/js/utils.js";
+import { formatMathHtml } from "../assets/js/mathFormat.js";
 
 export function renderMemoryPanel(deck, flippedIds, matchedIds, moves, won) {
   if (!deck.length) {
@@ -24,7 +25,7 @@ export function renderMemoryPanel(deck, flippedIds, matchedIds, moves, won) {
           <span class="memory-card-back">?</span>
           <span class="memory-card-front">
             <small>${escapeHtml(card.label)}</small>
-            ${escapeHtml(card.text)}
+            ${formatMathHtml(card.text)}
           </span>
         </span>
       </button>

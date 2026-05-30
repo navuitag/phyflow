@@ -1,14 +1,15 @@
 import { escapeHtml, shuffle } from "../assets/js/utils.js";
+import { formatMathHtml } from "../assets/js/mathFormat.js";
 
 export function renderQuizCard(question, options = {}) {
   const choices = question.type === "multiple_choice" ? shuffle(question.choices) : [];
   const answerArea = question.type === "true_false"
     ? `<div class="choice-grid choice-grid--binary">${(question.choices || ["Đúng", "Sai"]).map((choice) => `
-        <button class="choice-btn" data-answer="${escapeHtml(choice)}">${escapeHtml(choice)}</button>
+        <button class="choice-btn" data-answer="${escapeHtml(choice)}">${formatMathHtml(choice)}</button>
       `).join("")}</div>`
     : question.type === "multiple_choice"
     ? `<div class="choice-grid">${choices.map((choice) => `
-        <button class="choice-btn" data-answer="${escapeHtml(choice)}">${escapeHtml(choice)}</button>
+        <button class="choice-btn" data-answer="${escapeHtml(choice)}">${formatMathHtml(choice)}</button>
       `).join("")}</div>`
     : `
       <form class="answer-form">
@@ -27,9 +28,9 @@ export function renderQuizCard(question, options = {}) {
         </div>
       </div>
       ${question.section ? `<span class="quiz-section">${escapeHtml(question.section)}</span>` : ""}
-      <h2>${escapeHtml(question.question)}</h2>
+      <h2 class="math-content">${formatMathHtml(question.question)}</h2>
       ${answerArea}
-      <div class="feedback-panel" aria-live="polite"></div>
+      <div class="feedback-panel math-content" aria-live="polite"></div>
     </article>
   `;
 }

@@ -1,3 +1,5 @@
+import { formatMathHtml } from "../assets/js/mathFormat.js";
+
 export function showModal({
   title,
   body,
@@ -21,7 +23,7 @@ export function showModal({
   backdrop.innerHTML = `
     <section class="modal" role="dialog" aria-modal="true" aria-label="${title}">
       <h2>${title}</h2>
-      <p>${body}</p>
+      <div class="modal-body math-content">${formatMathHtml(body)}</div>
       ${actions}
     </section>
   `;
