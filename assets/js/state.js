@@ -1,77 +1,59 @@
-const STORAGE_KEY = "phyflow_vn_state";
+import { createProfileStore } from "./profileStore.js";
 
-const defaultState = {
-  user: {
-    name: "Bạn học nhỏ",
-    grade: 6
+function baseProgress() {
+  return {
+    selectedGrade: 6,
+    onboarded: false,
+    xp: 0,
+    todayXp: 0,
+    streak: 1,
+    completedLessons: [],
+    skillMastery: {},
+    answers: [],
+    errors: [],
+    dailyQuest: {
+      target: 5,
+      progress: 0
+    },
+    lastStudiedDate: new Date().toISOString().slice(0, 10)
+  };
+}
+
+const store = createProfileStore({
+  legacyKey: "phyflow_vn_state",
+  storageKey: "phyflow_accounts",
+  defaultProgress: baseProgress,
+  defaultName: "Bạn học nhỏ",
+  preserveOnReset: ["selectedGrade"],
+  hydrateProgress: (raw, progress) => {
+    if (raw.user?.grade) progress.selectedGrade = raw.user.grade;
   },
-  selectedGrade: 6,
-  onboarded: false,
-  xp: 0,
-  todayXp: 0,
-  streak: 1,
-  completedLessons: [],
-  skillMastery: {},
-  answers: [],
-  errors: [],
-  dailyQuest: {
-    target: 5,
-    progress: 0
-  },
-  lastStudiedDate: new Date().toISOString().slice(0, 10)
-};
-
-let state = loadState();
-const listeners = new Set();
-
-function loadState() {
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    return stored ? { ...defaultState, ...JSON.parse(stored) } : structuredClone(defaultState);
-  } catch {
-    return structuredClone(defaultState);
+  buildUser: (progress, profile) => ({
+    name: profile?.name || "Bạn học nhỏ",
+    grade: progress.selectedGrade
+  }),
+  onCompleteOnboarding: (progress, grade) => {
+    progress.selectedGrade = grade;
   }
-}
+});
 
-export function getState() {
-  return state;
-}
-
-export function subscribe(listener) {
-  listeners.add(listener);
-  return () => listeners.delete(listener);
-}
-
-export function updateState(mutator) {
-  const next = structuredClone(state);
-  mutator(next);
-  state = next;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  listeners.forEach((listener) => listener(state));
-}
+export const {
+  getState,
+  subscribe,
+  updateState,
+  getProfiles,
+  completeOnboarding,
+  restartOnboarding,
+  createProfile,
+  switchProfile,
+  renameProfile,
+  deleteProfile,
+  resetProgress,
+  hasProfiles
+} = store;
 
 export function setSelectedGrade(grade) {
-  updateState((next) => {
+  store.updateState((next) => {
     next.selectedGrade = grade;
   });
-}
-
-export function completeOnboarding(grade) {
-  updateState((next) => {
-    next.selectedGrade = grade;
-    next.user.grade = grade;
-    next.onboarded = true;
-  });
-}
-
-export function restartOnboarding() {
-  updateState((next) => {
-    next.onboarded = false;
-  });
-}
-
-export function resetProgress() {
-  state = structuredClone(defaultState);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  listeners.forEach((listener) => listener(state));
 }
