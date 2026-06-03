@@ -116,8 +116,22 @@ export function renderRoute() {
       after = () => bindPractice(id);
     }
   } else if (route === "mindmap") {
-    content = mindMap.renderPage(state, { groupMode: mindMapGroupMode });
-    after = () => mindMap.bindPage(state);
+    const mmKind = id;
+    const mmParam = sub;
+    const mmParam2 = parts[3];
+    if (mmKind === "topic" && mmParam) {
+      content = mindMap.renderTopicPage(state, mmParam, { groupMode: mindMapGroupMode });
+      after = () => mindMap.bindPage(state);
+    } else if (mmKind === "lesson" && mmParam) {
+      content = mindMap.renderSkillPage(state, mmParam);
+      after = () => mindMap.bindPage(state);
+    } else if (mmKind === "summer" && mmParam && mmParam2) {
+      content = mindMap.renderSummerTopicPage(state, mmParam, mmParam2);
+      after = () => mindMap.bindPage(state);
+    } else {
+      content = mindMap.renderPage(state, { groupMode: mindMapGroupMode });
+      after = () => mindMap.bindPage(state);
+    }
   } else if (route === "skills") {
     content = renderSkills(state);
     after = bindSkills;
@@ -305,6 +319,7 @@ function renderSkills(state) {
       <header class="chapter-head">
         <span class="tag">Chương ${group.chapterIndex} · ${group.book}</span>
         <h2>${group.chapter}</h2>
+        <a class="chapter-mm-link" href="${mindMap.chapterMindMapHref(group.items[0], mindMapGroupMode)}">🧠 Sơ đồ chủ đề</a>
       </header>
       <div class="skill-path">
         ${group.items.map((skill) => renderLessonCard(skill, state, data.questions)).join("")}
@@ -349,6 +364,7 @@ function renderLesson(id, state) {
     <section class="lesson-layout">
       <aside class="lesson-sidebar">
         <a class="back-link" href="#/skills">← Kỹ năng</a>
+        <a class="lesson-mm-link" href="#/mindmap/lesson/${id}">🧠 Sơ đồ bài học</a>
         <h1>${lesson.title}</h1>
         <p>${skillProgress.mastery}% mastery</p>
         <div class="progress-track"><span style="width:${skillProgress.mastery}%"></span></div>
