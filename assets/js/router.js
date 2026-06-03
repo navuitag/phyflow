@@ -27,6 +27,13 @@ import { submitAnswer } from "../../modules/quizEngine.js";
 import { buildFlashcardDeck, buildMemoryDeck, buildMemoryPairs } from "../../modules/practiceContent.js";
 import { getGamificationSummary } from "../../modules/gamification.js";
 import { getOverallAccuracy, getSkillProgress, getWeakSkills } from "../../modules/progress.js";
+import { createMindMapModule } from "../../modules/mindMap.js";
+
+const MINDMAP_CONFIG = {
+  subject: "Vật lí",
+  emoji: "⚡",
+  defaultGroupMode: "chapter"
+};
 
 let data = {
   skills: [],
@@ -47,6 +54,15 @@ const practiceSession = {
 
 export function configureRouter(appData) {
   data = appData;
+  mindMap = createMindMapModule({
+    data,
+    getState,
+    setSelectedGrade,
+    renderRoute,
+    escapeHtml,
+    config: MINDMAP_CONFIG,
+    setMindMapMode: (mode) => { mindMapGroupMode = mode; }
+  });
   window.addEventListener("hashchange", renderRoute);
 }
 
@@ -99,6 +115,9 @@ export function renderRoute() {
       content = renderPractice(id, state);
       after = () => bindPractice(id);
     }
+  } else if (route === "mindmap") {
+    content = mindMap.renderPage(state, { groupMode: mindMapGroupMode });
+    after = () => mindMap.bindPage(state);
   } else if (route === "skills") {
     content = renderSkills(state);
     after = bindSkills;
@@ -233,7 +252,7 @@ function renderHome(state) {
     </section>
     <section class="section-head">
       <h2>Kỹ năng tiếp theo · Lớp ${activeGrade}</h2>
-      <a href="#/skills">Xem cây kỹ năng</a>
+      <a href="#/mindmap">Sơ đồ tư duy</a> · <a href="#/skills">Cây kỹ năng</a>
     </section>
     <div class="skill-grid">
       ${gradeSkills.slice(0, 3).map((skill) => renderLessonCard(skill, state, data.questions)).join("")}
