@@ -1,3 +1,5 @@
+import { getStudyTimeSummary } from "./studyTime.js";
+
 /**
  * Multi-learner profile storage for *Flow apps.
  * @param {object} config
@@ -128,11 +130,14 @@ export function createProfileStore(config) {
   function summarizeProgress(progress = defaultProgress()) {
     const totalAnswers = progress.answers?.length || 0;
     const correctAnswers = (progress.answers || []).filter((item) => item.correct).length;
+    const study = getStudyTimeSummary(progress);
     return {
       xp: progress.xp || 0,
       completedLessons: progress.completedLessons?.length || 0,
       accuracy: totalAnswers ? Math.round((correctAnswers / totalAnswers) * 100) : 0,
-      onboarded: Boolean(progress.onboarded)
+      onboarded: Boolean(progress.onboarded),
+      studyTodayLabel: study.todayLabel,
+      studyTotalLabel: study.totalLabel
     };
   }
 
