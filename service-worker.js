@@ -1,4 +1,4 @@
-const CACHE_NAME = "phyflow-vn-v19";
+const CACHE_NAME = "phyflow-vn-v21";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -18,7 +18,11 @@ const APP_SHELL = [
   "./components/edtechHub.js",
   "./assets/css/edtech-hub.css",
   "./assets/js/author.js",
+  "./assets/js/contact.js",
+  "./assets/js/feedback.js",
+  "./assets/css/feedback.css",
   "./assets/css/author.css",
+  "./assets/images/My-QR-Zalo.jpg",
   "./assets/js/utils.js",
   "./assets/js/mathFormat.js",
   "./vendor/three.module.min.js",

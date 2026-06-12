@@ -18,6 +18,7 @@ import { renderNavbar, renderBottomNav } from "../../components/navbar.js";
 import { bindLearnerSwitcher, renderAddLearnerForm, renderLearnerList } from "../../components/learnerSwitcher.js";
 import { bindEdtechHub, renderEdtechHubGrid } from "../../components/edtechHub.js";
 import { renderAppFooter, renderAuthorCard } from "./author.js";
+import { bindFeedback, renderFeedbackCard } from "./feedback.js";
 import { renderLessonCard } from "../../components/lessonCard.js";
 import { renderQuizCard } from "../../components/quizCard.js";
 import { renderFlashcardPanel } from "../../components/flashcardPanel.js";
@@ -158,6 +159,7 @@ export function renderRoute() {
 
 function bindNavbar() {
   bindEdtechHub();
+  bindFeedback();
   bindLearnerSwitcher({
     onSwitch: (profileId) => {
       switchProfile(profileId);
@@ -1025,6 +1027,7 @@ function renderProfile(state) {
       ${renderAddLearnerForm()}
     </section>
     ${renderAuthorCard()}
+    ${renderFeedbackCard()}
   `;
 }
 
