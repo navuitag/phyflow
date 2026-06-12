@@ -44,3 +44,11 @@ node scripts/generate-grade9-kntt.mjs   # Lớp 9 Vật lí KNTT (merge lớp 6�
 ```
 
 Giao diện dùng cùng bảng màu với [MathFlow](../mathflow) (`#20a36b`, nền `#f7fbff`).
+
+---
+
+## Tác giả
+
+- **Nguyễn Anh Vũ**
+- Email: [navuitag@gmail.com](mailto:navuitag@gmail.com)
+- Điện thoại: [0986201079](tel:+84986201079)

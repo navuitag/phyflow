@@ -17,6 +17,7 @@ import { formatMathHtml } from "./mathFormat.js";
 import { renderNavbar, renderBottomNav } from "../../components/navbar.js";
 import { bindLearnerSwitcher, renderAddLearnerForm, renderLearnerList } from "../../components/learnerSwitcher.js";
 import { bindEdtechHub, renderEdtechHubGrid } from "../../components/edtechHub.js";
+import { renderAppFooter, renderAuthorCard } from "../author.js";
 import { renderLessonCard } from "../../components/lessonCard.js";
 import { renderQuizCard } from "../../components/quizCard.js";
 import { renderFlashcardPanel } from "../../components/flashcardPanel.js";
@@ -94,6 +95,7 @@ export function renderRoute() {
     <main class="app-shell">
       ${content}
     </main>
+    ${renderAppFooter()}
     ${renderBottomNav()}
   `;
 
@@ -1022,6 +1024,7 @@ function renderProfile(state) {
       <h2>Thêm người học mới</h2>
       ${renderAddLearnerForm()}
     </section>
+    ${renderAuthorCard()}
   `;
 }
 

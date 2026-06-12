@@ -1,4 +1,4 @@
-const CACHE_NAME = "phyflow-vn-v17";
+const CACHE_NAME = "phyflow-vn-v18";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -17,6 +17,8 @@ const APP_SHELL = [
   "./assets/js/edtechApps.js",
   "./components/edtechHub.js",
   "./assets/css/edtech-hub.css",
+  "./assets/js/author.js",
+  "./assets/css/author.css",
   "./assets/js/utils.js",
   "./assets/js/mathFormat.js",
   "./vendor/three.module.min.js",
