@@ -1,5 +1,6 @@
 import { getGamificationSummary } from "../modules/gamification.js";
 import { renderLearnerSwitcher } from "./learnerSwitcher.js";
+import { renderEdtechHubButton } from "./edtechHub.js";
 
 export function renderNavbar(state, grades = []) {
   const summary = getGamificationSummary(state);
@@ -21,6 +22,7 @@ export function renderNavbar(state, grades = []) {
         <a href="#/profile">Hồ sơ</a>
       </nav>
       <div class="top-stats">
+        ${renderEdtechHubButton()}
         ${renderLearnerSwitcher(state)}
         ${grades.length ? `<label class="grade-switch">
           <span>Lớp đang học</span>
