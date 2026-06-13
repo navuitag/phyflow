@@ -1,4 +1,4 @@
-const CACHE_NAME = "phyflow-vn-v21";
+const CACHE_NAME = "phyflow-vn-v$(( $(echo 21) + 1 ))";
 const APP_SHELL = [
   "./",
   "./index.html",
